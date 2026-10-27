@@ -1,0 +1,268 @@
+{
+ "id": "vino",
+ "titolo": "La magnum del '47",
+ "sottotitolo": "Casa d'aste Langhe Fine Wines, Alba",
+ "ambientazione": "Una bottiglia leggendaria venduta all'asta per 180.000 euro si rivela un falso",
+ "giocatori": "1-6",
+ "durata": "75 minuti",
+ "difficolta": "difficile",
+ "eta": "per tutti",
+ "genere": "truffa",
+ "copertina": null,
+ "personaggi": [
+  {
+   "id": "conte",
+   "nome": "Ugo Asinari",
+   "ruolo": "il conte, 80 anni",
+   "html": "<p>Ultimo erede del Castello di Treiso. Ha messo all'asta sei bottiglie della cantina di famiglia per restaurare il tetto del castello.</p>",
+   "img": null
+  },
+  {
+   "id": "battista",
+   "nome": "Battista Rivetti",
+   "ruolo": "il vecchio cantiniere, 74 anni",
+   "html": "<p>Ha curato la cantina del castello per cinquant'anni. Conosce ogni bottiglia per nome.</p>",
+   "img": null
+  },
+  {
+   "id": "sara",
+   "nome": "Sara Bruno",
+   "ruolo": "l'esperta della casa d'aste, 40 anni",
+   "html": "<p>Responsabile dei vini rari della Langhe Fine Wines. Ha preso in carico le bottiglie al castello.</p>",
+   "img": null
+  },
+  {
+   "id": "gilardi",
+   "nome": "Marco Gilardi",
+   "ruolo": "il titolare della casa d'aste, 55 anni",
+   "html": "<p>Banditore elegante e brillante. La sua casa d'aste ha qualche difficoltà economica.</p>",
+   "img": null
+  },
+  {
+   "id": "pierre",
+   "nome": "Pierre Lambert",
+   "ruolo": "il sommelier, 50 anni",
+   "html": "<p>Sommelier francese di fama, garante dell'autenticità dei lotti più importanti.</p>",
+   "img": null
+  },
+  {
+   "id": "chen",
+   "nome": "Chen Wei",
+   "ruolo": "il compratore, 45 anni",
+   "html": "<p>Collezionista di vini e di arte, ha comprato la magnum.</p>",
+   "img": null
+  }
+ ],
+ "fasi": [
+  {
+   "n": 1,
+   "titolo": "La lettera degli avvocati",
+   "html": "<p>Ottobre. Il conte, la casa d'aste e il collezionista hanno accettato che sia un perito indipendente, cioè voi, a ricostruire la storia della bottiglia.</p>",
+   "prove": [
+    {
+     "id": "f1-avvocati",
+     "tipo": "lettera",
+     "titolo": "La lettera degli avvocati di Chen Wei",
+     "html": "<p>Il laboratorio di Bordeaux ha accertato che la magnum del lotto 12 <strong>non può contenere un vino del 1947</strong>. Il nostro cliente chiede la restituzione dei 180.000 euro e si riserva di denunciare i responsabili per truffa.</p>",
+     "img": null
+    },
+    {
+     "id": "f1-storia",
+     "tipo": "documento",
+     "titolo": "La storia della bottiglia",
+     "html": "<table><thead><tr><th>Data</th><th>Passaggio</th></tr></thead><tbody><tr><td>2 settembre</td><td>Al castello, <strong>Sara Bruno</strong> prende in carico sei bottiglie, la magnum compresa, e <strong>le fotografa una per una</strong> per il catalogo</td></tr><tr><td>2 settembre</td><td>Le bottiglie arrivano nel <strong>caveau della casa d'aste</strong>, ad Alba</td></tr><tr><td>21 settembre</td><td>Esposizione pubblica: Pierre Lambert esamina i lotti e garantisce l'autenticità</td></tr><tr><td>22 settembre</td><td>Asta: Chen Wei compra la magnum, lotto 12, per 180.000 euro</td></tr><tr><td>24 settembre</td><td>La bottiglia parte per Shanghai, sigillata, con un corriere specializzato</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f1-conte",
+     "tipo": "verbale",
+     "titolo": "Le parole del conte",
+     "html": "<p>«Quella magnum era di mio nonno. È rimasta in cantina dal 1947 senza mai muoversi. Mi offende anche solo l'idea che potesse essere falsa.</p><p>Sì, avevo bisogno di soldi: il tetto del castello sta crollando. Ma avrei venduto il castello, non il nome della mia famiglia.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-battista",
+     "tipo": "verbale",
+     "titolo": "Le parole del vecchio cantiniere",
+     "html": "<p>«La magnum del '47 la conosco come un figlio. Nel 1990 l'ho rabboccata con lo stesso vino, come si fa con le bottiglie vecchie, e ho rifatto il tappo: è una pratica normale, l'ho scritto nel registro della cantina.</p><p>Il 2 settembre la signora Bruno l'ha fotografata davanti a me. Sull'etichetta c'era il suo piccolo strappo in alto <strong>a destra</strong>, e sul vetro il mio numero di cantina, scritto col gesso: <strong>\"47/3\"</strong>.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-sara",
+     "tipo": "verbale",
+     "titolo": "Le parole di Sara Bruno",
+     "html": "<p>«Ho preso in carico le bottiglie al castello e le ho portate io nel caveau. Da lì non si sono mosse fino all'esposizione. La bottiglia che abbiamo venduto è quella che ci ha dato il conte.</p><p>Con tutto il rispetto: il cantiniere ammette di averla rabboccata e ritappata. Chissà cosa ci ha messo dentro, nel 1990.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "Il laboratorio",
+   "html": "<p>Arrivano il rapporto completo di Bordeaux, le foto dell'esposizione e le altre testimonianze.</p>",
+   "prove": [
+    {
+     "id": "f2-laboratorio",
+     "tipo": "referto",
+     "titolo": "Rapporto del laboratorio di Bordeaux",
+     "html": "<ol><li><strong>Cesio-137 nel vino:</strong> presente. Il cesio-137 è un isotopo che non esisteva in natura prima dei test nucleari degli anni Cinquanta: <strong>un vino prodotto prima del 1952 non ne contiene</strong>. Questo vino è stato prodotto <strong>dopo il 1952</strong>. L'analisi è stata fatta attraverso il vetro, senza aprire la bottiglia.</li><li><strong>Etichetta:</strong> alla lampada a raggi ultravioletti la carta <strong>brilla di blu</strong>, per via degli sbiancanti ottici usati nella carta solo dagli anni Cinquanta. <strong>Un'etichetta del 1947 non può brillare.</strong></li><li><strong>Tappo:</strong> il marchio sul tappo è di un sugherificio che ha aperto nel <strong>2003</strong>.</li><li>Conclusione: <strong>tutto è falso</strong>, il vino, l'etichetta e il tappo. Non si tratta di un vecchio rabbocco ma di una bottiglia interamente costruita.</li></ol>",
+     "img": null
+    },
+    {
+     "id": "f2-foto",
+     "tipo": "foto",
+     "titolo": "Le foto della magnum: castello ed esposizione",
+     "html": "<ol><li><strong>Foto del 2 settembre, al castello, scattata da Sara Bruno:</strong> strappo dell'etichetta in alto <strong>a destra</strong>; sul vetro, a gesso, «47/3» con una grafia inclinata a sinistra.</li><li><strong>Foto del 21 settembre, all'esposizione, catalogo ufficiale:</strong> strappo dell'etichetta in alto <strong>a sinistra</strong>; sul vetro, a gesso, «47/3», ma con una grafia <strong>dritta e diversa</strong>.</li></ol>",
+     "img": null
+    },
+    {
+     "id": "f2-pierre",
+     "tipo": "verbale",
+     "titolo": "Le parole del sommelier",
+     "html": "<p>«All'esposizione ho esaminato le bottiglie a vista: colore, livello, capsula, etichetta. Non ho la lampada a ultravioletti e non faccio analisi di laboratorio. Non era il mio compito. La bottiglia sembrava perfetta… forse troppo.</p><p>Ho garantito sulla base della provenienza: un castello, un conte, una casa d'aste seria.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-caveau",
+     "tipo": "registro",
+     "titolo": "Registro degli accessi al caveau della casa d'aste",
+     "html": "<table><thead><tr><th>Data</th><th>Ora</th><th>Chi</th><th>Note</th></tr></thead><tbody><tr><td>2 settembre</td><td>17:10–17:40</td><td>Sara Bruno</td><td>Deposito delle bottiglie del castello</td></tr><tr><td>10 settembre</td><td>10:00–10:10</td><td>Marco Gilardi, con il perito dell'assicurazione</td><td>Sopralluogo per la polizza</td></tr><tr><td><strong>13 settembre (sabato)</strong></td><td><strong>18:30–19:45</strong></td><td><strong>Sara Bruno</strong></td><td><em>Casa d'aste chiusa al pubblico</em></td></tr><tr><td>20 settembre</td><td>9:00–11:00</td><td>Sara Bruno e due magazzinieri</td><td>Preparazione dell'esposizione</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-gilardi",
+     "tipo": "verbale",
+     "titolo": "Le parole di Marco Gilardi",
+     "html": "<p>«La mia casa d'aste ha trent'anni di reputazione. Se quella bottiglia è falsa, il danno più grande è mio. I conti? Sì, è un periodo difficile, come per tutti.</p><p>Nel caveau sono sceso una sola volta, con il perito dell'assicurazione, per dieci minuti. Le bottiglie le gestisce Sara: è la nostra esperta.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-chen",
+     "tipo": "verbale",
+     "titolo": "Le parole di Chen Wei",
+     "html": "<p>«Faccio analizzare ogni bottiglia importante, sempre, prima di aprirla. Il prezzo del vino è sceso un po' quest'anno, è vero, ma non ho nessun interesse a restituire una bottiglia: voglio la vera magnum del 1947. E voglio sapere chi mi ha imbrogliato.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "La bottiglia vera",
+   "html": "<p>Ultimi accertamenti: una tipografia, un intermediario di Hong Kong e un conto in banca. Ora avete tutto.</p>",
+   "prove": [
+    {
+     "id": "f3-tipografia",
+     "tipo": "documento",
+     "titolo": "Fattura della Tipografia Artigiana di Bra",
+     "html": "<p class=\"intest\"><strong>5 settembre</strong></p><p>Cliente: <strong>S. Bruno</strong>, ritiro in negozio. Lavoro: «riproduzione di <strong>etichetta d'epoca</strong> da fotografia, su carta vergata invecchiata, 3 copie». Il titolare ricorda: «Mi ha detto che serviva per un allestimento di vetrina.»</p>",
+     "img": null
+    },
+    {
+     "id": "f3-broker",
+     "tipo": "messaggio",
+     "titolo": "Email di un intermediario di Hong Kong",
+     "html": "<p><strong>Da:</strong> Victoria Fine Wine Brokers, Hong Kong <strong>A:</strong> un indirizzo di posta privato, <em>sbruno.vini@…</em> <strong>Data:</strong> 18 settembre</p><p>«Confermiamo la vendita privata e riservata di <strong>una magnum di Barolo Riserva 1947, Castello di Treiso</strong>, con numero di cantina a gesso \"47/3\", a un nostro cliente di Singapore, per <strong>95.000 dollari</strong>. Bonifico in arrivo sul conto indicato.»</p>",
+     "img": null
+    },
+    {
+     "id": "f3-conto",
+     "tipo": "documento",
+     "titolo": "Movimenti bancari su un conto personale di Sara Bruno",
+     "html": "<table><thead><tr><th>Data</th><th>Movimento</th></tr></thead><tbody><tr><td>22 settembre</td><td><strong>+ 94.300 dollari</strong>, bonifico da Victoria Fine Wine Brokers, Hong Kong</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f3-sugherificio",
+     "tipo": "documento",
+     "titolo": "Il sugherificio del tappo falso",
+     "html": "<p>Il sugherificio aperto nel 2003, i cui tappi sono nella bottiglia falsa, ha tra i suoi clienti la <strong>Langhe Fine Wines</strong>, che li usa per <strong>ritappare le bottiglie danneggiate</strong> prima delle aste. Lo stock di tappi è conservato nel caveau.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-registro-cantina",
+     "tipo": "documento",
+     "titolo": "Registro della cantina del Castello di Treiso",
+     "html": "<p>«<strong>1990, 14 aprile.</strong> Magnum Barolo Riserva 1947, n. 47/3: rabbocco con Riserva 1947 della stessa botte (dalla bottiglia 47/5, rotta), tappo nuovo. B. Rivetti.»</p><p class=\"intest\"><em>Un rabbocco con vino dello stesso 1947 non può introdurre cesio-137.</em></p>",
+     "img": null
+    }
+   ]
+  }
+ ],
+ "introduzione": "<p>Alba, ottobre. A settembre la casa d'aste <strong>Langhe Fine Wines</strong> ha battuto il lotto più atteso della stagione: una <strong>magnum di Barolo Riserva 1947</strong> della cantina del Castello di Treiso, uno dei vini più rari del mondo. L'ha comprata per <strong>180.000 euro</strong> il collezionista Chen Wei di Shanghai.</p><p>Un mese dopo arriva una lettera dei suoi avvocati: il laboratorio di Bordeaux a cui Chen ha fatto analizzare la bottiglia, prima di aprirla, è sicuro che sia <strong>un falso</strong>.</p><p>Il conte che l'ha messa all'asta giura che veniva dalla sua cantina. La casa d'aste giura di averla venduta così come l'ha ricevuta. Qualcuno mente. Scoprite <strong>chi</strong> ha organizzato la truffa, <strong>come</strong> e <strong>perché</strong>.</p>",
+ "domande": [
+  {
+   "id": "chi",
+   "testo": "Chi ha organizzato la truffa?",
+   "opzioni": [
+    {
+     "id": "conte",
+     "testo": "Ugo Asinari"
+    },
+    {
+     "id": "battista",
+     "testo": "Battista Rivetti"
+    },
+    {
+     "id": "sara",
+     "testo": "Sara Bruno"
+    },
+    {
+     "id": "gilardi",
+     "testo": "Marco Gilardi"
+    },
+    {
+     "id": "pierre",
+     "testo": "Pierre Lambert"
+    },
+    {
+     "id": "chen",
+     "testo": "Chen Wei"
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "testo": "Come?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "La bottiglia era falsa da decenni, nella cantina del castello"
+    },
+    {
+     "id": "b",
+     "testo": "Sostituendo la vera magnum con un falso nel caveau della casa d'aste, tra la presa in carico e l'esposizione"
+    },
+    {
+     "id": "c",
+     "testo": "Scambiandola durante l'asta"
+    },
+    {
+     "id": "d",
+     "testo": "Il compratore ha cambiato la bottiglia per farsi rimborsare"
+    }
+   ]
+  },
+  {
+   "id": "perche",
+   "testo": "Perché?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Per salvare la casa d'aste dai debiti"
+    },
+    {
+     "id": "b",
+     "testo": "Per vendere di nascosto la bottiglia vera a un collezionista asiatico, mentre il falso andava all'asta"
+    },
+    {
+     "id": "c",
+     "testo": "Per vendetta contro il conte"
+    },
+    {
+     "id": "d",
+     "testo": "Per incassare l'assicurazione"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "id": "robot",
+ "titolo": "Il robot che non partiva",
+ "sottotitolo": "Istituto Galileo, Bologna",
+ "ambientazione": "Un sabotaggio alla finale regionale di robotica",
+ "giocatori": "1-6",
+ "durata": "50-60 minuti",
+ "difficolta": "media",
+ "eta": "per tutti",
+ "genere": "mistero",
+ "copertina": null,
+ "personaggi": [
+  {
+   "id": "leone",
+   "nome": "Anna Leone",
+   "ruolo": "la professoressa allenatrice, 50 anni",
+   "html": "<p>Insegna informatica e allena la squadra da cinque anni. Severa ma giusta.</p>",
+   "img": null
+  },
+  {
+   "id": "matteo",
+   "nome": "Matteo Russo",
+   "ruolo": "il capitano, 17 anni",
+   "html": "<p>Ha costruito la parte meccanica di Ugo. Sicuro di sé, a volte un po' troppo.</p>",
+   "img": null
+  },
+  {
+   "id": "chiara",
+   "nome": "Chiara Bassi",
+   "ruolo": "la programmatrice, 16 anni",
+   "html": "<p>Ha scritto tutto il programma di Ugo. La più brava della scuola con il codice.</p>",
+   "img": null
+  },
+  {
+   "id": "davide",
+   "nome": "Davide Greco",
+   "ruolo": "l'ex membro, 17 anni",
+   "html": "<p>Faceva parte della squadra fino a ottobre, poi è stato escluso dopo una lite con il capitano.</p>",
+   "img": null
+  },
+  {
+   "id": "ferraro",
+   "nome": "Marco Ferraro",
+   "ruolo": "il professore rivale, 48 anni",
+   "html": "<p>Allena la squadra del Liceo Righi, gli eterni rivali. Venerdì è passato a vedere Ugo.</p>",
+   "img": null
+  },
+  {
+   "id": "rocco",
+   "nome": "Rocco Amato",
+   "ruolo": "il bidello, 60 anni",
+   "html": "<p>Ha le chiavi di tutta la scuola. Apre e chiude ogni giorno.</p>",
+   "img": null
+  }
+ ],
+ "fasi": [
+  {
+   "n": 1,
+   "titolo": "Il robot non parte",
+   "html": "<p>Sabato mattina. La gara è sospesa per mezz'ora e la giuria raccoglie le prime informazioni.</p>",
+   "prove": [
+    {
+     "id": "f1-giuria",
+     "tipo": "verbale",
+     "titolo": "Verbale della giuria",
+     "html": "<p class=\"intest\"><strong>Finale regionale di robotica — sabato 15 novembre, ore 8:40</strong></p><p>Il robot della squadra 3B non esegue nessun movimento. Aperto il coperchio posteriore, che si chiude con 4 viti, la giuria trova una scheda di memoria <strong>nuova e vuota</strong>. È della stessa marca delle schede di ricambio usate dalla squadra.</p><p>La squadra dichiara che venerdì sera il robot funzionava perfettamente. Il robot è arrivato in palestra nella sua scatola, chiusa, portata dalla professoressa Leone.</p>",
+     "img": null
+    },
+    {
+     "id": "f1-scheda-tecnica",
+     "tipo": "documento",
+     "titolo": "Scheda tecnica di Ugo",
+     "html": "<ul><li>Il programma sta su una <strong>scheda di memoria</strong>, sotto il coperchio posteriore.</li><li>Il coperchio è fissato da <strong>4 viti speciali a stella</strong>, che si svitano solo con un <strong>cacciavite Torx T5</strong>.</li><li>L'unico cacciavite T5 della scuola è nel <strong>kit della squadra</strong>, chiuso nell'armadietto del laboratorio. La chiave dell'armadietto ce l'ha la professoressa Leone.</li><li>Ugo ha una <strong>memoria interna</strong> che registra gli eventi principali con l'orario: accensione, prove, inserimento e rimozione della scheda.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f1-piantina",
+     "tipo": "piantina",
+     "titolo": "Piantina della scuola",
+     "html": "<ul><li><strong>Portineria</strong> all'ingresso: chi non è della scuola firma il registro all'entrata e all'uscita. Anche le chiavi delle aule si prendono e si restituiscono qui.</li><li><strong>Corridoio del primo piano</strong>, con una telecamera che inquadra la porta del <strong>Laboratorio 2</strong>.</li><li><strong>Laboratorio 2</strong>: un'unica porta sul corridoio, finestre al primo piano. Dentro c'è il tavolo del robot e l'armadietto della squadra.</li><li><strong>Palestra</strong>, al piano terra, dove si svolge la gara.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f1-leone",
+     "tipo": "verbale",
+     "titolo": "Le parole della professoressa Leone",
+     "html": "<p>«Venerdì ho preso la chiave del laboratorio alle 17:00. Abbiamo lavorato fino alle 19:00. Alle 18:15 ho aperto l'armadietto perché Chiara doveva sistemare il braccio. È rimasto aperto mentre lavoravamo, e l'ho richiuso a chiave alle 18:58, finita la videochiamata.</p><p>Dalle 18:45 alle 19:00 ero in videochiamata con la mamma di uno studente, vicino alla finestra. Alle 19:05 ho riconsegnato la chiave. Stamattina ho portato io la scatola in palestra, senza aprirla.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-matteo",
+     "tipo": "verbale",
+     "titolo": "Le parole di Matteo",
+     "html": "<p>«Ugo era perfetto. Il test delle 18:30 è andato benissimo, l'ho visto con i miei occhi.</p><p>Verso le sette meno dieci sono uscito un attimo dal laboratorio, dovevo telefonare. Secondo me è stato Davide: da quando l'ho fatto escludere ce l'ha con me.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-chiara",
+     "tipo": "verbale",
+     "titolo": "Le parole di Chiara",
+     "html": "<p>«Dopo il test delle 18:30 era tutto a posto. Alle 18:55 ho messo io Ugo nella scatola, ed era tutto in ordine.</p><p>Matteo è sparito per un bel po', e il professore del Righi è stato da solo con Ugo per cinque minuti! Per me il sabotaggio è stato quello. Spero che la giuria ci faccia rigareggiare.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "Il registro di Ugo",
+   "html": "<p>La giuria ha letto la memoria interna del robot. Dalla portineria arrivano i registri, e intanto vengono ascoltati i sospettati.</p>",
+   "prove": [
+    {
+     "id": "f2-memoria",
+     "tipo": "registro",
+     "titolo": "Memoria interna di Ugo (venerdì 14 novembre)",
+     "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>17:05</td><td>Accensione</td></tr><tr><td>17:20</td><td>Prova 5: completata</td></tr><tr><td>17:50</td><td>Prova 6: completata</td></tr><tr><td>18:22</td><td>Prova 7: <strong>ERRORE — braccio oltre il limite, urto contro la parete</strong></td></tr><tr><td>18:30</td><td>Prova 8: completata</td></tr><tr><td>18:52:10</td><td><strong>Scheda rimossa</strong></td></tr><tr><td>18:53:40</td><td><strong>Scheda inserita — nessun programma trovato</strong></td></tr><tr><td>18:54</td><td>Spegnimento</td></tr><tr><td><em>sabato 8:30</em></td><td>Accensione — nessun programma trovato</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-portineria",
+     "tipo": "registro",
+     "titolo": "Registro della portineria (venerdì)",
+     "html": "<table><thead><tr><th>Ora</th><th>Chi</th><th>Cosa</th></tr></thead><tbody><tr><td>17:00</td><td>Prof.ssa Leone</td><td>Prende la chiave del Laboratorio 2</td></tr><tr><td>17:30</td><td>Prof. Ferraro (Liceo Righi)</td><td>Entra in visita</td></tr><tr><td>17:45</td><td>Prof. Ferraro</td><td>Esce</td></tr><tr><td>18:00</td><td>Davide Greco</td><td>Entra a «riprendere la sua cassetta degli attrezzi»</td></tr><tr><td>18:10</td><td>Davide Greco</td><td>Esce</td></tr><tr><td>19:05</td><td>Prof.ssa Leone</td><td>Riconsegna la chiave del Laboratorio 2</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-ferraro",
+     "tipo": "verbale",
+     "titolo": "Le parole del professor Ferraro",
+     "html": "<p>«Sono passato a vedere Ugo, con il permesso della collega. Lei è uscita cinque minuti per una telefonata e io sono rimasto lì, sì, ma ho solo guardato. Non ho toccato niente: non avevo nemmeno gli attrezzi per aprirlo. Alle 17:45 ero già in macchina.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-davide",
+     "tipo": "verbale",
+     "titolo": "Le parole di Davide",
+     "html": "<p>«Sono passato a prendere la mia cassetta, che avevo lasciato lì da ottobre. Sono stato dieci minuti, non ho parlato con nessuno e me ne sono andato.</p><p>Ugo l'ho progettato anch'io. Vederlo perdere non mi fa piacere, anche se Matteo mi sta antipatico.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-davide-msg",
+     "tipo": "messaggio",
+     "titolo": "Messaggio dal telefono di Davide",
+     "html": "<p class=\"intest\"><strong>Davide → Luigi — venerdì, 17:50</strong></p><p>Sto andando a riprendermi la cassetta. Spero che domani Ugo faccia una figuraccia, così Matteo impara.</p>",
+     "img": null
+    },
+    {
+     "id": "f2-regolamento",
+     "tipo": "documento",
+     "titolo": "Regolamento della gara (estratto)",
+     "html": "<p><strong>Art. 7:</strong> Un robot che durante la gara urta le pareti del campo e si danneggia viene <strong>squalificato</strong>.</p><p><strong>Art. 12:</strong> Se la giuria accerta un <strong>sabotaggio</strong> ai danni di una squadra, la squadra può gareggiare nel <strong>turno di recupero delle 15:00</strong>.</p>",
+     "img": null
+    },
+    {
+     "id": "f2-armadietto",
+     "tipo": "documento",
+     "titolo": "Controllo dell'armadietto della squadra",
+     "html": "<p>L'armadietto è stato aperto venerdì alle 18:15 e richiuso alle 18:58 dalla professoressa Leone.</p><p>Contenuto: cacciavite Torx T5, cavi, batterie, e una confezione da due <strong>schede di memoria di ricambio</strong>, della stessa marca di quella trovata in Ugo. La confezione è <strong>aperta e ne manca una</strong>.</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "La verità",
+   "html": "<p>Gli ultimi controlli: la telecamera del corridoio, il computer della squadra e qualche messaggio. Ora avete tutto.</p>",
+   "prove": [
+    {
+     "id": "f3-corridoio",
+     "tipo": "registro",
+     "titolo": "Telecamera del corridoio, porta del Laboratorio 2",
+     "html": "<table><thead><tr><th>Ora</th><th>Cosa si vede</th></tr></thead><tbody><tr><td>17:35</td><td>La prof.ssa Leone esce al telefono</td></tr><tr><td>17:40</td><td>La prof.ssa Leone rientra</td></tr><tr><td>17:45</td><td>Il prof. Ferraro esce</td></tr><tr><td>18:00</td><td>Davide entra</td></tr><tr><td>18:10</td><td>Davide esce con una cassetta degli attrezzi</td></tr><tr><td>18:49</td><td>Matteo esce. Va verso le macchinette e telefona</td></tr><tr><td>18:55</td><td>Il bidello Rocco entra</td></tr><tr><td>18:56</td><td>Il bidello Rocco esce</td></tr><tr><td>19:01</td><td>Matteo rientra</td></tr><tr><td>19:03</td><td>Escono tutti; Chiara porta la scatola con Ugo</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f3-rocco",
+     "tipo": "verbale",
+     "titolo": "Le parole del bidello Rocco",
+     "html": "<p>«Alle 18:55 sono passato a dire che alle sette si chiudeva. La professoressa era alla finestra, girata, al telefono. Chiara stava mettendo il robot nella scatola, con un cacciavitino piccolo in mano. Non c'era nessun altro.</p><p>Stanotte non è entrato nessuno: ho fatto il giro alle dieci e alle sei, era tutto chiuso.»</p>",
+     "img": null
+    },
+    {
+     "id": "f3-videochiamata",
+     "tipo": "documento",
+     "titolo": "Videochiamata della professoressa Leone",
+     "html": "<p>La signora Pini, mamma di uno studente, conferma: videochiamata <strong>dalle 18:45 alle 19:00</strong>. Per tutto il tempo la professoressa è rimasta in piedi davanti alla finestra, con il telefono in mano, senza mai interrompere.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-simulazione",
+     "tipo": "registro",
+     "titolo": "Registro del computer della squadra (venerdì)",
+     "html": "<table><thead><tr><th>Ora</th><th>Utente</th><th>Evento</th></tr></thead><tbody><tr><td>18:25</td><td>chiara</td><td>Modificato il file «braccio» (velocità ridotta)</td></tr><tr><td>18:41</td><td>chiara</td><td><strong>Simulazione del percorso di gara: il braccio urta la parete al minuto 2:10 in 7 prove su 10</strong></td></tr><tr><td>18:44</td><td>chiara</td><td>Simulazione chiusa</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f3-portatile",
+     "tipo": "registro",
+     "titolo": "Registro del computer di Chiara (sabato mattina)",
+     "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>07:12</td><td>Aperto il file «braccio»</td></tr><tr><td>07:38</td><td>Salvato il file «braccio_calibrazione_nuova»</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f3-messaggio",
+     "tipo": "messaggio",
+     "titolo": "Messaggio di Chiara alla sua amica Giorgia",
+     "html": "<p class=\"intest\"><strong>Chiara → Giorgia — venerdì, 19:30</strong></p><p>Ho fatto un disastro. Domani Ugo sbatte contro la parete e si rompe il braccio, ed è colpa mia: ho sbagliato la calibrazione. Mi serve solo un po' di tempo per sistemarla 😔</p>",
+     "img": null
+    }
+   ]
+  }
+ ],
+ "introduzione": "<p>Bologna, sabato 15 novembre, ore 8:30. Nella palestra dell'Istituto Galileo comincia la finale regionale di robotica. Tocca alla squadra della 3B e al suo robot <strong>Ugo</strong>, che quest'anno è il favorito.</p><p>Il giudice dà il via. Ugo non si muove.</p><p>Aprono il coperchio: la scheda di memoria con il programma è stata <strong>sostituita con una scheda nuova, completamente vuota</strong>. Qualcuno ha sabotato Ugo.</p><p>Scoprite <strong>chi</strong> è stato, <strong>come</strong> e <strong>perché</strong>.</p>",
+ "domande": [
+  {
+   "id": "chi",
+   "testo": "Chi ha sostituito la scheda di Ugo?",
+   "opzioni": [
+    {
+     "id": "leone",
+     "testo": "Anna Leone"
+    },
+    {
+     "id": "matteo",
+     "testo": "Matteo Russo"
+    },
+    {
+     "id": "chiara",
+     "testo": "Chiara Bassi"
+    },
+    {
+     "id": "davide",
+     "testo": "Davide Greco"
+    },
+    {
+     "id": "ferraro",
+     "testo": "Marco Ferraro"
+    },
+    {
+     "id": "rocco",
+     "testo": "Rocco Amato"
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "testo": "Quando e come?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Di notte, con le chiavi del bidello"
+    },
+    {
+     "id": "b",
+     "testo": "Durante la visita del professore rivale"
+    },
+    {
+     "id": "c",
+     "testo": "Venerdì alle 18:52, svitando il coperchio con il cacciavite del kit mentre imballava il robot"
+    },
+    {
+     "id": "d",
+     "testo": "Sabato mattina, prima della gara"
+    }
+   ]
+  },
+  {
+   "id": "perche",
+   "testo": "Perché?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Per vendicarsi dell'esclusione dalla squadra"
+    },
+    {
+     "id": "b",
+     "testo": "Per far vincere la squadra rivale"
+    },
+    {
+     "id": "c",
+     "testo": "Per nascondere un errore nel programma e ottenere il turno di recupero"
+    },
+    {
+     "id": "d",
+     "testo": "Per prendere il posto di capitano"
+    }
+   ]
+  }
+ ]
+}

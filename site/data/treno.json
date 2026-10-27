@@ -1,0 +1,296 @@
+{
+ "id": "treno",
+ "titolo": "L'ultima notte del Trinacria",
+ "sottotitolo": "Espresso Trinacria, Roma–Palermo",
+ "ambientazione": "Un editore muore nel vagone letto di un treno di lusso, la notte prima di un grande affare",
+ "giocatori": "1-6",
+ "durata": "90 minuti",
+ "difficolta": "difficile",
+ "eta": "da 14 anni",
+ "genere": "omicidio",
+ "copertina": null,
+ "personaggi": [
+  {
+   "id": "ranieri",
+   "nome": "Ottavio Ranieri",
+   "ruolo": "la vittima, 61 anni",
+   "html": "<p>Editore potente e temuto. Soffriva di una <strong>gravissima allergia alle arachidi</strong> e portava sempre con sé una penna di adrenalina per le emergenze.</p>",
+   "img": null
+  },
+  {
+   "id": "lavinia",
+   "nome": "Lavinia Ranieri",
+   "ruolo": "la figlia, 38 anni",
+   "html": "<p>Vicedirettrice della casa editrice. Contraria alla vendita, che l'avrebbe lasciata senza ruolo.</p>",
+   "img": null
+  },
+  {
+   "id": "ettore",
+   "nome": "Ettore Sala",
+   "ruolo": "lo scrittore, 55 anni",
+   "html": "<p>Il romanziere più venduto della Ranieri Editore. Pubblica con Ranieri da trent'anni.</p>",
+   "img": null
+  },
+  {
+   "id": "nadia",
+   "nome": "Nadia Ferri",
+   "ruolo": "l'assistente, 29 anni",
+   "html": "<p>Segue Ranieri ovunque. In borsa tiene la sua <strong>seconda penna di adrenalina</strong>.</p>",
+   "img": null
+  },
+  {
+   "id": "klaus",
+   "nome": "Klaus Werner",
+   "ruolo": "il compratore, 58 anni",
+   "html": "<p>Amministratore del gruppo editoriale tedesco Werner Verlag, che vuole comprare la Ranieri Editore.</p>",
+   "img": null
+  },
+  {
+   "id": "giorgia",
+   "nome": "Giorgia Miceli",
+   "ruolo": "la giornalista, 45 anni",
+   "html": "<p>Sta scrivendo un'inchiesta sui conti della Ranieri Editore. Ha prenotato lo stesso treno «per caso».</p>",
+   "img": null
+  },
+  {
+   "id": "toto",
+   "nome": "Totò Bonanno",
+   "ruolo": "il cuccettista, 50 anni",
+   "html": "<p>Da vent'anni accompagna i passeggeri della carrozza letto. Conosce le abitudini di tutti i clienti fissi.</p>",
+   "img": null
+  }
+ ],
+ "fasi": [
+  {
+   "n": 1,
+   "titolo": "Il risveglio",
+   "html": "<p>Ore 7:30. Il treno è fermo alla stazione di Messina Centrale. La Polizia Ferroviaria ha bloccato la carrozza.</p>",
+   "prove": [
+    {
+     "id": "f1-rapporto",
+     "tipo": "verbale",
+     "titolo": "Rapporto della Polizia Ferroviaria",
+     "html": "<p class=\"intest\"><strong>Polfer — Messina Centrale, sabato 21 febbraio, ore 7:10</strong></p><p>Nello scompartimento singolo n. 7 della carrozza letto 3 è stato trovato senza vita RANIERI Ottavio. È in pigiama, a terra accanto alla cuccetta, e ha il telefono in mano.</p><p>Non ci sono segni di effrazione né di lotta. Il medico di bordo ipotizza una <strong>grave reazione allergica</strong>.</p><p>Dalle 23:00 alle 6:40 il treno ha viaggiato senza fermate per i passeggeri. Dalle 4:30 alle 5:40 è stato sul traghetto, con le porte chiuse.</p>",
+     "img": null
+    },
+    {
+     "id": "f1-piantina",
+     "tipo": "piantina",
+     "titolo": "Piantina della carrozza letto 3",
+     "html": "<p>In ordine, dalla testa alla coda della carrozza:</p><ul><li><strong>Passaggio verso la carrozza bar</strong>.</li><li><strong>Bagno</strong> della carrozza.</li><li><strong>Cabina del cuccettista</strong>: un banco dove Totò prepara tè, tisane e colazioni. C'è la scatola delle <strong>bustine di miele</strong> per tutti i passeggeri della carrozza.</li><li><strong>Corridoio</strong> con gli scompartimenti: - n. 5, Lavinia; - n. 6, Ettore; - n. 7, Ranieri; - n. 8, Klaus; - n. 9, Nadia; - n. 10, Giorgia.</li></ul><p>Per tornare dal bar al proprio scompartimento si passa davanti alla cabina del cuccettista.</p>",
+     "img": null
+    },
+    {
+     "id": "f1-scompartimento",
+     "tipo": "foto",
+     "titolo": "Lo scompartimento n. 7",
+     "html": "<ul><li>Sul tavolino c'è un vassoio con una tazza vuota di camomilla e una <strong>bustina di miele aperta e vuota</strong>.</li><li>Sull'appendiabiti c'è la giacca di Ranieri. <strong>Il taschino interno, dove teneva sempre la penna di adrenalina, è vuoto.</strong></li><li>Nella borsa da viaggio ci sono medicine per la pressione e una cartella di documenti.</li><li>Il telefono di Ranieri, ancora in mano, ha sullo schermo il registro delle chiamate.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f1-toto",
+     "tipo": "verbale",
+     "titolo": "Le parole del cuccettista",
+     "html": "<p>«Il dottor Ranieri lo conosco da anni: ogni sera alle 23:15 vuole la camomilla con il miele. Io la preparo all'ultimo momento, verso le 23:12, così l'acqua è ancora bollente: bustina di camomilla e una bustina di miele presa dalla cima della scatola comune.</p><p>Ieri ho aperto una scatola nuova di miele alle 22:50, era sigillata. Alle 23:03 ha suonato il campanello del 9, la signorina Nadia voleva dei tappi per le orecchie: sono andato da lei e sono tornato alle 23:10. Alle 23:15 ho portato il vassoio al 7. Il dottore stava bene, mi ha anche dato la mancia.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-nadia",
+     "tipo": "verbale",
+     "titolo": "Le parole di Nadia",
+     "html": "<p>«Ho la seconda penna di adrenalina del dottore, sempre in borsa, ma stanotte non mi ha chiesto niente…</p><p>Alla cena il signor Sala mi ha detto: \"Su questo treno non si dorme senza tappi, li chieda al cuccettista.\" Così alle 23:03 ho suonato. Poi ho preso la pastiglia per dormire che uso in viaggio e mi sono messa i tappi. Non ho sentito più niente fino alla sveglia.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-lavinia",
+     "tipo": "verbale",
+     "titolo": "Le parole di Lavinia",
+     "html": "<p>«Mio padre voleva vendere tutto ai tedeschi: trent'anni di lavoro buttati via. Gliel'ho detto anche a cena, e abbiamo litigato davanti a tutti.</p><p>Dalle 22:30 sono rimasta nel mio scompartimento. Ho parlato al telefono con mio marito per quasi un'ora.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "Il referto",
+   "html": "<p>Il medico legale ha esaminato il corpo e la Polfer ha raccolto i registri del treno e altre testimonianze.</p>",
+   "prove": [
+    {
+     "id": "f2-referto",
+     "tipo": "referto",
+     "titolo": "Referto del medico legale",
+     "html": "<ol><li>Causa della morte: <strong>shock anafilattico</strong>, cioè una violentissima reazione allergica.</li><li>Nello stomaco ci sono camomilla, miele e <strong>proteine di arachide</strong>.</li><li>In un allergico grave la reazione comincia pochi minuti dopo aver ingerito l'allergene. Ora della morte stimata <strong>tra le 23:25 e le 00:15</strong>.</li><li>Una penna di adrenalina usata in tempo avrebbe quasi certamente salvato la vittima.</li></ol>",
+     "img": null
+    },
+    {
+     "id": "f2-campanelli",
+     "tipo": "registro",
+     "titolo": "Registro dei campanelli di chiamata della carrozza 3",
+     "html": "<table><thead><tr><th>Ora</th><th>Scompartimento</th><th>Esito</th></tr></thead><tbody><tr><td>22:15</td><td>8</td><td>Il cuccettista porta una bottiglia d'acqua</td></tr><tr><td>23:03</td><td>9</td><td>Il cuccettista porta i tappi per le orecchie, rientra alle 23:10</td></tr><tr><td>23:38</td><td><strong>7</strong></td><td><strong>Nessuna risposta</strong>: il cuccettista era nella carrozza bar a prendere il ghiaccio, fino alle 23:50</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-telefono",
+     "tipo": "registro",
+     "titolo": "Registro del telefono di Ranieri",
+     "html": "<table><thead><tr><th>Ora</th><th>Chiamata</th><th>Durata</th></tr></thead><tbody><tr><td>23:39</td><td><strong>A Nadia Ferri</strong></td><td>Nessuna risposta</td></tr><tr><td>23:40</td><td><strong>A Nadia Ferri</strong></td><td>Nessuna risposta</td></tr><tr><td>23:41</td><td>Al 118</td><td>Non partita: nessun segnale in galleria</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-bar",
+     "tipo": "registro",
+     "titolo": "Scontrini della carrozza bar",
+     "html": "<table><thead><tr><th>Ora</th><th>Cliente</th><th>Ordine</th></tr></thead><tbody><tr><td>22:40</td><td>Klaus Werner</td><td>Birra, poi altre due (resta al bar fino alle 23:30, conferma il barista)</td></tr><tr><td>22:58</td><td>Giorgia Miceli</td><td>Tisana alla camomilla con miele (resta al bar fino alle 23:25)</td></tr><tr><td>23:01</td><td><strong>Ettore Sala</strong></td><td><strong>Grappa. Esce dal bar alle 23:04, dice il barista, «tornando verso la carrozza 3»</strong></td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-ettore",
+     "tipo": "verbale",
+     "titolo": "Le parole di Ettore Sala",
+     "html": "<p>«Ottavio era il mio editore da trent'anni, quasi un fratello. Dopo la cena ho bevuto una grappa al bar e sono tornato nel mio scompartimento verso le undici. Ho letto un po' e mi sono addormentato.</p><p>Non ho sentito niente. Questi treni fanno un rumore infernale.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-klaus",
+     "tipo": "verbale",
+     "titolo": "Le parole di Klaus Werner",
+     "html": "<p>«Sì, a cena ho detto una frase stupida: \"Se il vecchio cambia idea, tratterò con la figlia.\" Era uno scherzo. Con la morte di Ranieri il mio affare salta: chi firma adesso? Sono rimasto al bar fino alle 23:30, il barista se lo ricorda.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-giorgia",
+     "tipo": "verbale",
+     "titolo": "Le parole di Giorgia Miceli",
+     "html": "<p>«Sì, sto scrivendo su Ranieri e non mi vergogno di essere salita su questo treno per osservarlo. Ma un giornalista ha bisogno che la sua fonte resti viva, non morta.</p><p>Al bar ho preso anch'io una camomilla con il miele. Verso le 23:25 sono tornata al mio scompartimento, il 10, e ho dormito fino a Messina.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "La bustina",
+   "html": "<p>Il laboratorio della Polizia Scientifica ha esaminato la scatola del miele. Le perquisizioni sono finite. Ora avete tutto.</p>",
+   "prove": [
+    {
+     "id": "f3-bustine",
+     "tipo": "referto",
+     "titolo": "Analisi della scatola del miele della cabina del cuccettista",
+     "html": "<ul><li>La scatola aperta alle 22:50 conteneva 12 bustine. Ne restano 10: una è nello scompartimento 7 e una è stata usata per un altro passeggero.</li><li><strong>In 3 delle 10 bustine rimaste c'è un minuscolo foro, di circa 0,3 mm, richiuso con una goccia di cera.</strong> Il miele contiene <strong>salsa di arachidi</strong>, con spezie da cucina orientale.</li><li>Le altre 7 bustine sono normali.</li><li>Un foro così sottile lo fa solo un <strong>ago da insulina</strong> di calibro 30. Nella cassetta di pronto soccorso del treno ci sono solo aghi molto più grossi.</li></ul><p><em>Nota: per chi non è allergico, quelle bustine sono innocue. Il miele della carrozza bar viene da un'altra scatola.</em></p>",
+     "img": null
+    },
+    {
+     "id": "f3-penna",
+     "tipo": "documento",
+     "titolo": "La penna di adrenalina scomparsa",
+     "html": "<p>La penna di adrenalina di Ranieri è stata trovata nel cestino del <strong>bagno della carrozza 3</strong>, accanto alla cabina del cuccettista. È stata <strong>già scaricata</strong>, a vuoto, e pulita da ogni impronta.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-cena",
+     "tipo": "documento",
+     "titolo": "Conto e posti a tavola della carrozza ristorante",
+     "html": "<p><strong>Tavolo 4, cena delle 20:30.</strong> Seduti: Ranieri, con la giacca appesa allo schienale; alla sua destra <strong>Ettore Sala</strong>, alla sua sinistra Lavinia; di fronte Klaus e Nadia.</p><p>Il menù di Ranieri era senza arachidi, certificato dallo chef.</p><p>Ordini di Ettore Sala: pollo al satay con salsa di arachidi, e <strong>una porzione extra di salsa satay in un contenitore da asporto</strong>, «per dopo», come ricorda il cameriere.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-insulina",
+     "tipo": "documento",
+     "titolo": "Perquisizione dello scompartimento n. 6",
+     "html": "<p>Nella valigia di Ettore Sala c'è il suo kit per il diabete: insulina, una scatola di <strong>siringhe da insulina con ago di calibro 30</strong>, aperta, e un mozzicone di <strong>candela</strong> da viaggio.</p><p>Un <strong>contenitore da asporto</strong> della carrozza ristorante, vuoto e sciacquato, è nel cestino dello scompartimento. Tra i passeggeri della carrozza 3, Ettore è l'unico diabetico.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-lettera",
+     "tipo": "lettera",
+     "titolo": "Lettera nella cartella di Ranieri",
+     "html": "<p>Ettore, ho fatto confrontare il tuo nuovo romanzo con il manoscritto inedito di Anna Corsi, che abbiamo in archivio dal 1994 e che tu hai letto quando lavoravi da noi come redattore. Sono identici per due terzi, parola per parola.</p><p>Lunedì rescindo il contratto e rendo pubblico il confronto. Trent'anni di amicizia non bastano. Ottavio</p>",
+     "img": null
+    },
+    {
+     "id": "f3-orologio",
+     "tipo": "registro",
+     "titolo": "Smartwatch di Nadia Ferri",
+     "html": "<p>Sonno profondo dalle <strong>23:22</strong> alle 6:20. Nessun risveglio registrato.</p><p class=\"intest\"><em>Dal referto della sua dottoressa: la pastiglia per dormire che prende in viaggio è un sonnifero forte.</em></p>",
+     "img": null
+    }
+   ]
+  }
+ ],
+ "introduzione": "<p>Venerdì 20 febbraio, ore 19:30. Dalla stazione Termini parte l'<strong>Espresso Trinacria</strong>, il treno notturno di lusso che arriva a Palermo alle 9:40 del mattino dopo, dopo aver attraversato lo Stretto sul traghetto.</p><p>Nella carrozza letto n. 3 viaggiano <strong>Ottavio Ranieri</strong>, 61 anni, proprietario della Ranieri Editore, e alcune persone legate a lui. A Palermo, lunedì, Ranieri doveva firmare la vendita della casa editrice a un grande gruppo tedesco.</p><p>Alle 6:40, mentre il treno scende dal traghetto a Messina, il cuccettista bussa per la sveglia. Ranieri non risponde: è morto nel suo scompartimento.</p><p>Dalle 23:00 il treno non ha fatto fermate in cui si potesse scendere. Il colpevole è a bordo.</p>",
+ "domande": [
+  {
+   "id": "chi",
+   "testo": "Chi ha ucciso Ottavio Ranieri?",
+   "opzioni": [
+    {
+     "id": "lavinia",
+     "testo": "Lavinia Ranieri"
+    },
+    {
+     "id": "ettore",
+     "testo": "Ettore Sala"
+    },
+    {
+     "id": "nadia",
+     "testo": "Nadia Ferri"
+    },
+    {
+     "id": "klaus",
+     "testo": "Klaus Werner"
+    },
+    {
+     "id": "giorgia",
+     "testo": "Giorgia Miceli"
+    },
+    {
+     "id": "toto",
+     "testo": "Totò Bonanno"
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "testo": "Come?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Ha messo arachidi nella cena di Ranieri"
+    },
+    {
+     "id": "b",
+     "testo": "Ha iniettato salsa di arachidi nelle bustine di miele della camomilla, dopo avergli tolto e svuotato la penna di adrenalina"
+    },
+    {
+     "id": "c",
+     "testo": "Non ha risposto apposta alle chiamate d'aiuto"
+    },
+    {
+     "id": "d",
+     "testo": "È stata una tragica fatalità"
+    }
+   ]
+  },
+  {
+   "id": "perche",
+   "testo": "Perché?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Per l'eredità e per fermare la vendita"
+    },
+    {
+     "id": "b",
+     "testo": "Per un'inchiesta giornalistica"
+    },
+    {
+     "id": "c",
+     "testo": "Per impedire che si scoprisse il plagio del suo romanzo"
+    },
+    {
+     "id": "d",
+     "testo": "Per far saltare l'affare"
+    }
+   ]
+  }
+ ]
+}

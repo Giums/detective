@@ -1,0 +1,164 @@
+{
+ "id": "prova",
+ "titolo": "Il mistero della torta scomparsa",
+ "sottotitolo": "Caso di prova · Cucina di casa",
+ "ambientazione": "Un caso brevissimo per imparare a giocare e provare il sito",
+ "giocatori": "1-4",
+ "durata": "10 minuti",
+ "difficolta": "allenamento",
+ "eta": "per tutti",
+ "genere": "mistero",
+ "copertina": null,
+ "personaggi": [
+  {
+   "id": "nonna",
+   "nome": "Nonna Pina",
+   "ruolo": "la vittima del furto",
+   "html": "<p>Ha preparato la torta per il compleanno del nipote. È furiosa.</p>",
+   "img": null
+  },
+  {
+   "id": "luca",
+   "nome": "Luca",
+   "ruolo": "il nipote, 12 anni",
+   "html": "<p>Domani compie gli anni. Dice di aver passato il pomeriggio ai videogiochi.</p>",
+   "img": null
+  },
+  {
+   "id": "gatto",
+   "nome": "Briciola",
+   "ruolo": "il gatto di casa",
+   "html": "<p>Ha la mania di salire sul davanzale. Oggi ha l'aria molto soddisfatta.</p>",
+   "img": null
+  },
+  {
+   "id": "zio",
+   "nome": "Zio Tano",
+   "ruolo": "lo zio, 50 anni",
+   "html": "<p>È passato a salutare. È a dieta da una settimana e ne parla con tutti.</p>",
+   "img": null
+  }
+ ],
+ "fasi": [
+  {
+   "n": 1,
+   "titolo": "Il davanzale",
+   "html": "<p>La nonna vi accompagna in cucina e vi mostra la scena.</p>",
+   "prove": [
+    {
+     "id": "p1-davanzale",
+     "tipo": "foto",
+     "titolo": "Il davanzale",
+     "html": "<p>Il piatto è vuoto, con qualche briciola. La finestra è aperta. Sul davanzale non ci sono impronte di zampe nella farina sparsa. Sul pavimento, sotto la finestra, ci sono <strong>briciole che vanno verso il corridoio</strong>.</p>",
+     "img": null
+    },
+    {
+     "id": "p1-nonna",
+     "tipo": "verbale",
+     "titolo": "Le parole della nonna",
+     "html": "<p>«Alle 15:00 la torta era lì, l'ho guardata io. Alle 16:00 era sparita. Il gatto alle tre e mezza dormiva sul divano, l'ho visto io. Luca era in camera sua a giocare, sentivo gli spari.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "Il corridoio",
+   "html": "<p>Seguite le briciole.</p>",
+   "prove": [
+    {
+     "id": "p2-console",
+     "tipo": "registro",
+     "titolo": "La console di Luca",
+     "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>14:58</td><td>Partita iniziata</td></tr><tr><td>15:00–16:05</td><td>Partita online senza pause (squadra con l'amico Marco)</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "p2-zio",
+     "tipo": "messaggio",
+     "titolo": "Messaggio di Zio Tano alla moglie",
+     "html": "<p class=\"intest\"><strong>A: Marisa — ore 15:20</strong></p><p>Sono da mamma. Tranquilla, la dieta procede benissimo.</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "Il cappotto",
+   "html": "<p>Lo zio Tano sta per andarsene.</p>",
+   "prove": [
+    {
+     "id": "p3-cappotto",
+     "tipo": "documento",
+     "titolo": "Il cappotto dello zio",
+     "html": "<p>Nella tasca destra del cappotto di Zio Tano: un tovagliolo di carta pieno di briciole di torta di mele e una forchetta della nonna. Il cappotto era appeso nel corridoio.</p>",
+     "img": null
+    },
+    {
+     "id": "p3-biglietto",
+     "tipo": "lettera",
+     "titolo": "Biglietto nella tasca sinistra",
+     "html": "<p>Ricordati: domani controllo peso dal dottore. Niente dolci!!!</p>",
+     "img": null
+    }
+   ]
+  }
+ ],
+ "introduzione": "<p>Domenica pomeriggio. La nonna ha lasciato una torta di mele sul davanzale della cucina, a raffreddare. Alle 16:00 la torta non c'è più: resta solo un piatto vuoto con le briciole.</p><p>In casa ci sono tre sospettati. Aprite le prove, una fase alla volta, e scoprite <strong>chi</strong> ha preso la torta, <strong>come</strong>, e <strong>perché</strong>.</p>",
+ "domande": [
+  {
+   "id": "chi",
+   "testo": "Chi ha preso la torta?",
+   "opzioni": [
+    {
+     "id": "luca",
+     "testo": "Luca"
+    },
+    {
+     "id": "gatto",
+     "testo": "Briciola"
+    },
+    {
+     "id": "zio",
+     "testo": "Zio Tano"
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "testo": "Come?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Saltando sul davanzale"
+    },
+    {
+     "id": "b",
+     "testo": "L'ha presa dal davanzale e l'ha mangiata di nascosto nel corridoio"
+    },
+    {
+     "id": "c",
+     "testo": "Durante la partita, con una scusa"
+    }
+   ]
+  },
+  {
+   "id": "perche",
+   "testo": "Perché?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Per fare uno scherzo al nipote"
+    },
+    {
+     "id": "b",
+     "testo": "Era a dieta e non resisteva più"
+    },
+    {
+     "id": "c",
+     "testo": "Per fame dopo il gioco"
+    }
+   ]
+  }
+ ]
+}

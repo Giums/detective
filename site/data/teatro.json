@@ -1,0 +1,282 @@
+{
+ "id": "teatro",
+ "titolo": "Il terzo atto",
+ "sottotitolo": "Teatro Lirico dell'Aurora, Trieste",
+ "ambientazione": "Un grande direttore d'orchestra muore nel suo camerino durante l'intervallo della prima",
+ "giocatori": "1-6",
+ "durata": "90 minuti",
+ "difficolta": "difficile",
+ "eta": "da 14 anni",
+ "genere": "omicidio",
+ "copertina": null,
+ "personaggi": [
+  {
+   "id": "valli",
+   "nome": "Edoardo Valli",
+   "ruolo": "la vittima, 67 anni",
+   "html": "<p>Direttore d'orchestra celebre e temuto. Perfezionista, capace di distruggere una carriera con una frase.</p>",
+   "img": null
+  },
+  {
+   "id": "livia",
+   "nome": "Livia Sforza",
+   "ruolo": "la soprano, 48 anni",
+   "html": "<p>Interpreta Tosca. Valli voleva sostituirla nella prossima stagione con una cantante più giovane.</p>",
+   "img": null
+  },
+  {
+   "id": "diego",
+   "nome": "Diego Aranda",
+   "ruolo": "il tenore, 35 anni",
+   "html": "<p>Interpreta Cavaradossi. In prova Valli lo ha umiliato davanti a tutta l'orchestra.</p>",
+   "img": null
+  },
+  {
+   "id": "giacomo",
+   "nome": "Giacomo Ferri",
+   "ruolo": "il baritono, 52 anni",
+   "html": "<p>Interpreta Scarpia, che muore alla fine del secondo atto: nel terzo atto non è in scena.</p>",
+   "img": null
+  },
+  {
+   "id": "caterina",
+   "nome": "Caterina Valli",
+   "ruolo": "la moglie, 55 anni",
+   "html": "<p>Ex violinista. Assiste alla prima dal palco di proscenio.</p>",
+   "img": null
+  },
+  {
+   "id": "lorenzo",
+   "nome": "Lorenzo Pini",
+   "ruolo": "l'assistente direttore, 33 anni",
+   "html": "<p>Il «maestro sostituto»: conosce l'opera a memoria e dirige se il titolare non può farlo.</p>",
+   "img": null
+  },
+  {
+   "id": "rita",
+   "nome": "Rita Bonetti",
+   "ruolo": "la direttrice di scena, 50 anni",
+   "html": "<p>Coordina tutto ciò che accade dietro le quinte. È stata lei a trovare il corpo.</p>",
+   "img": null
+  }
+ ],
+ "fasi": [
+  {
+   "n": 1,
+   "titolo": "L'intervallo",
+   "html": "<p>Mezzanotte. Lo spettacolo è finito e il pubblico è uscito. La polizia ha chiuso il palcoscenico.</p>",
+   "prove": [
+    {
+     "id": "f1-rapporto",
+     "tipo": "verbale",
+     "titolo": "Rapporto della polizia",
+     "html": "<p class=\"intest\"><strong>Questura di Trieste — sabato 7 marzo, ore 23:50</strong></p><p>Nel camerino n. 1 del Teatro Lirico dell'Aurora è stato trovato senza vita VALLI Edoardo, a terra accanto alla scrivania, con una ferita alla testa. Sul pavimento c'è un <strong>busto di bronzo di Giuseppe Verdi</strong>, di solito appoggiato sulla mensola, ripulito da ogni impronta.</p><p>La finestra del camerino, che dà sulla scala antincendio esterna, è socchiusa. Fuori piove dalle 21:00.</p><p>Sulla scrivania ci sono la tazza del caffè del maestro, ancora mezza piena, e il cappotto; <strong>non c'è lo spartito</strong>, che il maestro portava sempre con sé in camerino durante gli intervalli per segnare le correzioni.</p>",
+     "img": null
+    },
+    {
+     "id": "f1-piantina",
+     "tipo": "piantina",
+     "titolo": "Piantina del retropalco",
+     "html": "<ul><li><strong>Palcoscenico</strong>, con la buca dell'orchestra davanti.</li><li><strong>Corridoio dei camerini</strong>, a cui si accede dal palcoscenico o dalla scaletta che sale dalla buca dell'orchestra. In ordine: camerino n. 1 (Valli), n. 2 (Sforza), n. 3 (Aranda), n. 4 (Ferri).</li><li><strong>Sala prove</strong> con pianoforte, in fondo al corridoio, dove aspetta il maestro sostituto.</li><li><strong>Scala antincendio</strong> esterna in ferro, dove si affaccia la finestra del camerino n. 1. La porta che dal corridoio dà sulla scala ha un registro di apertura.</li><li>Il <strong>palco di proscenio</strong> e il <strong>bar del foyer</strong> sono nella zona del pubblico, dall'altra parte del sipario.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f1-rita",
+     "tipo": "verbale",
+     "titolo": "Le parole di Rita, la direttrice di scena",
+     "html": "<p>«Alle 21:52 il maestro è sceso dal podio ed è salito in camerino con lo spartito sotto il braccio, come sempre. Ho visto che chiudeva la porta: erano le 21:54.</p><p>Durante tutto l'intervallo sono rimasta sul palco a dirigere il cambio di scena, con i miei tecnici e l'interfono. Alle 22:10 ho bussato da lui, non rispondeva, e sono entrata. Ho chiamato il 112 e il sovrintendente.</p><p>Abbiamo deciso di non fermare lo spettacolo: il pubblico, la diretta radio… Il terzo atto l'ha diretto il maestro Pini. È entrato in buca alle 22:14, pallido come un morto, ma ha diretto benissimo.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-caterina",
+     "tipo": "verbale",
+     "titolo": "Le parole di Caterina Valli",
+     "html": "<p>«Alla fine del secondo atto sono uscita dal palco e sono andata al bar del foyer: avevo bisogno di bere qualcosa. Io e mio marito… non era un buon periodo.</p><p>Nel camerino non ci sono andata. Durante gli intervalli non voleva nessuno, nemmeno me.»</p>",
+     "img": null
+    },
+    {
+     "id": "f1-diego",
+     "tipo": "verbale",
+     "titolo": "Le parole di Diego Aranda",
+     "html": "<p>«Sì, il maestro mi ha chiamato \"un tenore da crociera\" davanti a tutti. L'avrei preso a schiaffi. Ma non l'ho ucciso.</p><p>Durante l'intervallo sono uscito sulla scala antincendio a fumare, sotto la tettoia, dalle 21:55 alle 22:05 più o meno. La finestra del maestro era lì vicino, socchiusa, con la luce accesa. Ho visto un'ombra muoversi dietro la tenda, ma non so di chi.»</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "La diretta",
+   "html": "<p>La polizia ha ascoltato la registrazione della diretta radio e raccolto gli altri alibi.</p>",
+   "prove": [
+    {
+     "id": "f2-radio",
+     "tipo": "registro",
+     "titolo": "Telefonate della radio al camerino n. 1",
+     "html": "<p>La giornalista della radio aveva un'intervista telefonica concordata con il maestro durante l'intervallo.</p><table><thead><tr><th>Ora</th><th>Chiamata</th><th>Cosa si sente</th></tr></thead><tbody><tr><td>22:00</td><td>Al camerino n. 1, durata 25 secondi</td><td>Valli: «Mi richiami tra cinque minuti, non è il momento: ho qui una persona con cui devo finire un discorso.» Tono teso</td></tr><tr><td>22:05</td><td>Al camerino n. 1</td><td>Nessuna risposta</td></tr></tbody></table>",
+     "img": null
+    },
+    {
+     "id": "f2-referto",
+     "tipo": "referto",
+     "titolo": "Referto del medico legale",
+     "html": "<ol><li>Morte per un <strong>colpo violento alla testa</strong>, compatibile con il busto di bronzo.</li><li>Considerate le telefonate della radio, il colpo è stato inferto <strong>tra le 22:00 e le 22:05</strong>.</li><li>Nessun segno di difesa: la vittima conosceva l'aggressore e non si aspettava di essere colpita.</li></ol>",
+     "img": null
+    },
+    {
+     "id": "f2-antincendio",
+     "tipo": "registro",
+     "titolo": "Registro della porta della scala antincendio",
+     "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>21:55</td><td>Porta aperta dal corridoio</td></tr><tr><td>22:05</td><td>Porta aperta dal corridoio <em>(rientro)</em></td></tr></tbody></table><p><em>Nota della scientifica:</em> il davanzale della finestra del camerino n. 1 è coperto di <strong>polvere intatta</strong>. Sul pavimento del camerino non ci sono tracce di acqua né di scarpe bagnate. La scala antincendio, sotto la pioggia, è fradicia.</p>",
+     "img": null
+    },
+    {
+     "id": "f2-alibi",
+     "tipo": "verbale",
+     "titolo": "Gli alibi di soprano, baritono e moglie",
+     "html": "<ul><li><strong>Livia Sforza:</strong> dalle 21:53 alle 22:12 nel camerino n. 2 con la sua sarta, per il cambio d'abito del terzo atto. La sarta lo conferma: «Non l'ho lasciata un secondo, quell'abito ha quaranta ganci.»</li><li><strong>Giacomo Ferri:</strong> dalle 21:53 alle 22:20 nel camerino n. 4 con la truccatrice, per togliere il trucco di Scarpia. La truccatrice lo conferma.</li><li><strong>Caterina Valli:</strong> al bar del foyer dalle 21:58 alle 22:09, dice il barista: «Due gin tonic, uno dopo l'altro. Era sconvolta, ha parlato al telefono tutto il tempo.» Dal foyer al camerino ci vogliono almeno quattro minuti, passando dal palcoscenico pieno di tecnici.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f2-lorenzo",
+     "tipo": "verbale",
+     "titolo": "Le parole di Lorenzo Pini",
+     "html": "<p>«Durante l'intervallo ero nella sala prove, da solo, con il mio spartito, a ripassare il terzo atto, come faccio sempre: un sostituto deve essere pronto a tutto. Non ho visto il maestro e non ho sentito niente.</p><p>Alle 22:11 Rita mi ha chiamato con l'interfono: \"Tocca a te.\" Ho preso il mio spartito e sono sceso in buca. Il resto l'avete visto.»</p>",
+     "img": null
+    },
+    {
+     "id": "f2-scena",
+     "tipo": "documento",
+     "titolo": "Registro dell'interfono della direttrice di scena",
+     "html": "<p>Durante l'intervallo Rita Bonetti ha dato istruzioni ai tecnici per l'interfono <strong>senza interruzioni dalle 21:53 alle 22:09</strong>. Otto tecnici confermano che era sul palco.</p>",
+     "img": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "Lo spartito",
+   "html": "<p>Ultimi controlli: la biblioteca musicale del teatro, la sala prove e qualche messaggio. Ora avete tutto.</p>",
+   "prove": [
+    {
+     "id": "f3-biblioteca",
+     "tipo": "documento",
+     "titolo": "Relazione dell'archivista musicale",
+     "html": "<p>Ogni direttore ha la sua copia della partitura, con il nome sulla copertina e le proprie annotazioni.</p><ul><li>Lo spartito che stava sul leggio del podio durante il <strong>terzo atto</strong> è quello del <strong>maestro Valli</strong>: c'è il suo nome sulla copertina, ci sono le sue inconfondibili correzioni a <strong>matita rossa</strong>, alcune <strong>scritte durante l'intervallo</strong> di stasera, sul finale del secondo atto, e una piccola macchia scura sul bordo inferiore.</li><li>La copia del maestro <strong>Pini</strong>, con il suo nome, è stata ritrovata <strong>nella sala prove</strong>, chiusa sul pianoforte.</li></ul>",
+     "img": null
+    },
+    {
+     "id": "f3-macchia",
+     "tipo": "referto",
+     "titolo": "Analisi della macchia sullo spartito",
+     "html": "<p>La macchia scura sul bordo dello spartito di Valli è <strong>caffè</strong>, dello stesso tipo e con lo stesso zucchero di quello della tazza sulla scrivania del camerino n. 1.</p>",
+     "img": null
+    },
+    {
+     "id": "f3-messaggi",
+     "tipo": "messaggio",
+     "titolo": "Messaggi dal telefono di Caterina Valli",
+     "html": "<p class=\"intest\"><strong>Caterina → «L.» — sabato, 21:58</strong></p><p>Lo sa. Ha trovato le nostre lettere. Ha detto che stasera ti parla, e che dopo questa prima non dirigerai più nemmeno una banda di paese.</p><p class=\"intest\"><strong>«L.» → Caterina — 21:59</strong></p><p>Ci penso io.</p><p class=\"intest\"><strong>Caterina → «L.» — 22:08</strong></p><p>Rispondimi. Cosa è successo?</p><p class=\"intest\"><em>Il numero di «L.» è intestato a Lorenzo Pini.</em></p>",
+     "img": null
+    },
+    {
+     "id": "f3-lettera",
+     "tipo": "lettera",
+     "titolo": "Lettera nella tasca del cappotto di Valli",
+     "html": "<p>Al Consiglio di amministrazione del Teatro Lirico dell'Aurora,</p><p>vi chiedo di risolvere immediatamente il contratto del maestro Lorenzo Pini, per motivi che vi spiegherò di persona e che riguardano la mia famiglia. Scriverò anche ai teatri di Vienna e di Monaco, che lo hanno invitato per la prossima stagione.</p><p>Edoardo Valli, 7 marzo</p>",
+     "img": null
+    },
+    {
+     "id": "f3-sarta",
+     "tipo": "verbale",
+     "titolo": "Una voce dal corridoio",
+     "html": "<p>La sarta di Livia Sforza: «Poco dopo le dieci, mentre abbottonavo l'abito, ho sentito dal corridoio una porta chiudersi e dei passi veloci verso la <strong>sala prove</strong>. Non ho visto chi fosse.»</p>",
+     "img": null
+    },
+    {
+     "id": "f3-camerino",
+     "tipo": "documento",
+     "titolo": "Seconda ispezione del camerino n. 1",
+     "html": "<p>Sulla scrivania, tra il caffè e il cappotto, sono rimaste le <strong>matite rosse</strong> del maestro, appena temperate: i trucioli sono freschi. <strong>Lo spartito su cui il maestro lavorava non c'è.</strong></p>",
+     "img": null
+    }
+   ]
+  }
+ ],
+ "introduzione": "<p>Trieste, sabato 7 marzo. Al Teatro Lirico dell'Aurora va in scena la prima di <strong>Tosca</strong>, trasmessa in diretta alla radio. Sul podio c'è il maestro <strong>Edoardo Valli</strong>, 67 anni, la bacchetta più famosa d'Europa.</p><p>Il secondo atto finisce alle 21:52 tra gli applausi. Comincia l'intervallo, e Valli si chiude nel suo camerino. Alle 22:10 la direttrice di scena bussa per richiamarlo sul podio: Valli è a terra, morto.</p><p>Lo spettacolo, incredibilmente, continua: il terzo atto lo dirige il suo giovane assistente, mentre il pubblico non sa ancora niente. Ma il colpevole è dietro le quinte.</p><p>Scoprite <strong>chi</strong> ha ucciso il maestro Valli, <strong>come</strong> e <strong>perché</strong>.</p>",
+ "domande": [
+  {
+   "id": "chi",
+   "testo": "Chi ha ucciso il maestro Valli?",
+   "opzioni": [
+    {
+     "id": "livia",
+     "testo": "Livia Sforza"
+    },
+    {
+     "id": "diego",
+     "testo": "Diego Aranda"
+    },
+    {
+     "id": "giacomo",
+     "testo": "Giacomo Ferri"
+    },
+    {
+     "id": "caterina",
+     "testo": "Caterina Valli"
+    },
+    {
+     "id": "lorenzo",
+     "testo": "Lorenzo Pini"
+    },
+    {
+     "id": "rita",
+     "testo": "Rita Bonetti"
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "testo": "Come?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Entrando dalla finestra della scala antincendio"
+    },
+    {
+     "id": "b",
+     "testo": "Entrando dal corridoio durante l'intervallo, colpendolo con il busto di bronzo e portandosi via per errore lo spartito del maestro"
+    },
+    {
+     "id": "c",
+     "testo": "Avvelenando il suo caffè"
+    },
+    {
+     "id": "d",
+     "testo": "Durante il secondo atto, scendendo dal palco di proscenio"
+    }
+   ]
+  },
+  {
+   "id": "perche",
+   "testo": "Perché?",
+   "opzioni": [
+    {
+     "id": "a",
+     "testo": "Per rivalità artistica"
+    },
+    {
+     "id": "b",
+     "testo": "Per l'eredità"
+    },
+    {
+     "id": "c",
+     "testo": "Il maestro aveva scoperto la sua relazione con la moglie e stava per rovinargli la carriera"
+    },
+    {
+     "id": "d",
+     "testo": "Per vendicarsi di un'umiliazione in prova"
+    }
+   ]
+  }
+ ]
+}
