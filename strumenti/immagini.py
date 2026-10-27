@@ -19,7 +19,7 @@ COMFY = os.environ.get("COMFY_URL", "http://localhost:8188")
 CASI = Path(__file__).resolve().parent.parent / "casi"
 FORMATI = {"ritratto": (832, 1088), "orizzontale": (1344, 768), "scena": (1216, 832)}
 STILE = ("warm and friendly cinematic photograph, bright natural light, inviting colours, realistic, "
-         "shallow depth of field, family friendly, no text, no watermark, nothing scary or dark")
+         "shallow depth of field, family friendly, no text, no lettering or logos on clothes, no watermark, nothing scary or dark")
 
 
 def flusso(prompt, larghezza, altezza, seme):

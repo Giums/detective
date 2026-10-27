@@ -42,18 +42,19 @@
       o.connect(g); g.connect(a.destination); o.start(t); o.stop(t + durata + 0.05);
     }
     var effetti = {
-      carta: function () { rumore(0.35, 3000, 0.7, 0.5); rumore(0.25, 1800, 0.8, 0.3, 0.12); },
-      timbro: function () { tono(110, 0.18, 'sine', 0.7, 0, 45); rumore(0.08, 900, 1, 0.6); },
-      busta: function () { rumore(0.5, 2500, 0.5, 0.45); rumore(0.3, 4200, 1.5, 0.25, 0.35); },
-      tasto: function () { rumore(0.03, 2500, 2, 0.35); tono(180, 0.04, 'square', 0.03); },
-      puntina: function () { tono(1400, 0.05, 'square', 0.06); rumore(0.04, 5000, 2, 0.3); },
-      filo: function () { tono(220, 0.45, 'triangle', 0.25, 0, 170); },
+      // pochi suoni, bassi e morbidi: accompagnano senza disturbare
+      carta: function () { rumore(0.22, 1100, 0.6, 0.14); },
+      timbro: function () { tono(95, 0.14, 'sine', 0.3, 0, 60); rumore(0.05, 500, 1, 0.12); },
+      busta: function () { rumore(0.3, 1300, 0.5, 0.12); rumore(0.2, 1900, 0.7, 0.08, 0.25); },
+      tasto: function () { },
+      puntina: function () { tono(880, 0.06, 'sine', 0.06); },
+      filo: function () { tono(330, 0.3, 'sine', 0.1, 0, 290); },
       rivelazione: function () {
-        var note = [261.6, 311.1, 392, 466.2];
-        for (var i = 0; i < note.length; i++) tono(note[i], 1.8, 'triangle', 0.1, i * 0.14);
+        var note = [261.6, 329.6, 392, 523.3];
+        for (var i = 0; i < note.length; i++) tono(note[i], 1.4, 'sine', 0.05, i * 0.16);
       },
-      giusto: function () { tono(523, 0.2, 'sine', 0.2); tono(784, 0.35, 'sine', 0.2, 0.12); },
-      tic: function () { tono(1800, 0.03, 'square', 0.03); }
+      giusto: function () { tono(523, 0.18, 'sine', 0.08); tono(784, 0.3, 'sine', 0.08, 0.12); },
+      tic: function () { }
     };
     return {
       suona: function (nome, ritardo) {
@@ -250,7 +251,7 @@
         var s = leggi(c.id);
         h += '<a class="caso-card r' + (i % 5) + '" href="#/caso/' + esc(c.id) + '">' +
           '<div class="copertina">' + (c.copertina ? '<img src="' + esc(c.copertina) + '" alt="">' : '') +
-          (s && s.finito ? '<span class="timbro timbro-piccolo">Risolto</span>' : '') + '</div>' +
+          (s && s.finito ? '<span class="timbro timbro-piccolo">Risolto</span>' : s ? '<span class="timbro timbro-piccolo in-pausa">In pausa</span>' : '') + '</div>' +
           '<div class="info"><p class="ambiente">' + (c.genere ? '<span class="genere">' + esc(c.genere) + '</span> · ' : '') + esc(c.sottotitolo) + '</p><h2>' + esc(c.titolo) + '</h2>' +
           '<p>' + esc(c.ambientazione) + '</p><ul class="meta"><li>' + esc(c.giocatori) + ' giocatori</li><li>' +
           esc(c.durata) + '</li><li>' + esc(c.difficolta) + '</li>' +
@@ -459,6 +460,7 @@
         }
         h += '</ol><div class="strumenti"><button type="button" class="tasto" id="lavagna">Lavagna</button>' +
           '<button type="button" class="tasto" id="taccuino">Taccuino</button>' +
+          '<button type="button" class="tasto" id="pausa">Pausa</button>' +
           (s.n > 1 && s.k <= 0 ? '<button type="button" class="tasto" id="invita">Invita i detective</button>' : '') + '</div>' +
           (s.stanza ? '<p class="chi-sono">Stanza ' + esc(s.stanza) + ' · le fasi si aprono per tutti</p>' : '') +
           (s.k === -1 ? '<p class="chi-sono">Narratore · ' + s.n + ' detective</p>' : s.n > 1 ? '<p class="chi-sono">' + (s.k ? 'Detective ' + s.k + ' di ' + s.n : 'Schermo comune · ' + s.n + ' detective') + '</p>' : '') +
@@ -529,6 +531,7 @@
           suoni.suona('timbro', 380);
         };
         document.getElementById('taccuino').onclick = function () { taccuino(s, id); };
+        document.getElementById('pausa').onclick = function () { pausa(s, id); };
         var inv = document.getElementById('invita');
         if (inv) inv.onclick = function () { invita(caso, s.n, s.stanza, function (c) { s.stanza = c; scrivi(id, s); disegna(); }); };
         var pr = document.getElementById('prossima');
@@ -658,8 +661,8 @@
 
     var d = el('div', 'lavagna');
     var h = '<button type="button" class="chiudi" aria-label="Chiudi">×</button><h2>Lavagna</h2>' +
-      '<p class="nota">Trascina foto e prove dove vuoi. Tocca due elementi per collegarli con il filo rosso; ' +
-      'toccali di nuovo per toglierlo.</p><div class="sughero-scorri"><div class="sughero">' +
+      '<p class="nota">Trascina foto e prove dove vuoi. Per il filo rosso <strong>tira la puntina</strong> fino a un ' +
+      'altro elemento, oppure tocca i due elementi uno dopo l\'altro. Rifallo sugli stessi due per togliere il filo.</p><div class="sughero-scorri"><div class="sughero">' +
       '<svg class="fili" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>';
     ogni(voci, function (v, i) {
       var pos = s.lav.pos[v.k];
@@ -745,15 +748,20 @@
       document.getElementById('sel-scag').hidden = !v.p || v.vittima;
     }
 
+    function collega(a, b) {
+      var i = indiceFilo(a, b);
+      if (i >= 0) s.lav.fili.splice(i, 1);
+      else { s.lav.fili.push([a, b]); nuovoFilo = a + '|' + b; suoni.suona('filo'); }
+      salva();
+      fili();
+    }
+
     function tocca(k) {
       if (!scelto) { seleziona(k); return; }
       if (scelto === k) { seleziona(null); return; }
-      var i = indiceFilo(scelto, k);
-      if (i >= 0) s.lav.fili.splice(i, 1);
-      else { s.lav.fili.push([scelto, k]); nuovoFilo = scelto + '|' + k; suoni.suona('filo'); }
-      salva();
+      var a = scelto;
       seleziona(null);
-      fili();
+      collega(a, k);
     }
 
     function segna(segno) {
@@ -780,15 +788,24 @@
       apriProva(pid, function () { lavagna(caso, s, id, prove, apriProva); });
     };
 
-    // trascinamento con mouse e dita; un tocco senza movimento seleziona
+    // trascinamento con mouse e dita; un tocco senza movimento seleziona; dalla puntina si tira il filo
     var trascina = null, appenaMosso = false;
-    function punto(ev) { var t = ev.touches ? ev.touches[0] : ev; return [t.clientX, t.clientY]; }
+    function punto(ev) {
+      var t = ev.touches && ev.touches.length ? ev.touches[0] : ev.changedTouches ? ev.changedTouches[0] : ev;
+      return [t.clientX, t.clientY];
+    }
+    function elemento(x, y) {
+      var n = document.elementFromPoint(x, y);
+      while (n && n !== sughero && !(n.getAttribute && n.getAttribute('data-k'))) n = n.parentNode;
+      return n && n !== sughero ? n : null;
+    }
     function inizia(ev) {
+      var tira = /puntina/.test(ev.target.className);
       var n = ev.target;
       while (n && n !== sughero && !n.getAttribute('data-k')) n = n.parentNode;
       if (!n || n === sughero) return;
       var p = punto(ev);
-      trascina = { n: n, k: n.getAttribute('data-k'), x: p[0], y: p[1], pos: s.lav.pos[n.getAttribute('data-k')].slice(), mosso: false };
+      trascina = { n: n, k: n.getAttribute('data-k'), x: p[0], y: p[1], pos: s.lav.pos[n.getAttribute('data-k')].slice(), mosso: false, tira: tira };
     }
     function muovi(ev) {
       if (!document.body.contains(sughero)) { stacca(); return; }
@@ -798,6 +815,13 @@
       if (!trascina.mosso && Math.abs(dx) + Math.abs(dy) < 8) return;
       trascina.mosso = true;
       if (ev.cancelable) ev.preventDefault();
+      if (trascina.tira) {
+        var a = s.lav.pos[trascina.k], ay = a[1] - cima(trascina.k) / (sughero.offsetHeight || 720) * 100;
+        var cx = (p[0] - r.left) / r.width * 100, cy = (p[1] - r.top) / r.height * 100;
+        fili();
+        svg.innerHTML += '<path class="tira" d="M' + a[0] + ' ' + ay + ' L' + cx.toFixed(1) + ' ' + cy.toFixed(1) + '"/>';
+        return;
+      }
       var x = Math.max(3, Math.min(97, trascina.pos[0] + (dx / r.width) * 100));
       var y = Math.max(6, Math.min(95, trascina.pos[1] + (dy / r.height) * 100));
       s.lav.pos[trascina.k] = [Math.round(x * 10) / 10, Math.round(y * 10) / 10];
@@ -806,11 +830,19 @@
       if (trascina.n.className.indexOf('trascinato') < 0) trascina.n.className += ' trascinato';
       fili();
     }
-    function fine() {
+    function fine(ev) {
       if (!trascina) return;
       if (trascina.mosso) {
         appenaMosso = true;
         setTimeout(function () { appenaMosso = false; }, 50);
+        if (trascina.tira) {
+          var p = punto(ev), arrivo = elemento(p[0], p[1]), k = trascina.k;
+          trascina = null;
+          seleziona(null);
+          if (arrivo && arrivo.getAttribute('data-k') !== k) collega(k, arrivo.getAttribute('data-k'));
+          else fili();
+          return;
+        }
         trascina.n.className = trascina.n.className.replace(/\s*trascinato/g, '');
         salva();
       }
@@ -832,6 +864,19 @@
       b.onclick = function () { if (!appenaMosso) tocca(b.getAttribute('data-k')); };
     });
     fili();
+  }
+
+  function pausa(s, id) {
+    scrivi(id, s);
+    var d = el('div', 'taccuino');
+    d.innerHTML = '<button type="button" class="chiudi" aria-label="Chiudi">×</button><h2>Indagine in pausa</h2>' +
+      '<p>È tutto salvato su questo dispositivo: fase, lavagna e appunti. Puoi chiudere il sito e spegnere.</p>' +
+      '<p>Per riprendere riapri il sito e scegli il caso: troverai <strong>Riprendi l\'indagine</strong>.</p>' +
+      (s.stanza ? '<p>Gli altri detective ritrovano la partita sul loro dispositivo. Chi cambia dispositivo rientra ' +
+        'con il QR di invito (stanza ' + esc(s.stanza) + ').</p>' : '') +
+      '<p><a class="tasto primario" data-focus href="#/">Torna ai casi</a></p>';
+    apriOverlay(d, 'sopra-carta');
+    d.querySelector('a').onclick = function () { chiudiOverlay(); };
   }
 
   function taccuino(s, id) {
