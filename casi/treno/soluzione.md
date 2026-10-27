@@ -93,3 +93,4 @@ nei loro verbali.
 - giorgia [ritratto]: portrait of a sharp 45 year old Italian investigative journalist, curly auburn hair, trench coat, notebook in hand, train window with night lights behind her
 - toto [ritratto]: portrait of a friendly 50 year old Sicilian sleeping car attendant, moustache, vintage railway uniform with cap, holding a tray with a teacup, warm train corridor behind him
 - f1-piantina [scena]: luxurious vintage sleeping car corridor with wood panelling, brass lamps and numbered compartment doors, warm light, empty
+- f1-scompartimento [scena]: vintage sleeping car compartment with wood panelling, small table with a tray, an empty chamomile cup and a honey sachet, jacket on a hanger, warm lamp, tidy, no people

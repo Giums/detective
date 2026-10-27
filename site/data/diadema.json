@@ -8,49 +8,49 @@
  "difficolta": "difficile",
  "eta": "per tutti",
  "genere": "furto",
- "copertina": null,
+ "copertina": "casi/diadema/img/copertina.jpg",
  "personaggi": [
   {
    "id": "margherita",
    "nome": "Margherita di Lusinia",
    "ruolo": "la principessa, 72 anni",
    "html": "<p>Capo della casa reale di Lusinia. Elegante e inflessibile. Non si separa mai dal suo carlino, Re Umberto.</p>",
-   "img": null
+   "img": "casi/diadema/img/margherita.jpg"
   },
   {
    "id": "alessandro",
    "nome": "Alessandro di Lusinia",
    "ruolo": "il nipote ed erede, 35 anni",
    "html": "<p>Vive tra Londra e Montecarlo. Vorrebbe vendere all'asta i gioielli di famiglia per «modernizzare» la fondazione.</p>",
-   "img": null
+   "img": "casi/diadema/img/alessandro.jpg"
   },
   {
    "id": "gualtiero",
    "nome": "Gualtiero Fontana",
    "ruolo": "il maggiordomo, 66 anni",
    "html": "<p>Al servizio della principessa da quarant'anni. Discreto e devoto.</p>",
-   "img": null
+   "img": "casi/diadema/img/gualtiero.jpg"
   },
   {
    "id": "helena",
    "nome": "Helena Brandt",
    "ruolo": "la perita assicurativa, 49 anni",
    "html": "<p>Esperta di gioielli della compagnia che assicura il diadema. Doveva esaminarlo lunedì.</p>",
-   "img": null
+   "img": "casi/diadema/img/helena.jpg"
   },
   {
    "id": "vidal",
    "nome": "Raoul Vidal",
    "ruolo": "il mercante d'arte, 50 anni",
    "html": "<p>Parigino, affascinante, invitato al gala. Su di lui girano voci: furti mai provati in tre ville della Costa Azzurra.</p>",
-   "img": null
+   "img": "casi/diadema/img/vidal.jpg"
   },
   {
    "id": "kovac",
    "nome": "Marko Kovač",
    "ruolo": "il tecnico della sicurezza, 41 anni",
    "html": "<p>Ha installato la teca e l'impianto di allarme. Venerdì ha cambiato i codici.</p>",
-   "img": null
+   "img": "casi/diadema/img/kovac.jpg"
   }
  ],
  "fasi": [
@@ -78,7 +78,7 @@
      "tipo": "documento",
      "titolo": "La teca del diadema",
      "html": "<ul><li>Cristallo antiproiettile, con apertura elettronica a <strong>tastierino numerico</strong>.</li><li>Funziona a batteria: <strong>resta attiva anche senza corrente</strong> e registra ogni apertura.</li><li>Accetta <strong>due codici</strong>: - il <strong>codice di servizio</strong>, usato dal tecnico per la manutenzione; - il <strong>codice di amministratore</strong>, del proprietario.</li><li>Al ritorno della luce la teca era <strong>chiusa</strong>, senza graffi, e il cuscino di velluto era vuoto.</li></ul>",
-     "img": null
+     "img": "casi/diadema/img/f1-teca.jpg"
     },
     {
      "id": "f1-margherita",
@@ -176,7 +176,7 @@
      "tipo": "foto",
      "titolo": "Foto scattate dagli ospiti durante il discorso",
      "html": "<ol><li><strong>22:10.</strong> La principessa al microfono, accanto alla teca illuminata: il diadema brilla. Ai piedi della sua poltrona, a un passo dalla teca, c'è il <strong>cuscino di velluto</strong> di Re Umberto, con la cerniera, e il cane ci dorme sopra.</li><li><strong>22:17.</strong> La luce è appena tornata. La principessa indica la teca vuota. Re Umberto è in braccio a una dama e <strong>il cuscino è sulla poltrona</strong>, schiacciato sotto lo scialle della principessa.</li></ol>",
-     "img": null
+     "img": "casi/diadema/img/f3-foto.jpg"
     },
     {
      "id": "f3-lettera",

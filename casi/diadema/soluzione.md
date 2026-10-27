@@ -89,3 +89,4 @@ con quello che c'è nei loro verbali.
 - vidal [ritratto]: portrait of a suave 50 year old French art dealer, salt and pepper hair, velvet dinner jacket, slight smile, lake terrace at night behind him
 - kovac [ritratto]: portrait of a serious 41 year old security technician, dark suit with earpiece, short hair, villa entrance with guests behind him
 - f1-teca [scena]: empty glass display case on a velvet cushion in a grand mirrored salon with chandeliers, elegant gala setting, warm golden light
+- f3-foto [scena]: small fluffy white dog sleeping on a red velvet cushion beside an elegant armchair in a grand gala salon, chandeliers, warm golden light

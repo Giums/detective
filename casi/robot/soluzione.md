@@ -82,3 +82,4 @@ dai un suggerimento della fase in corso. Puoi interpretare i personaggi quando v
 - ferraro [ritratto]: portrait of a 48 year old Italian teacher, grey beard, blazer with a rival school badge, polite smile, school entrance behind him
 - rocco [ritratto]: portrait of a friendly 60 year old Italian school janitor, grey hair, blue work coat, big ring of keys, school hallway behind him
 - f2-memoria [scena]: cute small educational robot with a robotic arm on a lab table, back cover open showing a memory card slot, tiny screwdriver beside it, bright classroom light
+- f1-piantina [scena]: bright Italian school corridor with laboratory doors and colourful student robotics posters, sunny, empty

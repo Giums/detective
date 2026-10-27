@@ -8,49 +8,49 @@
  "difficolta": "facile",
  "eta": "per tutti",
  "genere": "furto",
- "copertina": null,
+ "copertina": "casi/ricetta/img/copertina.jpg",
  "personaggi": [
   {
    "id": "ines",
    "nome": "Ines Bonfante",
    "ruolo": "la nonna e fondatrice, 78 anni",
    "html": "<p>Ha aperto la pasticceria nel 1974. Il quaderno rosso è il suo tesoro.</p>",
-   "img": null
+   "img": "casi/ricetta/img/ines.jpg"
   },
   {
    "id": "paolo",
    "nome": "Paolo Bonfante",
    "ruolo": "il figlio, 45 anni",
    "html": "<p>Manda avanti la pasticceria. Vorrebbe modernizzarla, e ogni tanto litiga con la madre.</p>",
-   "img": null
+   "img": "casi/ricetta/img/paolo.jpg"
   },
   {
    "id": "sofia",
    "nome": "Sofia Bonfante",
    "ruolo": "la nipote, 16 anni",
    "html": "<p>Figlia di Paolo. Nuotatrice, sempre con il telefono in mano, adora la nonna.</p>",
-   "img": null
+   "img": "casi/ricetta/img/sofia.jpg"
   },
   {
    "id": "luca",
    "nome": "Luca Ferri",
    "ruolo": "l'apprendista, 23 anni",
    "html": "<p>Assunto due mesi fa. Prima lavorava dai Rinaldi, la pasticceria rivale.</p>",
-   "img": null
+   "img": "casi/ricetta/img/luca.jpg"
   },
   {
    "id": "marta",
    "nome": "Marta Costa",
    "ruolo": "la commessa, 38 anni",
    "html": "<p>Al banco da dieci anni. Conosce tutti i clienti per nome.</p>",
-   "img": null
+   "img": "casi/ricetta/img/marta.jpg"
   },
   {
    "id": "gianna",
    "nome": "Gianna Rinaldi",
    "ruolo": "la rivale, 55 anni",
    "html": "<p>Titolare della Pasticceria Rinaldi, dall'altra parte della piazza. Da vent'anni arriva seconda al concorso.</p>",
-   "img": null
+   "img": "casi/ricetta/img/gianna.jpg"
   }
  ],
  "fasi": [
@@ -92,7 +92,7 @@
      "tipo": "foto",
      "titolo": "Il laboratorio alle 20:30",
      "html": "<p>Il cassetto è intatto, senza graffi, chiuso a chiave. La chiave è al suo gancio, accanto alla porta delle scale.</p><p>Sul pavimento davanti al cassetto c'è una grande macchia di <strong>zucchero a velo</strong> rovesciato, con diverse impronte di scarpe.</p>",
-     "img": null
+     "img": "casi/ricetta/img/f1-cassetto.jpg"
     }
    ]
   },
@@ -190,7 +190,7 @@
      "tipo": "foto",
      "titolo": "Post pubblicato da Sofia alle 19:12",
      "html": "<p>Una foto scattata dalla finestra di casa Bonfante: l'insegna illuminata della pasticceria vista dall'alto. Didascalia: <em>«Certe cose non hanno prezzo 🍰❤️ #nonna #famiglia»</em></p>",
-     "img": null
+     "img": "casi/ricetta/img/f3-post.jpg"
     }
    ]
   }

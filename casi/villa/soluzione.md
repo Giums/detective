@@ -86,3 +86,4 @@ loro verbali.
 - beatrice [ritratto]: portrait of a warm 58 year old Italian housekeeper, grey hair in a bun, apron, kind eyes, rustic alpine kitchen with herbs hanging behind her
 - moretti [ritratto]: portrait of a courteous 64 year old Italian retired doctor, white hair, cashmere scarf, friendly smile, chess board on a table behind him
 - f1-studio [scena]: elegant old study in an alpine villa, walnut desk with a teacup on a tray and an open handwritten notebook, closed wall safe behind a painting, warm lamplight, snow outside the window, no people
+- f1-piantina [scena]: grand wooden staircase and landing in an alpine villa, antique rugs, warm lamps, snow visible through a window, no people

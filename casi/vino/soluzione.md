@@ -84,3 +84,4 @@ suggerimento della fase in corso.
 - pierre [ritratto]: portrait of a refined 50 year old French sommelier, silver tastevin around his neck, holding a wine glass to the light, wine bar behind him
 - chen [ritratto]: portrait of an elegant 45 year old Chinese art and wine collector, tailored dark suit, calm smile, modern gallery with wine display behind him
 - f2-foto [scena]: two photographs of an old magnum wine bottle with a vintage label side by side on a table, magnifying glass, warm light
+- f2-caveau [scena]: clean modern wine vault with wooden racks of old bottles, soft spotlights, steel door open, elegant, no people

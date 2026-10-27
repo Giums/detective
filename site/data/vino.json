@@ -8,49 +8,49 @@
  "difficolta": "difficile",
  "eta": "per tutti",
  "genere": "truffa",
- "copertina": null,
+ "copertina": "casi/vino/img/copertina.jpg",
  "personaggi": [
   {
    "id": "conte",
    "nome": "Ugo Asinari",
    "ruolo": "il conte, 80 anni",
    "html": "<p>Ultimo erede del Castello di Treiso. Ha messo all'asta sei bottiglie della cantina di famiglia per restaurare il tetto del castello.</p>",
-   "img": null
+   "img": "casi/vino/img/conte.jpg"
   },
   {
    "id": "battista",
    "nome": "Battista Rivetti",
    "ruolo": "il vecchio cantiniere, 74 anni",
    "html": "<p>Ha curato la cantina del castello per cinquant'anni. Conosce ogni bottiglia per nome.</p>",
-   "img": null
+   "img": "casi/vino/img/battista.jpg"
   },
   {
    "id": "sara",
    "nome": "Sara Bruno",
    "ruolo": "l'esperta della casa d'aste, 40 anni",
    "html": "<p>Responsabile dei vini rari della Langhe Fine Wines. Ha preso in carico le bottiglie al castello.</p>",
-   "img": null
+   "img": "casi/vino/img/sara.jpg"
   },
   {
    "id": "gilardi",
    "nome": "Marco Gilardi",
    "ruolo": "il titolare della casa d'aste, 55 anni",
    "html": "<p>Banditore elegante e brillante. La sua casa d'aste ha qualche difficoltà economica.</p>",
-   "img": null
+   "img": "casi/vino/img/gilardi.jpg"
   },
   {
    "id": "pierre",
    "nome": "Pierre Lambert",
    "ruolo": "il sommelier, 50 anni",
    "html": "<p>Sommelier francese di fama, garante dell'autenticità dei lotti più importanti.</p>",
-   "img": null
+   "img": "casi/vino/img/pierre.jpg"
   },
   {
    "id": "chen",
    "nome": "Chen Wei",
    "ruolo": "il compratore, 45 anni",
    "html": "<p>Collezionista di vini e di arte, ha comprato la magnum.</p>",
-   "img": null
+   "img": "casi/vino/img/chen.jpg"
   }
  ],
  "fasi": [
@@ -113,7 +113,7 @@
      "tipo": "foto",
      "titolo": "Le foto della magnum: castello ed esposizione",
      "html": "<ol><li><strong>Foto del 2 settembre, al castello, scattata da Sara Bruno:</strong> strappo dell'etichetta in alto <strong>a destra</strong>; sul vetro, a gesso, «47/3» con una grafia inclinata a sinistra.</li><li><strong>Foto del 21 settembre, all'esposizione, catalogo ufficiale:</strong> strappo dell'etichetta in alto <strong>a sinistra</strong>; sul vetro, a gesso, «47/3», ma con una grafia <strong>dritta e diversa</strong>.</li></ol>",
-     "img": null
+     "img": "casi/vino/img/f2-foto.jpg"
     },
     {
      "id": "f2-pierre",
@@ -127,7 +127,7 @@
      "tipo": "registro",
      "titolo": "Registro degli accessi al caveau della casa d'aste",
      "html": "<table><thead><tr><th>Data</th><th>Ora</th><th>Chi</th><th>Note</th></tr></thead><tbody><tr><td>2 settembre</td><td>17:10–17:40</td><td>Sara Bruno</td><td>Deposito delle bottiglie del castello</td></tr><tr><td>10 settembre</td><td>10:00–10:10</td><td>Marco Gilardi, con il perito dell'assicurazione</td><td>Sopralluogo per la polizza</td></tr><tr><td><strong>13 settembre (sabato)</strong></td><td><strong>18:30–19:45</strong></td><td><strong>Sara Bruno</strong></td><td><em>Casa d'aste chiusa al pubblico</em></td></tr><tr><td>20 settembre</td><td>9:00–11:00</td><td>Sara Bruno e due magazzinieri</td><td>Preparazione dell'esposizione</td></tr></tbody></table>",
-     "img": null
+     "img": "casi/vino/img/f2-caveau.jpg"
     },
     {
      "id": "f2-gilardi",

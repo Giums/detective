@@ -82,3 +82,4 @@ con quello che c'è nei loro racconti.
 - marta [ritratto]: portrait of a smiling 38 year old Italian shop assistant, ponytail, striped apron, glass pastry counter behind her
 - gianna [ritratto]: portrait of a proud 55 year old Italian woman pastry shop owner, red lipstick, elegant coat, arms crossed, piazza behind her
 - f1-cassetto [scena]: old wooden drawer in a bright pastry kitchen, brass key hanging on a hook beside it, powdered sugar spilled on the tiled floor with small footprints, warm light
+- f3-post [scena]: illuminated vintage Italian pastry shop sign seen from a window above at dusk, cosy street, warm glow

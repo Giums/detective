@@ -8,42 +8,42 @@
  "difficolta": "difficile",
  "eta": "per tutti",
  "genere": "truffa",
- "copertina": null,
+ "copertina": "casi/testamento/img/copertina.jpg",
  "personaggi": [
   {
    "id": "arturo",
    "nome": "Arturo Bellandi",
    "ruolo": "lo zio scomparso, 88 anni",
    "html": "<p>Industriale della carta, vedovo e senza figli. Dal 2023 malato di Parkinson.</p>",
-   "img": null
+   "img": "casi/testamento/img/arturo.jpg"
   },
   {
    "id": "filippo",
    "nome": "Filippo Bellandi",
    "ruolo": "il nipote, 46 anni",
    "html": "<p>Ha un locale a Milano che va male. È stato l'unico a passare qualche weekend con lo zio negli ultimi anni.</p>",
-   "img": null
+   "img": "casi/testamento/img/filippo.jpg"
   },
   {
    "id": "marta",
    "nome": "Marta Bellandi",
    "ruolo": "la nipote, 50 anni",
    "html": "<p>Archivista alla Biblioteca Statale di Lucca. Ha riordinato l'archivio di famiglia dello zio.</p>",
-   "img": null
+   "img": "casi/testamento/img/marta.jpg"
   },
   {
    "id": "lorenzo",
    "nome": "Lorenzo Bellandi",
    "ruolo": "il nipote, 41 anni",
    "html": "<p>Ingegnere, vive a Melbourne dal 2020. Non è riuscito a tornare per il funerale.</p>",
-   "img": null
+   "img": "casi/testamento/img/lorenzo.jpg"
   },
   {
    "id": "graziella",
    "nome": "Graziella Poli",
    "ruolo": "l'assistente dello zio, 61 anni",
    "html": "<p>Si è presa cura di Arturo per otto anni, giorno e notte.</p>",
-   "img": null
+   "img": "casi/testamento/img/graziella.jpg"
   }
  ],
  "fasi": [
@@ -64,7 +64,7 @@
      "tipo": "lettera",
      "titolo": "Il testamento ritrovato",
      "html": "<p class=\"intest\"><em>Scritto a mano con inchiostro stilografico blu notte, su un foglio di carta pregiata con filigrana.</em></p><p>«Io, Arturo Bellandi, nel pieno delle mie facoltà, revoco ogni mio testamento precedente e lascio tutti i miei beni al mio nipote Filippo, l'unico che mi è stato vicino in questi anni. Lucca, 3 marzo 2026. Con l'affetto di sempre, Arturo Bellandi»</p>",
-     "img": null
+     "img": "casi/testamento/img/f1-testamento.jpg"
     },
     {
      "id": "f1-graziella",
@@ -176,7 +176,7 @@
      "tipo": "documento",
      "titolo": "Sopralluogo nello studio",
      "html": "<p>Sulla scrivania i <em>Promessi sposi</em> sono in bella vista. Graziella spolvera lo studio ogni domenica alle 11, e tutti in famiglia lo sanno.</p><p>Accanto al libro c'è la scatola 3 dell'archivio, con il coperchio appoggiato storto.</p>",
-     "img": null
+     "img": "casi/testamento/img/f3-scrivania.jpg"
     }
    ]
   }

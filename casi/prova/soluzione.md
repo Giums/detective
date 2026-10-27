@@ -55,3 +55,4 @@ giocatori vogliono «interrogarli», ma rispondi solo con quello che c'è nei lo
 - luca [ritratto]: portrait of a 12 year old Italian boy holding a game controller, headphones around his neck, playful grin, bedroom behind him
 - gatto [ritratto]: portrait of a fluffy orange tabby cat sitting proudly on a sofa, smug expression, living room
 - zio [ritratto]: portrait of a 50 year old jovial Italian uncle with a round belly, coat on, guilty innocent smile, a tiny crumb on his moustache, hallway behind him
+- p1-davanzale [scena]: open kitchen window with a lace curtain, empty cake plate with a few crumbs on the sunny windowsill, garden outside, cheerful

@@ -8,42 +8,42 @@
  "difficolta": "media",
  "eta": "per tutti",
  "genere": "furto",
- "copertina": null,
+ "copertina": "casi/museo/img/copertina.jpg",
  "personaggi": [
   {
    "id": "elena",
    "nome": "Elena Galeani",
    "ruolo": "la direttrice, 55 anni",
    "html": "<p>Discendente del fondatore del museo. Da due anni lotta con i conti in rosso.</p>",
-   "img": null
+   "img": "casi/museo/img/elena.jpg"
   },
   {
    "id": "bruno",
    "nome": "Bruno Ferrante",
    "ruolo": "il custode, 62 anni",
    "html": "<p>Custode notturno da trent'anni. Fra tre mesi va in pensione. Conosce ogni scricchiolio del museo.</p>",
-   "img": null
+   "img": "casi/museo/img/bruno.jpg"
   },
   {
    "id": "tommaso",
    "nome": "Tommaso Velli",
    "ruolo": "il restauratore, 40 anni",
    "html": "<p>Restauratore di fiducia del museo. Ha appena finito di restaurare «La bambina col pettirosso».</p>",
-   "img": null
+   "img": "casi/museo/img/tommaso.jpg"
   },
   {
    "id": "giulia",
    "nome": "Giulia Neri",
    "ruolo": "la tirocinante, 24 anni",
    "html": "<p>Studentessa di storia dell'arte. Fotografa ogni opera per il nuovo catalogo online.</p>",
-   "img": null
+   "img": "casi/museo/img/giulia.jpg"
   },
   {
    "id": "sarti",
    "nome": "Ludovico Sarti",
    "ruolo": "l'antiquario, 58 anni",
    "html": "<p>Antiquario e collezionista. Da un anno vuole comprare «La bambina col pettirosso».</p>",
-   "img": null
+   "img": "casi/museo/img/sarti.jpg"
   }
  ],
  "fasi": [
@@ -71,7 +71,7 @@
      "tipo": "piantina",
      "titolo": "Piantina del museo",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li><strong>Ingresso</strong> e biglietteria, con la postazione del custode.</li><li><strong>Sala Grande</strong>: qui si è tenuta la festa di venerdì sera.</li><li><strong>Sala Rossa</strong>: piccola, con sei quadri; sulla parete di fondo «La bambina col pettirosso». Si entra solo dalla Sala Grande.</li></ul><p class=\"intest\"><strong>Piano interrato</strong></p><ul><li><strong>Laboratorio di restauro</strong>: porta con lettore di badge. Ha un'uscita di servizio sul cortile, usata per carichi e spedizioni.</li><li><strong>Magazzino</strong>.</li></ul><p><strong>Sistema di allarme</strong>: copre tutte le sale. Durante gli eventi la Sala Grande e la Sala Rossa restano disattivate e sono sorvegliate dalle telecamere.</p>",
-     "img": null
+     "img": "casi/museo/img/f1-piantina.jpg"
     },
     {
      "id": "f1-elena",
@@ -155,7 +155,7 @@
      "tipo": "foto",
      "titolo": "Le foto di Giulia: confronto",
      "html": "<p>Tre foto ad alta definizione dello stesso dettaglio: l'ala del pettirosso.</p><ol><li><strong>Lunedì 6 ottobre, ore 15:20, laboratorio di restauro.</strong> Il quadro è sul cavalletto principale. <strong>La crepa diagonale sull'ala è ben visibile.</strong> Sullo sfondo della foto, su un secondo cavalletto in fondo al laboratorio, c'è <strong>una tela delle stesse dimensioni coperta da un telo bianco</strong>.</li><li><strong>Giovedì 9 ottobre, ore 11:00, Sala Rossa</strong>, appena riappeso. <strong>La crepa non c'è.</strong></li><li><strong>Sabato 11 ottobre, ore 8:40, Sala Rossa.</strong> Uguale a giovedì: <strong>nessuna crepa.</strong></li></ol>",
-     "img": null
+     "img": "casi/museo/img/f3-foto.jpg"
     },
     {
      "id": "f3-giulia",

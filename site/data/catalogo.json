@@ -9,7 +9,7 @@
   "difficolta": "difficile",
   "eta": "per tutti",
   "genere": "furto",
-  "copertina": null
+  "copertina": "casi/chip/img/copertina.jpg"
  },
  {
   "id": "diadema",
@@ -21,7 +21,7 @@
   "difficolta": "difficile",
   "eta": "per tutti",
   "genere": "furto",
-  "copertina": null
+  "copertina": "casi/diadema/img/copertina.jpg"
  },
  {
   "id": "museo",
@@ -33,7 +33,7 @@
   "difficolta": "media",
   "eta": "per tutti",
   "genere": "furto",
-  "copertina": null
+  "copertina": "casi/museo/img/copertina.jpg"
  },
  {
   "id": "prova",
@@ -45,7 +45,7 @@
   "difficolta": "allenamento",
   "eta": "per tutti",
   "genere": "mistero",
-  "copertina": null
+  "copertina": "casi/prova/img/copertina.jpg"
  },
  {
   "id": "ricetta",
@@ -57,7 +57,7 @@
   "difficolta": "facile",
   "eta": "per tutti",
   "genere": "furto",
-  "copertina": null
+  "copertina": "casi/ricetta/img/copertina.jpg"
  },
  {
   "id": "robot",
@@ -69,7 +69,7 @@
   "difficolta": "media",
   "eta": "per tutti",
   "genere": "mistero",
-  "copertina": null
+  "copertina": "casi/robot/img/copertina.jpg"
  },
  {
   "id": "testamento",
@@ -81,7 +81,7 @@
   "difficolta": "difficile",
   "eta": "per tutti",
   "genere": "truffa",
-  "copertina": null
+  "copertina": "casi/testamento/img/copertina.jpg"
  },
  {
   "id": "vino",
@@ -93,7 +93,7 @@
   "difficolta": "difficile",
   "eta": "per tutti",
   "genere": "truffa",
-  "copertina": null
+  "copertina": "casi/vino/img/copertina.jpg"
  },
  {
   "id": "masseria",
@@ -105,7 +105,7 @@
   "difficolta": "facile",
   "eta": "da 14 anni",
   "genere": "omicidio",
-  "copertina": null
+  "copertina": "casi/masseria/img/copertina.jpg"
  },
  {
   "id": "teatro",
@@ -117,7 +117,7 @@
   "difficolta": "difficile",
   "eta": "da 14 anni",
   "genere": "omicidio",
-  "copertina": null
+  "copertina": "casi/teatro/img/copertina.jpg"
  },
  {
   "id": "treno",
@@ -129,7 +129,7 @@
   "difficolta": "difficile",
   "eta": "da 14 anni",
   "genere": "omicidio",
-  "copertina": null
+  "copertina": "casi/treno/img/copertina.jpg"
  },
  {
   "id": "villa",
@@ -141,6 +141,6 @@
   "difficolta": "difficile",
   "eta": "da 14 anni",
   "genere": "omicidio",
-  "copertina": null
+  "copertina": "casi/villa/img/copertina.jpg"
  }
 ]

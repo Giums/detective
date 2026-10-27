@@ -8,42 +8,42 @@
  "difficolta": "difficile",
  "eta": "da 14 anni",
  "genere": "omicidio",
- "copertina": null,
+ "copertina": "casi/villa/img/copertina.jpg",
  "personaggi": [
   {
    "id": "ruggero",
    "nome": "Ruggero Carducci",
    "ruolo": "la vittima, 68 anni",
    "html": "<p>Conte, collezionista di manoscritti miniati. Diffidente e puntiglioso: tiene un inventario di ogni pagina della sua biblioteca.</p>",
-   "img": null
+   "img": "casi/villa/img/ruggero.jpg"
   },
   {
    "id": "elena",
    "nome": "Elena Carducci",
    "ruolo": "la figlia, 42 anni",
    "html": "<p>Restauratrice di libri antichi. Da anni litiga con il padre per soldi.</p>",
-   "img": null
+   "img": "casi/villa/img/elena.jpg"
   },
   {
    "id": "marco",
    "nome": "Marco Valenti",
    "ruolo": "l'assistente, 35 anni",
    "html": "<p>Segretario e archivista del conte da quattro anni. Cura la biblioteca, la corrispondenza e il catalogo della collezione.</p>",
-   "img": null
+   "img": "casi/villa/img/marco.jpg"
   },
   {
    "id": "beatrice",
    "nome": "Beatrice Donati",
    "ruolo": "la governante, 58 anni",
    "html": "<p>Al servizio dei Carducci da trent'anni. Cura la cucina e l'essiccatoio delle erbe officinali.</p>",
-   "img": null
+   "img": "casi/villa/img/beatrice.jpg"
   },
   {
    "id": "moretti",
    "nome": "Alberto Moretti",
    "ruolo": "il medico di famiglia, 64 anni",
    "html": "<p>Medico in pensione, amico di vecchia data del conte. Ogni sera, quando è ospite, gli misura la pressione.</p>",
-   "img": null
+   "img": "casi/villa/img/moretti.jpg"
   }
  ],
  "fasi": [
@@ -64,14 +64,14 @@
      "tipo": "piantina",
      "titolo": "Piantina della villa",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li>Salotto, sala da pranzo, <strong>cucina</strong>, <strong>biblioteca</strong> con la vetrina blindata dei manoscritti.</li><li>Camera della governante, sul retro.</li><li>Dépendance dell'assistente, collegata alla biblioteca.</li><li><strong>Essiccatoio</strong> delle erbe officinali, in fondo all'orto. La chiave è appesa a un gancio in cucina.</li></ul><p class=\"intest\"><strong>Primo piano</strong></p><ul><li><strong>Pianerottolo</strong> in cima alle scale, con un <strong>sensore di movimento</strong> che registra ogni passaggio. Chiunque salga o scenda le scale, o entri nel corridoio ovest, viene rilevato.</li><li><strong>Corridoio ovest</strong>, oltre il sensore: <strong>camera degli ospiti</strong> (Dott. Moretti), poi il <strong>bagno</strong>, poi in fondo lo <strong>studio</strong> del conte.</li></ul><p class=\"intest\"><strong>Secondo piano</strong></p><ul><li>Camera di Elena. Per scendere si passa obbligatoriamente dal pianerottolo del primo piano.</li></ul>",
-     "img": null
+     "img": "casi/villa/img/f1-piantina.jpg"
     },
     {
      "id": "f1-studio",
      "tipo": "foto",
      "titolo": "Lo studio del conte",
      "html": "<ul><li><strong>La scrivania:</strong> un vassoio con una <strong>tazza di tisana vuota</strong>, con un fondo verdastro, e un barattolino di miele aperto. Accanto c'è il misuratore di pressione del medico.</li><li><strong>Un quaderno</strong> aperto: l'inventario della collezione, scritto a mano dal conte.</li><li><strong>La cassaforte:</strong> chiusa, intatta. Dentro c'è il Codice Aureo, il manoscritto più prezioso della collezione.</li><li><strong>La finestra:</strong> chiusa, con la neve contro i vetri.</li></ul>",
-     "img": null
+     "img": "casi/villa/img/f1-studio.jpg"
     },
     {
      "id": "f1-beatrice",

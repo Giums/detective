@@ -8,49 +8,49 @@
  "difficolta": "media",
  "eta": "per tutti",
  "genere": "mistero",
- "copertina": null,
+ "copertina": "casi/robot/img/copertina.jpg",
  "personaggi": [
   {
    "id": "leone",
    "nome": "Anna Leone",
    "ruolo": "la professoressa allenatrice, 50 anni",
    "html": "<p>Insegna informatica e allena la squadra da cinque anni. Severa ma giusta.</p>",
-   "img": null
+   "img": "casi/robot/img/leone.jpg"
   },
   {
    "id": "matteo",
    "nome": "Matteo Russo",
    "ruolo": "il capitano, 17 anni",
    "html": "<p>Ha costruito la parte meccanica di Ugo. Sicuro di sé, a volte un po' troppo.</p>",
-   "img": null
+   "img": "casi/robot/img/matteo.jpg"
   },
   {
    "id": "chiara",
    "nome": "Chiara Bassi",
    "ruolo": "la programmatrice, 16 anni",
    "html": "<p>Ha scritto tutto il programma di Ugo. La più brava della scuola con il codice.</p>",
-   "img": null
+   "img": "casi/robot/img/chiara.jpg"
   },
   {
    "id": "davide",
    "nome": "Davide Greco",
    "ruolo": "l'ex membro, 17 anni",
    "html": "<p>Faceva parte della squadra fino a ottobre, poi è stato escluso dopo una lite con il capitano.</p>",
-   "img": null
+   "img": "casi/robot/img/davide.jpg"
   },
   {
    "id": "ferraro",
    "nome": "Marco Ferraro",
    "ruolo": "il professore rivale, 48 anni",
    "html": "<p>Allena la squadra del Liceo Righi, gli eterni rivali. Venerdì è passato a vedere Ugo.</p>",
-   "img": null
+   "img": "casi/robot/img/ferraro.jpg"
   },
   {
    "id": "rocco",
    "nome": "Rocco Amato",
    "ruolo": "il bidello, 60 anni",
    "html": "<p>Ha le chiavi di tutta la scuola. Apre e chiude ogni giorno.</p>",
-   "img": null
+   "img": "casi/robot/img/rocco.jpg"
   }
  ],
  "fasi": [
@@ -78,7 +78,7 @@
      "tipo": "piantina",
      "titolo": "Piantina della scuola",
      "html": "<ul><li><strong>Portineria</strong> all'ingresso: chi non è della scuola firma il registro all'entrata e all'uscita. Anche le chiavi delle aule si prendono e si restituiscono qui.</li><li><strong>Corridoio del primo piano</strong>, con una telecamera che inquadra la porta del <strong>Laboratorio 2</strong>.</li><li><strong>Laboratorio 2</strong>: un'unica porta sul corridoio, finestre al primo piano. Dentro c'è il tavolo del robot e l'armadietto della squadra.</li><li><strong>Palestra</strong>, al piano terra, dove si svolge la gara.</li></ul>",
-     "img": null
+     "img": "casi/robot/img/f1-piantina.jpg"
     },
     {
      "id": "f1-leone",
@@ -113,7 +113,7 @@
      "tipo": "registro",
      "titolo": "Memoria interna di Ugo (venerdì 14 novembre)",
      "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>17:05</td><td>Accensione</td></tr><tr><td>17:20</td><td>Prova 5: completata</td></tr><tr><td>17:50</td><td>Prova 6: completata</td></tr><tr><td>18:22</td><td>Prova 7: <strong>ERRORE — braccio oltre il limite, urto contro la parete</strong></td></tr><tr><td>18:30</td><td>Prova 8: completata</td></tr><tr><td>18:52:10</td><td><strong>Scheda rimossa</strong></td></tr><tr><td>18:53:40</td><td><strong>Scheda inserita — nessun programma trovato</strong></td></tr><tr><td>18:54</td><td>Spegnimento</td></tr><tr><td><em>sabato 8:30</em></td><td>Accensione — nessun programma trovato</td></tr></tbody></table>",
-     "img": null
+     "img": "casi/robot/img/f2-memoria.jpg"
     },
     {
      "id": "f2-portineria",

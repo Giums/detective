@@ -8,56 +8,56 @@
  "difficolta": "difficile",
  "eta": "da 14 anni",
  "genere": "omicidio",
- "copertina": null,
+ "copertina": "casi/treno/img/copertina.jpg",
  "personaggi": [
   {
    "id": "ranieri",
    "nome": "Ottavio Ranieri",
    "ruolo": "la vittima, 61 anni",
    "html": "<p>Editore potente e temuto. Soffriva di una <strong>gravissima allergia alle arachidi</strong> e portava sempre con sé una penna di adrenalina per le emergenze.</p>",
-   "img": null
+   "img": "casi/treno/img/ranieri.jpg"
   },
   {
    "id": "lavinia",
    "nome": "Lavinia Ranieri",
    "ruolo": "la figlia, 38 anni",
    "html": "<p>Vicedirettrice della casa editrice. Contraria alla vendita, che l'avrebbe lasciata senza ruolo.</p>",
-   "img": null
+   "img": "casi/treno/img/lavinia.jpg"
   },
   {
    "id": "ettore",
    "nome": "Ettore Sala",
    "ruolo": "lo scrittore, 55 anni",
    "html": "<p>Il romanziere più venduto della Ranieri Editore. Pubblica con Ranieri da trent'anni.</p>",
-   "img": null
+   "img": "casi/treno/img/ettore.jpg"
   },
   {
    "id": "nadia",
    "nome": "Nadia Ferri",
    "ruolo": "l'assistente, 29 anni",
    "html": "<p>Segue Ranieri ovunque. In borsa tiene la sua <strong>seconda penna di adrenalina</strong>.</p>",
-   "img": null
+   "img": "casi/treno/img/nadia.jpg"
   },
   {
    "id": "klaus",
    "nome": "Klaus Werner",
    "ruolo": "il compratore, 58 anni",
    "html": "<p>Amministratore del gruppo editoriale tedesco Werner Verlag, che vuole comprare la Ranieri Editore.</p>",
-   "img": null
+   "img": "casi/treno/img/klaus.jpg"
   },
   {
    "id": "giorgia",
    "nome": "Giorgia Miceli",
    "ruolo": "la giornalista, 45 anni",
    "html": "<p>Sta scrivendo un'inchiesta sui conti della Ranieri Editore. Ha prenotato lo stesso treno «per caso».</p>",
-   "img": null
+   "img": "casi/treno/img/giorgia.jpg"
   },
   {
    "id": "toto",
    "nome": "Totò Bonanno",
    "ruolo": "il cuccettista, 50 anni",
    "html": "<p>Da vent'anni accompagna i passeggeri della carrozza letto. Conosce le abitudini di tutti i clienti fissi.</p>",
-   "img": null
+   "img": "casi/treno/img/toto.jpg"
   }
  ],
  "fasi": [
@@ -78,14 +78,14 @@
      "tipo": "piantina",
      "titolo": "Piantina della carrozza letto 3",
      "html": "<p>In ordine, dalla testa alla coda della carrozza:</p><ul><li><strong>Passaggio verso la carrozza bar</strong>.</li><li><strong>Bagno</strong> della carrozza.</li><li><strong>Cabina del cuccettista</strong>: un banco dove Totò prepara tè, tisane e colazioni. C'è la scatola delle <strong>bustine di miele</strong> per tutti i passeggeri della carrozza.</li><li><strong>Corridoio</strong> con gli scompartimenti: - n. 5, Lavinia; - n. 6, Ettore; - n. 7, Ranieri; - n. 8, Klaus; - n. 9, Nadia; - n. 10, Giorgia.</li></ul><p>Per tornare dal bar al proprio scompartimento si passa davanti alla cabina del cuccettista.</p>",
-     "img": null
+     "img": "casi/treno/img/f1-piantina.jpg"
     },
     {
      "id": "f1-scompartimento",
      "tipo": "foto",
      "titolo": "Lo scompartimento n. 7",
      "html": "<ul><li>Sul tavolino c'è un vassoio con una tazza vuota di camomilla e una <strong>bustina di miele aperta e vuota</strong>.</li><li>Sull'appendiabiti c'è la giacca di Ranieri. <strong>Il taschino interno, dove teneva sempre la penna di adrenalina, è vuoto.</strong></li><li>Nella borsa da viaggio ci sono medicine per la pressione e una cartella di documenti.</li><li>Il telefono di Ranieri, ancora in mano, ha sullo schermo il registro delle chiamate.</li></ul>",
-     "img": null
+     "img": "casi/treno/img/f1-scompartimento.jpg"
     },
     {
      "id": "f1-toto",

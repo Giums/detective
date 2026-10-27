@@ -103,3 +103,4 @@ giocatori vogliono «interrogarli», ma rispondi solo con quello che c'è nei lo
 - albani [ritratto]: portrait of a 52 year old businessman from Milan, tailored navy suit, expensive watch, controlled smile, evening terrace behind him
 - rosaria [ritratto]: portrait of a 38 year old Sicilian woman cook, kitchen apron, dark hair tied back, warm rustic kitchen with copper pots behind her
 - f1-scena [scena]: old stone staircase leading down into a warmly lit vaulted wine cellar, oak barrels and bottle racks, golden lamps, tidy and welcoming
+- f1-piantina [scena]: Sicilian masseria farmhouse courtyard with stone walls, vineyard rows and olive trees at golden sunset, welcoming

@@ -8,49 +8,49 @@
  "difficolta": "difficile",
  "eta": "per tutti",
  "genere": "furto",
- "copertina": null,
+ "copertina": "casi/chip/img/copertina.jpg",
  "personaggi": [
   {
    "id": "irene",
    "nome": "Irene Calì",
    "ruolo": "la fondatrice e amministratrice, 44 anni",
    "html": "<p>Ha inventato Orione in dieci anni di ricerca. Guida la Lumen con energia e pochissimo sonno.</p>",
-   "img": null
+   "img": "casi/chip/img/irene.jpg"
   },
   {
    "id": "stefano",
    "nome": "Stefano Musumeci",
    "ruolo": "il cofondatore e direttore tecnico, 39 anni",
    "html": "<p>Ha costruito la linea di produzione. Ultimamente litiga spesso con Irene sul futuro dell'azienda.</p>",
-   "img": null
+   "img": "casi/chip/img/stefano.jpg"
   },
   {
    "id": "yuki",
    "nome": "Yuki Tanaka",
    "ruolo": "la ricercatrice ospite, 31 anni",
    "html": "<p>Ingegnera di un'azienda partner di Osaka, alla Lumen da tre settimane per un progetto comune.</p>",
-   "img": null
+   "img": "casi/chip/img/yuki.jpg"
   },
   {
    "id": "dario",
    "nome": "Dario Pappalardo",
    "ruolo": "l'ingegnere junior, 27 anni",
    "html": "<p>Il più giovane del gruppo. Bravissimo, appassionato di videogiochi, con qualche problema di soldi.</p>",
-   "img": null
+   "img": "casi/chip/img/dario.jpg"
   },
   {
    "id": "hale",
    "nome": "Victor Hale",
    "ruolo": "l'investitore, 55 anni",
    "html": "<p>Fondatore del fondo londinese Hale Ventures. Venerdì doveva assistere alla dimostrazione.</p>",
-   "img": null
+   "img": "casi/chip/img/hale.jpg"
   },
   {
    "id": "salvo",
    "nome": "Salvo Grasso",
    "ruolo": "la guardia giurata, 58 anni",
    "html": "<p>Fa il turno di notte all'Etna Valley da vent'anni.</p>",
-   "img": null
+   "img": "casi/chip/img/salvo.jpg"
   }
  ],
  "fasi": [
@@ -71,14 +71,14 @@
      "tipo": "piantina",
      "titolo": "Piantina della Lumen",
      "html": "<ul><li><strong>Cancello</strong> dell'area industriale, con una telecamera.</li><li><strong>Ingresso</strong> dell'edificio: si apre con il <strong>badge personale</strong>, che registra entrate e uscite.</li><li><strong>Open space</strong> degli uffici.</li><li><strong>Spogliatoio</strong> della camera pulita: le tute sterili sono appese per taglia e hanno ciascuna un <strong>chip RFID</strong> che registra quando vengono prese e rimesse a posto.</li><li><strong>Camera pulita</strong>, che si apre con il badge. All'interno, la <strong>cassaforte</strong> con il codice.</li></ul>",
-     "img": null
+     "img": "casi/chip/img/f1-piantina.jpg"
     },
     {
      "id": "f1-cassaforte",
      "tipo": "documento",
      "titolo": "La cassaforte della camera pulita",
      "html": "<ul><li>Cassaforte elettronica con tastierino. Contiene i quattro esemplari di Orione, ognuno in un sacchetto antistatico con il logo Lumen e il numero di serie.</li><li>Il codice lo conoscono <strong>solo Irene e Stefano</strong>.</li><li>Il registro della cassaforte mostra un'apertura <strong>con il codice corretto</strong> giovedì alle <strong>23:44</strong> e la chiusura alle 23:46. La successiva è quella di Dario, venerdì alle 8:02.</li></ul>",
-     "img": null
+     "img": "casi/chip/img/f1-cassaforte.jpg"
     },
     {
      "id": "f1-irene",

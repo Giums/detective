@@ -8,49 +8,49 @@
  "difficolta": "facile",
  "eta": "da 14 anni",
  "genere": "omicidio",
- "copertina": null,
+ "copertina": "casi/masseria/img/copertina.jpg",
  "personaggi": [
   {
    "id": "corrado",
    "nome": "Corrado Lo Faro",
    "ruolo": "la vittima, 64 anni",
    "html": "<p>Proprietario della masseria e delle Tenute Lo Faro, vino DOC Noto. Burbero, orgoglioso, abituato a decidere da solo.</p>",
-   "img": null
+   "img": "casi/masseria/img/corrado.jpg"
   },
   {
    "id": "ninfa",
    "nome": "Ninfa Lo Faro",
    "ruolo": "la moglie, 58 anni",
    "html": "<p>Sposata con Corrado da 34 anni. Elegante e riservata, si occupa dell'agriturismo.</p>",
-   "img": null
+   "img": "casi/masseria/img/ninfa.jpg"
   },
   {
    "id": "daniele",
    "nome": "Daniele Lo Faro",
    "ruolo": "il figlio, 31 anni",
    "html": "<p>Vive a Catania, torna alla masseria solo quando deve. Ha sempre spinto per vendere la tenuta.</p>",
-   "img": null
+   "img": "casi/masseria/img/daniele.jpg"
   },
   {
    "id": "agata",
    "nome": "Agata Russo",
    "ruolo": "l'enologa, 45 anni",
    "html": "<p>Lavora per le Tenute Lo Faro da vent'anni. Firma i registri di cantina e segue ogni vasca.</p>",
-   "img": null
+   "img": "casi/masseria/img/agata.jpg"
   },
   {
    "id": "albani",
    "nome": "Marco Albani",
    "ruolo": "l'imprenditore, 52 anni",
    "html": "<p>Amministratore di Albani Resort, una catena di hotel di lusso. Vuole trasformare la masseria in un resort.</p>",
-   "img": null
+   "img": "casi/masseria/img/albani.jpg"
   },
   {
    "id": "rosaria",
    "nome": "Rosaria Cutrona",
    "ruolo": "la cuoca, 38 anni",
    "html": "<p>Cuoca e governante della masseria da dodici anni. È stata lei a trovare il corpo.</p>",
-   "img": null
+   "img": "casi/masseria/img/rosaria.jpg"
   }
  ],
  "fasi": [
@@ -71,14 +71,14 @@
      "tipo": "piantina",
      "titolo": "Piantina della masseria",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li><strong>Terrazza</strong>: tavola della cena, all'aperto, lato sud.</li><li><strong>Cucina</strong>: si affaccia sulla terrazza con una grande finestra. Una seconda porta dà direttamente sull'<strong>ingresso</strong>.</li><li><strong>Ingresso</strong>: da qui partono la scala per il primo piano (camere) e la <strong>scala della cantina</strong>. Chi scende in cantina o sale in camera deve passare per l'ingresso.</li><li><strong>Studio</strong> di Corrado: accanto all'ingresso.</li></ul><p class=\"intest\"><strong>Piano interrato</strong></p><ul><li><strong>Cantina</strong>: botti e scaffali delle riserve. Una sola scala, quella dall'ingresso.</li><li>Una <strong>porta di servizio</strong> collega la cantina al palmento.</li></ul><p class=\"intest\"><strong>Corpo separato (40 metri dalla casa, si raggiunge dal cortile)</strong></p><ul><li><strong>Palmento</strong>: vasche di fermentazione con pannello elettronico di controllo, l'antico torchio, un lavello e il piccolo laboratorio dell'enologa.</li><li><strong>Spogliatoio</strong>: stivali da lavoro e tute.</li></ul>",
-     "img": null
+     "img": "casi/masseria/img/f1-piantina.jpg"
     },
     {
      "id": "f1-scena",
      "tipo": "foto",
      "titolo": "Foto della scena",
      "html": "<p>Fondo della scala della cantina. Il corpo è sui primi gradini e sul pavimento. Sulla nuca c'è una ferita da cui è uscito molto sangue.</p><p>Accanto alla mano destra c'è il collo di una bottiglia rotta, con l'etichetta in gran parte leggibile: <em>Tenute Lo Faro — Noto Rosso Riserva 1998</em>. Il vino si è sparso fino a circa due metri dalla scala, verso la porta del palmento.</p><p>Sul terzo gradino dal basso c'è un graffio fresco sulla pietra, con frammenti di vetro.</p>",
-     "img": null
+     "img": "casi/masseria/img/f1-scena.jpg"
     },
     {
      "id": "f1-rosaria",

@@ -88,3 +88,4 @@ Se si bloccano per più di 10 minuti, dai un suggerimento della fase in corso.
 - hale [ritratto]: portrait of a polished 55 year old British venture capitalist, navy suit, silver hair, confident smile, hotel lounge behind him
 - salvo [ritratto]: portrait of a kind 58 year old Sicilian night security guard, grey moustache, uniform, flashlight in hand, industrial park at night with lights behind him
 - f1-cassaforte [scena]: small glowing microchip in an antistatic bag on a cleanroom bench, yellow cleanroom lighting, open steel safe in the background, futuristic
+- f1-piantina [scena]: modern tech startup building at night with glowing glass windows and a clean laboratory visible inside, friendly and futuristic

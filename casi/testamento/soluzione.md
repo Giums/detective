@@ -85,3 +85,4 @@ suggerimento della fase in corso.
 - lorenzo [ritratto]: portrait of a friendly 41 year old Italian engineer, short beard, polo shirt, sunny Melbourne skyline behind him
 - graziella [ritratto]: portrait of a warm 61 year old Italian caregiver, short grey hair, simple blouse, gentle smile, elegant old apartment behind her
 - f1-testamento [scena]: handwritten letter on cream handmade paper with a watermark, blue fountain pen ink, lying on an antique desk next to an old book, warm light
+- f3-scrivania [scena]: tidy antique study desk with fountain pens, cream paper sheets and archive boxes, bookshelves, warm afternoon light, no people

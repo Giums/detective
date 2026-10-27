@@ -87,3 +87,4 @@ giocatori vogliono «interrogarli», ma rispondi solo con quello che c'è nei lo
 - giulia [ritratto]: portrait of a cheerful 24 year old Italian art history student, round glasses, camera around her neck, museum gallery behind her
 - sarti [ritratto]: portrait of a refined 58 year old Italian antique dealer, white beard, bow tie, tweed jacket, holding a magnifying glass, antique shop behind him
 - f3-foto [scena]: close-up of an old master oil painting of a little robin bird perched on a girl's hand, warm museum light, delicate brushstrokes
+- f1-piantina [scena]: elegant small Italian museum hall with red walls and framed old paintings, polished floor, warm light, empty

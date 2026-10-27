@@ -8,56 +8,56 @@
  "difficolta": "difficile",
  "eta": "da 14 anni",
  "genere": "omicidio",
- "copertina": null,
+ "copertina": "casi/teatro/img/copertina.jpg",
  "personaggi": [
   {
    "id": "valli",
    "nome": "Edoardo Valli",
    "ruolo": "la vittima, 67 anni",
    "html": "<p>Direttore d'orchestra celebre e temuto. Perfezionista, capace di distruggere una carriera con una frase.</p>",
-   "img": null
+   "img": "casi/teatro/img/valli.jpg"
   },
   {
    "id": "livia",
    "nome": "Livia Sforza",
    "ruolo": "la soprano, 48 anni",
    "html": "<p>Interpreta Tosca. Valli voleva sostituirla nella prossima stagione con una cantante più giovane.</p>",
-   "img": null
+   "img": "casi/teatro/img/livia.jpg"
   },
   {
    "id": "diego",
    "nome": "Diego Aranda",
    "ruolo": "il tenore, 35 anni",
    "html": "<p>Interpreta Cavaradossi. In prova Valli lo ha umiliato davanti a tutta l'orchestra.</p>",
-   "img": null
+   "img": "casi/teatro/img/diego.jpg"
   },
   {
    "id": "giacomo",
    "nome": "Giacomo Ferri",
    "ruolo": "il baritono, 52 anni",
    "html": "<p>Interpreta Scarpia, che muore alla fine del secondo atto: nel terzo atto non è in scena.</p>",
-   "img": null
+   "img": "casi/teatro/img/giacomo.jpg"
   },
   {
    "id": "caterina",
    "nome": "Caterina Valli",
    "ruolo": "la moglie, 55 anni",
    "html": "<p>Ex violinista. Assiste alla prima dal palco di proscenio.</p>",
-   "img": null
+   "img": "casi/teatro/img/caterina.jpg"
   },
   {
    "id": "lorenzo",
    "nome": "Lorenzo Pini",
    "ruolo": "l'assistente direttore, 33 anni",
    "html": "<p>Il «maestro sostituto»: conosce l'opera a memoria e dirige se il titolare non può farlo.</p>",
-   "img": null
+   "img": "casi/teatro/img/lorenzo.jpg"
   },
   {
    "id": "rita",
    "nome": "Rita Bonetti",
    "ruolo": "la direttrice di scena, 50 anni",
    "html": "<p>Coordina tutto ciò che accade dietro le quinte. È stata lei a trovare il corpo.</p>",
-   "img": null
+   "img": "casi/teatro/img/rita.jpg"
   }
  ],
  "fasi": [
@@ -78,7 +78,7 @@
      "tipo": "piantina",
      "titolo": "Piantina del retropalco",
      "html": "<ul><li><strong>Palcoscenico</strong>, con la buca dell'orchestra davanti.</li><li><strong>Corridoio dei camerini</strong>, a cui si accede dal palcoscenico o dalla scaletta che sale dalla buca dell'orchestra. In ordine: camerino n. 1 (Valli), n. 2 (Sforza), n. 3 (Aranda), n. 4 (Ferri).</li><li><strong>Sala prove</strong> con pianoforte, in fondo al corridoio, dove aspetta il maestro sostituto.</li><li><strong>Scala antincendio</strong> esterna in ferro, dove si affaccia la finestra del camerino n. 1. La porta che dal corridoio dà sulla scala ha un registro di apertura.</li><li>Il <strong>palco di proscenio</strong> e il <strong>bar del foyer</strong> sono nella zona del pubblico, dall'altra parte del sipario.</li></ul>",
-     "img": null
+     "img": "casi/teatro/img/f1-piantina.jpg"
     },
     {
      "id": "f1-rita",

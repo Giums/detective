@@ -8,35 +8,35 @@
  "difficolta": "allenamento",
  "eta": "per tutti",
  "genere": "mistero",
- "copertina": null,
+ "copertina": "casi/prova/img/copertina.jpg",
  "personaggi": [
   {
    "id": "nonna",
    "nome": "Nonna Pina",
    "ruolo": "la vittima del furto",
    "html": "<p>Ha preparato la torta per il compleanno del nipote. È furiosa.</p>",
-   "img": null
+   "img": "casi/prova/img/nonna.jpg"
   },
   {
    "id": "luca",
    "nome": "Luca",
    "ruolo": "il nipote, 12 anni",
    "html": "<p>Domani compie gli anni. Dice di aver passato il pomeriggio ai videogiochi.</p>",
-   "img": null
+   "img": "casi/prova/img/luca.jpg"
   },
   {
    "id": "gatto",
    "nome": "Briciola",
    "ruolo": "il gatto di casa",
    "html": "<p>Ha la mania di salire sul davanzale. Oggi ha l'aria molto soddisfatta.</p>",
-   "img": null
+   "img": "casi/prova/img/gatto.jpg"
   },
   {
    "id": "zio",
    "nome": "Zio Tano",
    "ruolo": "lo zio, 50 anni",
    "html": "<p>È passato a salutare. È a dieta da una settimana e ne parla con tutti.</p>",
-   "img": null
+   "img": "casi/prova/img/zio.jpg"
   }
  ],
  "fasi": [
@@ -50,7 +50,7 @@
      "tipo": "foto",
      "titolo": "Il davanzale",
      "html": "<p>Il piatto è vuoto, con qualche briciola. La finestra è aperta. Sul davanzale non ci sono impronte di zampe nella farina sparsa. Sul pavimento, sotto la finestra, ci sono <strong>briciole che vanno verso il corridoio</strong>.</p>",
-     "img": null
+     "img": "casi/prova/img/p1-davanzale.jpg"
     },
     {
      "id": "p1-nonna",
