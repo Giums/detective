@@ -1,0 +1,104 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Piano terra",
+   "larghezza": 60,
+   "altezza": 30,
+   "stanze": [
+    [
+     0,
+     0,
+     40,
+     20,
+     "Salone degli Specchi",
+     "palco e teca in fondo, bar all'altro capo"
+    ],
+    [
+     40,
+     0,
+     20,
+     10,
+     "Scalone d'onore",
+     "agli appartamenti"
+    ],
+    [
+     40,
+     10,
+     20,
+     10,
+     "Cucine"
+    ],
+    [
+     0,
+     20,
+     40,
+     10,
+     "Terrazza sul lago",
+     "porte finestre dal salone"
+    ],
+    [
+     40,
+     20,
+     20,
+     10,
+     "Scala della cantina"
+    ]
+   ],
+   "segni": [
+    [
+     4,
+     3,
+     "stella",
+     "teca"
+    ],
+    [
+     36,
+     17,
+     "porta",
+     "bar"
+    ],
+    [
+     57,
+     8,
+     "camera",
+     "telecamera"
+    ],
+    [
+     57,
+     23,
+     "camera",
+     "a batteria"
+    ]
+   ]
+  },
+  {
+   "nome": "Cantina",
+   "larghezza": 60,
+   "altezza": 8,
+   "stanze": [
+    [
+     30,
+     0,
+     30,
+     8,
+     "Quadro elettrico generale"
+    ]
+   ]
+  },
+  {
+   "nome": "Primo piano",
+   "larghezza": 60,
+   "altezza": 8,
+   "stanze": [
+    [
+     0,
+     0,
+     60,
+     8,
+     "Appartamenti privati della principessa"
+    ]
+   ]
+  }
+ ]
+}

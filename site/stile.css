@@ -206,6 +206,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .documento h2 { font-size: 1.5rem; padding-right: 40px; }
 .doc-tipo { font-family: "Special Elite", monospace; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: #a4161a; margin: 0 0 .6em; }
+.doc-pianta { display: block; width: 100%; height: auto; margin: 6px 0 16px; border-radius: 4px; box-shadow: 0 6px 16px rgba(0, 0, 0, .35); }
 .doc-img { width: 100%; max-height: 420px; object-fit: cover; margin: 6px 0 16px; border: 10px solid #fff; border-bottom-width: 36px; box-shadow: 0 6px 16px rgba(0, 0, 0, .35); }
 .corpo p { margin: 0 0 .85em; }
 .corpo .intest { font-weight: 600; margin-bottom: .3em; }

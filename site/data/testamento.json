@@ -57,35 +57,40 @@
      "tipo": "documento",
      "titolo": "Nota del notaio Gaddi",
      "html": "<p><strong>Testamento del 2019</strong>, depositato nel mio studio: - 200.000 euro all'Hospice di Lucca; - 50.000 euro a Graziella Poli, «per la pazienza e l'affetto»; - tutto il resto <strong>in parti uguali</strong> ai nipoti Filippo, Marta e Lorenzo.</p><p><strong>Testamento del 3 marzo 2026</strong>, scritto a mano, trovato il 12 ottobre: lascia <strong>tutto a Filippo</strong>. Se è autentico, è valido e annulla il precedente.</p><p>Le chiavi del palazzo le avevano Graziella, Filippo e Marta.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-testamento",
      "tipo": "lettera",
      "titolo": "Il testamento ritrovato",
      "html": "<p class=\"intest\"><em>Scritto a mano con inchiostro stilografico blu notte, su un foglio di carta pregiata con filigrana.</em></p><p>«Io, Arturo Bellandi, nel pieno delle mie facoltà, revoco ogni mio testamento precedente e lascio tutti i miei beni al mio nipote Filippo, l'unico che mi è stato vicino in questi anni. Lucca, 3 marzo 2026. Con l'affetto di sempre, Arturo Bellandi»</p>",
-     "img": "casi/testamento/img/f1-testamento.jpg"
+     "img": "casi/testamento/img/f1-testamento.jpg",
+     "pianta": null
     },
     {
      "id": "f1-graziella",
      "tipo": "verbale",
      "titolo": "Le parole di Graziella",
      "html": "<p>«Domenica 12 ottobre, verso le undici, spolveravo lo studio del signore. Ho preso in mano i <em>Promessi sposi</em>, il suo libro preferito, ed è caduta una busta. Ho visto che era un testamento e l'ho portata subito al notaio.</p><p>Quella mattina, prima di me, era passata la signora Marta, dalle nove alle nove e quaranta: cercava delle foto dello zio per il funerale. Filippo era passato sabato pomeriggio, a prendere l'orologio che lo zio gli aveva promesso.</p><p>In quel testamento non ci sono io. Pazienza: io il signore l'ho voluto bene lo stesso.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-filippo",
      "tipo": "verbale",
      "titolo": "Le parole di Filippo",
      "html": "<p>«Quel testamento non l'ho mai visto prima di oggi, lo giuro. Sì, lo zio mi voleva bene, e io andavo a trovarlo. Sì, ho debiti, il locale va male. Ma secondo voi sarei così stupido da scrivere un testamento falso tutto a mio favore?</p><p>Sabato sono passato a prendere l'orologio, come mi aveva detto lui. Graziella lo sa.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-anonima",
      "tipo": "lettera",
      "titolo": "La lettera anonima al notaio",
      "html": "<p class=\"intest\"><strong>Email da un indirizzo creato il giorno stesso. Martedì 14 ottobre, ore 16:05.</strong></p><p>«Egregio notaio, il testamento trovato nei <em>Promessi sposi</em> è falso. Lo ha scritto Filippo, che ha copiato la grafia dello zio per prendersi tutto. Fate fare una perizia e lo vedrete. Un amico della famiglia»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -99,42 +104,48 @@
      "tipo": "referto",
      "titolo": "Perizia grafologica",
      "html": "<ol><li>Il testamento è <strong>falso</strong>: è un'imitazione molto accurata, ma non è di Arturo Bellandi.</li><li>La scrittura è <strong>ferma e regolare</strong>. Gli scritti autentici di Arturo dal 2023 in poi, come gli appunti e la lista della spesa del 2026, sono <strong>tremanti</strong>, per via del Parkinson.</li><li>Il falsario ha imitato la grafia di Arturo <strong>degli anni 2010–2016</strong>. Alcune frasi, come «nel pieno delle mie facoltà» e «con l'affetto di sempre», compaiono identiche nelle sue <strong>lettere del 2015</strong>.</li><li>La grafia del falsario non coincide con quella di Filippo. Su quella di altre persone non mi esprimo senza campioni.</li></ol>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-carta",
      "tipo": "referto",
      "titolo": "Perizia sulla carta",
      "html": "<ul><li>Foglio di <strong>Carta Amalfi fatta a mano</strong>, la marca preferita da Arturo da sempre.</li><li>La filigrana riporta il codice del lotto di produzione: <strong>09/26</strong>, cioè <strong>settembre 2026</strong>.</li><li>Un foglio prodotto a settembre 2026 <strong>non poteva esistere il 3 marzo 2026</strong>.</li><li>L'inchiostro è blu notte da stilografica. Arturo usava il nero da più di vent'anni.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-email",
      "tipo": "registro",
      "titolo": "Da dove è partita la lettera anonima",
      "html": "<p>Indagine informatica sull'email delle 16:05 del 14 ottobre: è stata spedita dalla <strong>rete Wi-Fi pubblica della Biblioteca Statale di Lucca</strong>.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-filippo-treno",
      "tipo": "documento",
      "titolo": "Spostamenti di Filippo",
      "html": "<ul><li>Martedì 14 ottobre: Frecciarossa Firenze–Milano, partenza alle 11:10.</li><li>Dalle 15:00 alle 18:30 riunione dal suo commercialista a Milano: il commercialista e la segretaria lo confermano.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-marta",
      "tipo": "verbale",
      "titolo": "Le parole di Marta",
      "html": "<p>«Povero zio. Quel testamento è un'offesa alla sua memoria: Filippo l'ha sempre manipolato. Io l'ho capito subito che era falso.</p><p>Domenica mattina sono passata al palazzo a prendere qualche foto per il funerale. Non sono entrata nello studio, solo in salotto.</p><p>Lavoro in biblioteca, sì: ci passa mezza Lucca, con quella rete Wi-Fi.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-lorenzo",
      "tipo": "messaggio",
      "titolo": "Messaggio di Lorenzo al notaio",
      "html": "<p class=\"intest\"><strong>Da Melbourne, 15 ottobre</strong></p><p>Gentile notaio, sono a Melbourne da gennaio senza interruzioni: posso mandarle le timbrature del lavoro. Non so niente di nessun testamento nuovo. Lo zio voleva bene a tutti e tre, e voleva dividere in parti uguali. Mi rimetto alla legge.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -148,35 +159,40 @@
      "tipo": "documento",
      "titolo": "Catalogo dell'archivio Bellandi",
      "html": "<p class=\"intest\"><strong>Riordinato e catalogato nel 2025 da Marta Bellandi.</strong></p><p>Scatola 3, «Lettere di Arturo, 2010–2016»: nel catalogo ci sono <strong>14 lettere</strong>. Oggi, nello studio, la scatola ne contiene <strong>12</strong>. Mancano due lettere del <strong>2015</strong>, indirizzate a un vecchio amico, che contengono le frasi «nel pieno delle mie facoltà» e «con l'affetto di sempre».</p><p>Lo studio è l'unica stanza del palazzo in cui si conserva l'archivio.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-biblioteca",
      "tipo": "registro",
      "titolo": "Registro delle presenze della Biblioteca Statale",
      "html": "<p class=\"intest\"><strong>Martedì 14 ottobre</strong></p><table><thead><tr><th>Persona</th><th>Entrata</th><th>Uscita</th></tr></thead><tbody><tr><td><strong>Marta Bellandi</strong></td><td>13:30</td><td>18:00</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-cartoleria",
      "tipo": "documento",
      "titolo": "La Cartoleria Pellegrini, Lucca",
      "html": "<p>Il titolare: «La Carta Amalfi fatta a mano la vendo solo io a Lucca, e il lotto di settembre è arrivato il 22. Da allora l'ho venduta a due clienti: un architetto, per degli inviti di nozze, e alla <strong>signora Marta Bellandi</strong>, il 26 settembre: dieci fogli e un flacone di inchiostro <strong>blu notte</strong>. Ha la nostra tessera fedeltà, è registrato.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-legge",
      "tipo": "documento",
      "titolo": "Nota del notaio: cosa prevede la legge",
      "html": "<p>Il codice civile dichiara <strong>«indegno»</strong> di ricevere l'eredità chi ha scritto un testamento falso o ne ha fatto uso sapendo che era falso. L'indegno <strong>perde la sua parte</strong>.</p><p>Filippo non ha figli. Se fosse dichiarato indegno, la sua parte del testamento del 2019 andrebbe agli altri due nipoti: <strong>Marta e Lorenzo passerebbero da un terzo alla metà ciascuno</strong>, circa 900.000 euro in più a testa.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-scrivania",
      "tipo": "documento",
      "titolo": "Sopralluogo nello studio",
      "html": "<p>Sulla scrivania i <em>Promessi sposi</em> sono in bella vista. Graziella spolvera lo studio ogni domenica alle 11, e tutti in famiglia lo sanno.</p><p>Accanto al libro c'è la scatola 3 dell'archivio, con il coperchio appoggiato storto.</p>",
-     "img": "casi/testamento/img/f3-scrivania.jpg"
+     "img": "casi/testamento/img/f3-scrivania.jpg",
+     "pianta": null
     }
    ]
   }

@@ -57,42 +57,48 @@
      "tipo": "verbale",
      "titolo": "Rapporto di intervento",
      "html": "<p class=\"intest\"><strong>Carabinieri — Stazione di Alleghe</strong></p><p>Sabato 25 ottobre, ore 8:30</p><p>Su chiamata della governante, la pattuglia raggiunge Villa Carducci appena riaperta la strada. Nello studio al primo piano viene constatato il decesso di CARDUCCI Ruggero, a terra accanto alla scrivania, senza ferite visibili. La sedia è rovesciata.</p><p>Dalle 21:00 alle 7:30 la strada è rimasta chiusa e la neve fresca intorno alla villa non ha impronte.</p><p class=\"intest\"><strong>Nessuno è entrato né uscito durante la notte.</strong></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-piantina",
      "tipo": "piantina",
      "titolo": "Piantina della villa",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li>Salotto, sala da pranzo, <strong>cucina</strong>, <strong>biblioteca</strong> con la vetrina blindata dei manoscritti.</li><li>Camera della governante, sul retro.</li><li>Dépendance dell'assistente, collegata alla biblioteca.</li><li><strong>Essiccatoio</strong> delle erbe officinali, in fondo all'orto. La chiave è appesa a un gancio in cucina.</li></ul><p class=\"intest\"><strong>Primo piano</strong></p><ul><li><strong>Pianerottolo</strong> in cima alle scale, con un <strong>sensore di movimento</strong> che registra ogni passaggio. Chiunque salga o scenda le scale, o entri nel corridoio ovest, viene rilevato.</li><li><strong>Corridoio ovest</strong>, oltre il sensore: <strong>camera degli ospiti</strong> (Dott. Moretti), poi il <strong>bagno</strong>, poi in fondo lo <strong>studio</strong> del conte.</li></ul><p class=\"intest\"><strong>Secondo piano</strong></p><ul><li>Camera di Elena. Per scendere si passa obbligatoriamente dal pianerottolo del primo piano.</li></ul>",
-     "img": "casi/villa/img/f1-piantina.jpg"
+     "img": "casi/villa/img/f1-piantina.jpg",
+     "pianta": "casi/villa/img/f1-piantina.svg"
     },
     {
      "id": "f1-studio",
      "tipo": "foto",
      "titolo": "Lo studio del conte",
      "html": "<ul><li><strong>La scrivania:</strong> un vassoio con una <strong>tazza di tisana vuota</strong>, con un fondo verdastro, e un barattolino di miele aperto. Accanto c'è il misuratore di pressione del medico.</li><li><strong>Un quaderno</strong> aperto: l'inventario della collezione, scritto a mano dal conte.</li><li><strong>La cassaforte:</strong> chiusa, intatta. Dentro c'è il Codice Aureo, il manoscritto più prezioso della collezione.</li><li><strong>La finestra:</strong> chiusa, con la neve contro i vetri.</li></ul>",
-     "img": "casi/villa/img/f1-studio.jpg"
+     "img": "casi/villa/img/f1-studio.jpg",
+     "pianta": null
     },
     {
      "id": "f1-beatrice",
      "tipo": "verbale",
      "titolo": "Le parole di Beatrice",
      "html": "<p>«Ho servito la cena alle 20:00. Poi ho preparato la teiera di tisana alla melissa per il conte, che la beve ogni sera. <strong>La verso sempre all'ultimo momento, perché sia calda.</strong> Alle 22:08 Marco è venuto in cucina e ha detto: \"La porto io, devo fargli firmare delle carte.\" Ho versato la tisana nella tazza davanti a lui, ho messo sul vassoio un barattolino di miele nuovo e lui è salito.</p><p>Il resto della tisana è rimasto nella teiera, in cucina. Alle 22:30 sono andata a letto. Verso le 22:55 ho sentito un tonfo dal piano di sopra, ma con il vento pensavo a un ramo.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-elena",
      "tipo": "verbale",
      "titolo": "Le parole di Elena",
      "html": "<p>«Dopo cena, verso le 21:30, sono salita in camera, al secondo piano. Ho preso due gocce per dormire e non mi sono più alzata fino a stamattina.</p><p>I miei debiti? Sì, ne ho. Mio padre non voleva aiutarmi, e l'eredità mi farebbe comodo, lo ammetto. Ma non sono un'assassina.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-moretti",
      "tipo": "verbale",
      "titolo": "Le parole di Alberto Moretti",
      "html": "<p>«Dopo cena abbiamo giocato a scacchi fino alle 21:45, poi sono salito nella camera degli ospiti.</p><p>Alle 22:25 sono passato dallo studio a misurargli la pressione, come ogni sera: 150 su 90, niente di grave. <strong>La tazza era già vuota.</strong> Mi ha detto: \"Stasera la tisana era amarissima, Beatrice ha sbagliato qualcosa.\" Gli ho detto di andare a letto. Sono tornato in camera alle 22:30 e non ho sentito nulla. Ho lasciato lì il misuratore, era tardi.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -106,49 +112,56 @@
      "tipo": "referto",
      "titolo": "Referto del medico legale",
      "html": "<ol><li><strong>Causa della morte:</strong> arresto cardiaco provocato da <strong>aconito</strong>, una pianta velenosissima.</li><li>Il veleno è stato <strong>bevuto</strong>, sciolto in una bevanda calda, <strong>tra le 22:10 e le 22:25</strong>.</li><li>Effetto: malessere dopo 15–30 minuti, poi la perdita di sensi. <strong>Morte stimata tra le 22:45 e le 23:10.</strong> Il tonfo delle 22:55 è compatibile con la caduta della sedia.</li><li>L'aconito ha un sapore <strong>molto amaro</strong>.</li></ol>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-tossicologia",
      "tipo": "referto",
      "titolo": "Analisi di laboratorio",
      "html": "<table><thead><tr><th>Reperto</th><th>Esito</th></tr></thead><tbody><tr><td>Tazza della tisana (studio)</td><td>Melissa, miele e <strong>aconito</strong>: polvere di radice essiccata</td></tr><tr><td>Barattolino di miele (studio)</td><td><strong>Nessun veleno</strong></td></tr><tr><td>Teiera con il resto della tisana (cucina)</td><td><strong>Nessun veleno</strong></td></tr><tr><td>Misuratore di pressione del Dott. Moretti</td><td>Nessuna traccia</td></tr></tbody></table><p><strong>Nota del laboratorio:</strong> la polvere di radice è compatibile con le radici di aconito essiccate che si conservano nell'essiccatoio della villa per l'erbario del conte.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-sensore",
      "tipo": "registro",
      "titolo": "Registro del sensore del pianerottolo (primo piano)",
      "html": "<table><thead><tr><th>Ora</th><th>Durata</th></tr></thead><tbody><tr><td>21:00</td><td>9 s</td></tr><tr><td>21:31</td><td>7 s</td></tr><tr><td>21:46</td><td>10 s</td></tr><tr><td>22:12</td><td>6 s</td></tr><tr><td>22:16</td><td>5 s</td></tr><tr><td>07:44</td><td>12 s</td></tr></tbody></table><p class=\"intest\"><em>Il sensore registra solo l'ora e la durata, non chi passa.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-marco",
      "tipo": "verbale",
      "titolo": "Le parole di Marco Valenti",
      "html": "<p>«Alle 22:10 ho preso il vassoio in cucina e sono salito. Il conte mi ha aperto e ha preso il vassoio: non ha firmato niente, era nervoso, ha detto che le carte le avremmo viste domani. Sono sceso subito e ho lavorato in biblioteca fino alle 23, poi sono andato a letto nella dépendance.</p><p>Se cercate qualcuno che conosce le erbe, chiedete a Beatrice: l'essiccatoio è il suo regno.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-telefono",
      "tipo": "messaggio",
      "titolo": "Messaggio dal telefono della vittima",
      "html": "<p class=\"intest\"><strong>Ruggero → Notaio Belli — venerdì 24, ore 22:29</strong></p><p>Il dottore mi ha appena misurato la pressione, tutto in ordine. Domattina alle 9 vengo da lei con l'inventario. <strong>Ho scoperto chi mi deruba: è qualcuno che vive sotto il mio tetto.</strong> Non lo dica a nessuno.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-incarico",
      "tipo": "lettera",
      "titolo": "Lettera trovata nella cartella di Marco",
      "html": "<p>Firmata «Ruggero Carducci», datata 20 settembre:</p><p>«Incarico il mio assistente Marco Valenti di trattare con la massima riservatezza la vendita di alcuni manoscritti minori della mia collezione, a sua discrezione, presso le aste estere.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-elena-debiti",
      "tipo": "messaggio",
      "titolo": "Messaggio sul telefono di Elena",
      "html": "<p class=\"intest\"><strong>Da: «Studio Ferraris recupero crediti» — 23 ottobre</strong></p><p>Signora Carducci, le ricordiamo la scadenza del 31 ottobre per il saldo di 75.000 euro.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -162,42 +175,48 @@
      "tipo": "documento",
      "titolo": "Il quaderno dell'inventario del conte",
      "html": "<p><strong>22 ottobre:</strong> controllata la vetrina blindata della biblioteca. <strong>Mancano due manoscritti:</strong> il Salterio di Bobbio e il Libro d'ore Visconti. La chiave della vetrina l'abbiamo solo io e M.</p><p><strong>23 ottobre:</strong> ho messo il Codice Aureo in cassaforte, per prudenza. Nessuna vendita è mai stata autorizzata da me, a nessuno.</p><p><strong>24 ottobre:</strong> domani dal notaio.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-zurigo",
      "tipo": "documento",
      "titolo": "Catalogo di una casa d'aste di Zurigo",
      "html": "<p><strong>Asta del 2 ottobre — Lotto 44: Salterio di Bobbio</strong>, XII secolo. Provenienza: collezione privata italiana. Mandante: <strong>M. Valenti</strong>, «su incarico del proprietario». Venduto per <strong>120.000 franchi</strong>.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-firma",
      "tipo": "referto",
      "titolo": "Perizia sulla firma dell'incarico",
      "html": "<p>La firma «Ruggero Carducci» sull'incarico del 20 settembre è <strong>ricalcata</strong>: sotto l'inchiostro ci sono i solchi di una matita che ha seguito il contorno di una firma autentica. Il modello è una lettera firmata dal conte nel 2024, che si trova nell'archivio della corrispondenza <strong>curato dall'assistente</strong>.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-essiccatoio",
      "tipo": "documento",
      "titolo": "Il registro dell'essiccatoio di Beatrice",
      "html": "<table><thead><tr><th>Data</th><th>Annotazione</th></tr></thead><tbody><tr><td>1 ottobre</td><td>Radice di aconito essiccata, barattolo n. 7: <strong>200 g</strong></td></tr><tr><td>21 ottobre</td><td>Chiave dell'essiccatoio prestata a <strong>Marco</strong>, «per fotografare l'erbario del conte per il catalogo»</td></tr><tr><td>25 ottobre</td><td>Controllo dei carabinieri: barattolo n. 7, <strong>185 g</strong></td></tr></tbody></table><p><em>Beatrice: «A ottobre nell'essiccatoio non sono entrata io, ero indietro con le conserve. La chiave l'ha chiesta solo Marco.»</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-dependance",
      "tipo": "documento",
      "titolo": "Perquisizione della dépendance di Marco",
      "html": "<p>In fondo all'armadio, dentro una scatola da scarpe: - un piccolo <strong>mortaio di pietra</strong> con residui di polvere bruno-verdastra: <strong>radice di aconito</strong>, secondo il laboratorio; - un paio di <strong>guanti in lattice</strong> usati.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-elena-sensore",
      "tipo": "verbale",
      "titolo": "Una verifica sul sensore",
      "html": "<p>Il sensore registra anche chi scende dal secondo piano. Dopo il passaggio delle 21:31, salita di Elena in camera, <strong>nessun passaggio fino al mattino</strong>. Elena non è mai scesa.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   }

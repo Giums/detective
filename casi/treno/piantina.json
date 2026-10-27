@@ -1,0 +1,89 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Carrozza letto 3, dalla testa alla coda",
+   "larghezza": 60,
+   "altezza": 30,
+   "stanze": [
+    [
+     0,
+     0,
+     10,
+     30,
+     "Verso il bar"
+    ],
+    [
+     10,
+     0,
+     10,
+     12,
+     "Bagno"
+    ],
+    [
+     20,
+     0,
+     12,
+     12,
+     "Cuccettista",
+     "tè, tisane, miele"
+    ],
+    [
+     10,
+     12,
+     50,
+     6,
+     "Corridoio"
+    ],
+    [
+     10,
+     18,
+     8,
+     12,
+     "n. 5",
+     "Lavinia"
+    ],
+    [
+     18,
+     18,
+     8,
+     12,
+     "n. 6",
+     "Ettore"
+    ],
+    [
+     26,
+     18,
+     9,
+     12,
+     "n. 7",
+     "Ranieri"
+    ],
+    [
+     35,
+     18,
+     8,
+     12,
+     "n. 8",
+     "Klaus"
+    ],
+    [
+     43,
+     18,
+     8,
+     12,
+     "n. 9",
+     "Nadia"
+    ],
+    [
+     51,
+     18,
+     9,
+     12,
+     "n. 10",
+     "Giorgia"
+    ]
+   ]
+  }
+ ]
+}

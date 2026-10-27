@@ -64,42 +64,48 @@
      "tipo": "verbale",
      "titolo": "Rapporto dei carabinieri",
      "html": "<p class=\"intest\"><strong>Carabinieri — Compagnia di Menaggio</strong></p><p>Sabato 6 dicembre, ore 23:30</p><p>Denuncia della scomparsa del Diadema delle Sette Stelle dalla teca nel Salone degli Specchi di Villa Aurora. Tra le 22:14 e le 22:16 si è verificato un blackout in tutta la villa.</p><p>All'inizio del blackout, nel salone, sono presenti 80 ospiti. All'ingresso il tecnico Kovač controlla chi entra ed esce: dalle 21:30 in poi nessuno ha lasciato la villa. <strong>Tutti gli ospiti sono stati perquisiti</strong>, senza risultato.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-piantina",
      "tipo": "piantina",
      "titolo": "Piantina di Villa Aurora",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li><strong>Salone degli Specchi</strong>: in fondo c'è il palco per il discorso e, accanto, la <strong>teca del diadema</strong>. Vicino alla teca c'è la poltrona della principessa. Il bar è all'altro capo del salone, a 20 metri.</li><li><strong>Terrazza sul lago</strong>, che si raggiunge dalle porte finestre del salone.</li><li><strong>Scalone d'onore</strong>, che porta agli appartamenti privati al primo piano. Una telecamera lo inquadra.</li><li><strong>Cucine</strong> e, da lì, la <strong>scala della cantina</strong>, con una telecamera a batteria.</li></ul><p class=\"intest\"><strong>Cantina</strong></p><ul><li><strong>Quadro elettrico generale</strong> della villa.</li></ul><p class=\"intest\"><strong>Primo piano</strong></p><ul><li>Appartamenti privati della principessa.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": "casi/diadema/img/f1-piantina.svg"
     },
     {
      "id": "f1-teca",
      "tipo": "documento",
      "titolo": "La teca del diadema",
      "html": "<ul><li>Cristallo antiproiettile, con apertura elettronica a <strong>tastierino numerico</strong>.</li><li>Funziona a batteria: <strong>resta attiva anche senza corrente</strong> e registra ogni apertura.</li><li>Accetta <strong>due codici</strong>: - il <strong>codice di servizio</strong>, usato dal tecnico per la manutenzione; - il <strong>codice di amministratore</strong>, del proprietario.</li><li>Al ritorno della luce la teca era <strong>chiusa</strong>, senza graffi, e il cuscino di velluto era vuoto.</li></ul>",
-     "img": "casi/diadema/img/f1-teca.jpg"
+     "img": "casi/diadema/img/f1-teca.jpg",
+     "pianta": null
     },
     {
      "id": "f1-margherita",
      "tipo": "verbale",
      "titolo": "Le parole della principessa",
      "html": "<p>«Stavo parlando degli orfanotrofi della fondazione quando è saltata la luce. Sono rimasta immobile accanto alla teca, non vedevo nulla. Quando la luce è tornata ho guardato il diadema… e non c'era più.</p><p>Settantacinque anni fa mia nonna è fuggita da Lusinia con quel diadema cucito nel cappotto. Trovatelo, vi prego.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-gualtiero",
      "tipo": "verbale",
      "titolo": "Le parole del maggiordomo",
      "html": "<p>«Quando è andata via la luce ho capito subito che era saltato il generale. Ho preso la torcia in cucina e <strong>sono sceso in cantina</strong> a riarmare l'interruttore. Ci ho messo un minuto o due, al buio non è facile.</p><p>Più tardi, verso le dieci e mezza, ho portato di sopra il cuscino di Re Umberto: Sua Altezza voleva che il cane dormisse in camera, era molto agitato.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-alessandro",
      "tipo": "verbale",
      "titolo": "Le parole di Alessandro",
      "html": "<p>«Ero al bar con la signora Brandt quando è andata via la luce. Siamo rimasti lì, al buio, a venti metri dalla teca.</p><p>Sì, vorrei vendere quei gioielli all'asta: la fondazione ha bisogno di soldi veri, non di ricordi. Ma rubarli? Prima o poi saranno miei comunque.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -113,49 +119,56 @@
      "tipo": "referto",
      "titolo": "Relazione dell'elettricista",
      "html": "<p>Il blackout non è stato un guasto. Il <strong>quadro generale in cantina</strong> è stato <strong>spento a mano</strong> alle <strong>22:14:20</strong> e riacceso alle <strong>22:16:05</strong>. Non ci sono sovraccarichi né cortocircuiti.</p><p>Per raggiungere il quadro bisogna passare dalle cucine e scendere la scala della cantina.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-registro-teca",
      "tipo": "registro",
      "titolo": "Registro elettronico della teca",
      "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>19:45:12</td><td>Apertura con <strong>codice di amministratore</strong> (sistemazione del diadema)</td></tr><tr><td>19:46:30</td><td>Chiusura</td></tr><tr><td>22:15:08</td><td>Apertura con <strong>codice di amministratore</strong></td></tr><tr><td>22:15:51</td><td>Chiusura</td></tr></tbody></table><p>Il codice di servizio non è stato usato nella giornata di sabato.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-kovac",
      "tipo": "verbale",
      "titolo": "Le parole del tecnico Kovač",
      "html": "<p>«Venerdì ho cambiato i due codici. Il codice di servizio lo conosco solo io. Il <strong>codice di amministratore</strong> l'ha scelto la principessa: l'ha digitato lei, da sola, e io mi sono girato. Non lo conosce nessun altro, neanche io.</p><p>Durante il blackout ero all'ingresso, con gli ospiti in coda. Lo possono confermare in dieci.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-vidal",
      "tipo": "verbale",
      "titolo": "Le parole di Raoul Vidal",
      "html": "<p>«So cosa si dice di me. Pettegolezzi della Costa Azzurra. Al momento del blackout ero in terrazza a fumare con i signori Bellini, che ve lo confermeranno. Quando siamo rientrati, la luce era già tornata.</p><p>E poi, mes amis: io i gioielli li so riconoscere.»</p><p><em>Nota dei carabinieri: i coniugi Bellini confermano. Le porte finestre tra terrazza e salone sono state riaperte alle 22:17 dal cameriere, perché il vento le aveva chiuse.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-cantina",
      "tipo": "registro",
      "titolo": "Telecamera a batteria della scala della cantina",
      "html": "<table><thead><tr><th>Ora</th><th>Cosa si vede</th></tr></thead><tbody><tr><td>22:12:50</td><td><strong>Gualtiero scende in cantina con una torcia accesa</strong></td></tr><tr><td>22:16:40</td><td>Gualtiero risale</td></tr></tbody></table><p>Nessun altro usa la scala tra le 21:00 e le 23:30.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-helena",
      "tipo": "verbale",
      "titolo": "Le parole di Helena Brandt",
      "html": "<p>«Lunedì 8 dicembre dovevo esaminare il diadema con gli strumenti della compagnia: un controllo che facciamo su ogni gioiello sopra il milione. La principessa mi aveva chiesto due volte di rinviarlo. Ho insistito.</p><p>Al blackout ero al bar con il principe Alessandro. Abbiamo parlato per tutto il tempo.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-polizza",
      "tipo": "documento",
      "titolo": "Polizza assicurativa (estratto)",
      "html": "<p><strong>Oggetto:</strong> Diadema delle Sette Stelle, platino, 200 brillanti, 7 zaffiri di Ceylon. <strong>Valore assicurato:</strong> 4.200.000 euro. <strong>Condizione:</strong> la polizza vale per le pietre originali descritte nella perizia del 1971. <strong>Se l'esame tecnico rivela pietre diverse da quelle descritte, la polizza è annullata.</strong> <strong>Furto:</strong> risarcimento integrale entro 90 giorni dalla denuncia.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -169,42 +182,48 @@
      "tipo": "registro",
      "titolo": "Telecamera dello scalone d'onore",
      "html": "<table><thead><tr><th>Ora</th><th>Cosa si vede</th></tr></thead><tbody><tr><td>21:00–22:30</td><td>Nessun movimento</td></tr><tr><td>22:31</td><td>Gualtiero sale con il <strong>cuscino di velluto del carlino</strong>, che tiene con due mani come se pesasse</td></tr><tr><td>22:33</td><td>Gualtiero scende, senza il cuscino</td></tr><tr><td>23:45</td><td>La principessa sale, accompagnata da una dama, con il carlino in braccio</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-foto",
      "tipo": "foto",
      "titolo": "Foto scattate dagli ospiti durante il discorso",
      "html": "<ol><li><strong>22:10.</strong> La principessa al microfono, accanto alla teca illuminata: il diadema brilla. Ai piedi della sua poltrona, a un passo dalla teca, c'è il <strong>cuscino di velluto</strong> di Re Umberto, con la cerniera, e il cane ci dorme sopra.</li><li><strong>22:17.</strong> La luce è appena tornata. La principessa indica la teca vuota. Re Umberto è in braccio a una dama e <strong>il cuscino è sulla poltrona</strong>, schiacciato sotto lo scialle della principessa.</li></ol>",
-     "img": "casi/diadema/img/f3-foto.jpg"
+     "img": "casi/diadema/img/f3-foto.jpg",
+     "pianta": null
     },
     {
      "id": "f3-lettera",
      "tipo": "lettera",
      "titolo": "Lettera trovata nello scrittoio della principessa",
      "html": "<p class=\"intest\"><strong>Gioielleria Rossetti, Milano — 14 marzo 1998</strong></p><p>Altezza, come convenuto con il compianto principe Vittorio, abbiamo completato la sostituzione: i sette zaffiri e i duecento brillanti del diadema sono stati rimpiazzati con <strong>copie in vetro di Boemia e strass</strong>, montate sul platino originale. Le pietre vere sono state vendute a Ginevra, come da accordi. Della cosa sono a conoscenza soltanto Vostra Altezza e il sottoscritto.</p><p>Con devozione, Arturo Rossetti</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-email",
      "tipo": "messaggio",
      "titolo": "Email della principessa alla compagnia assicurativa",
      "html": "<p class=\"intest\"><strong>Margherita di Lusinia → Assicurazioni Brandt &amp; Partner</strong></p><p><strong>20 novembre:</strong> Vi chiedo di rinviare la perizia a dopo le feste: il diadema è un oggetto di famiglia delicatissimo.</p><p><strong>2 dicembre:</strong> Insisto: la perizia di lunedì è un'offesa alla mia casa. Rinviatela.</p><p><strong>Risposta, 3 dicembre:</strong> Altezza, la perizia è obbligatoria e si terrà lunedì 8 dicembre come previsto.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-asta",
      "tipo": "documento",
      "titolo": "Documento nella valigetta di Alessandro",
      "html": "<p class=\"intest\"><strong>Christie's Ginevra — proposta di vendita</strong></p><p>Oggetto: Diadema delle Sette Stelle, Casa di Lusinia. Stima: 3.500.000–5.000.000 franchi. Data dell'asta: maggio. <strong>Prima della vendita è previsto l'esame gemmologico completo delle pietre.</strong> In attesa della firma della principessa.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-cuscino",
      "tipo": "documento",
      "titolo": "Perquisizione degli appartamenti privati",
      "html": "<p>Nella camera della principessa, sul cuscino di velluto del carlino: la cerniera è aperta e richiusa da poco. Dentro, sotto l'imbottitura, è avvolto in un fazzoletto ricamato con lo stemma di Lusinia il <strong>Diadema delle Sette Stelle</strong>.</p><p>L'esame rapido della perita Brandt: il platino è autentico. <strong>Le pietre sono vetro e strass.</strong></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   }

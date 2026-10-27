@@ -1,0 +1,94 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Retropalco",
+   "larghezza": 60,
+   "altezza": 36,
+   "stanze": [
+    [
+     0,
+     0,
+     12,
+     16,
+     "Scala antincendio",
+     "esterna"
+    ],
+    [
+     12,
+     0,
+     36,
+     7,
+     "Corridoio dei camerini"
+    ],
+    [
+     48,
+     0,
+     12,
+     16,
+     "Sala prove",
+     "pianoforte"
+    ],
+    [
+     12,
+     7,
+     8,
+     9,
+     "Cam. 1",
+     "Valli"
+    ],
+    [
+     20,
+     7,
+     9,
+     9,
+     "Cam. 2",
+     "Sforza"
+    ],
+    [
+     29,
+     7,
+     9,
+     9,
+     "Cam. 3",
+     "Aranda"
+    ],
+    [
+     38,
+     7,
+     10,
+     9,
+     "Cam. 4",
+     "Ferri"
+    ],
+    [
+     0,
+     18,
+     60,
+     10,
+     "Palcoscenico"
+    ],
+    [
+     0,
+     28,
+     60,
+     8,
+     "Buca dell'orchestra",
+     "scaletta verso il corridoio"
+    ]
+   ],
+   "segni": [
+    [
+     12,
+     3.5,
+     "porta"
+    ],
+    [
+     12,
+     13,
+     "porta"
+    ]
+   ]
+  }
+ ]
+}

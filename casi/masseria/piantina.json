@@ -1,0 +1,102 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Piano terra",
+   "larghezza": 60,
+   "altezza": 24,
+   "stanze": [
+    [
+     0,
+     0,
+     22,
+     12,
+     "Cucina",
+     "finestra sulla terrazza"
+    ],
+    [
+     22,
+     0,
+     20,
+     12,
+     "Ingresso",
+     "scale per camere e cantina"
+    ],
+    [
+     42,
+     0,
+     18,
+     12,
+     "Studio di Corrado"
+    ],
+    [
+     0,
+     12,
+     60,
+     12,
+     "Terrazza",
+     "tavola della cena, lato sud"
+    ]
+   ],
+   "segni": [
+    [
+     22,
+     6,
+     "porta"
+    ],
+    [
+     38,
+     9,
+     "stella",
+     "scala cantina"
+    ]
+   ]
+  },
+  {
+   "nome": "Piano interrato",
+   "larghezza": 60,
+   "altezza": 10,
+   "stanze": [
+    [
+     0,
+     0,
+     60,
+     10,
+     "Cantina",
+     "botti e riserve, una sola scala"
+    ]
+   ],
+   "segni": [
+    [
+     56,
+     5,
+     "porta",
+     "al palmento"
+    ]
+   ]
+  },
+  {
+   "nome": "Corpo separato, a 40 metri (dal cortile)",
+   "larghezza": 60,
+   "altezza": 12,
+   "stanze": [
+    [
+     0,
+     0,
+     42,
+     12,
+     "Palmento",
+     "vasche con pannello, torchio, lavello, laboratorio"
+    ],
+    [
+     42,
+     0,
+     18,
+     12,
+     "Spogliatoio",
+     "stivali e tute"
+    ]
+   ]
+  }
+ ]
+}

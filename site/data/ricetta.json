@@ -64,35 +64,40 @@
      "tipo": "verbale",
      "titolo": "Il racconto di Paolo",
      "html": "<p>«Sono tornato dalla banca alle 19:55, sono entrato in laboratorio dal negozio e alle 20:00, come ogni sera, ho controllato il cassetto. Era chiuso a chiave, e la chiave era al suo gancio. L'ho aperto: il quaderno non c'era.</p><p>Il cassetto non è stato forzato. Chi l'ha aperto ha usato la chiave del gancio, l'ha richiuso e ha rimesso la chiave a posto.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-piantina",
      "tipo": "piantina",
      "titolo": "Piantina della pasticceria",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li><strong>Negozio</strong>, con il banco e la vetrina. Una telecamera inquadra il banco e la <strong>porta tra negozio e laboratorio</strong>.</li><li><strong>Laboratorio</strong>, con forni, tavoli e il <strong>cassetto del quaderno</strong>. Accanto al cassetto, al gancio sul muro, c'è la chiave.</li><li>Nel laboratorio, vicino al cassetto, c'è una <strong>porta che dà sulle scale di casa</strong>: sopra la pasticceria abitano Ines, Paolo e Sofia.</li><li>Vicino alla porta del negozio c'è lo scaffale delle teglie.</li></ul><p class=\"intest\"><strong>Primo piano</strong></p><ul><li>Casa della famiglia Bonfante. Si entra dal portone sulla strada oppure dalle scale interne che scendono in laboratorio.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": "casi/ricetta/img/f1-piantina.svg"
     },
     {
      "id": "f1-ines",
      "tipo": "verbale",
      "titolo": "Le parole di nonna Ines",
      "html": "<p>«Alle 18:00 ho ricopiato due righe nel quaderno, poi l'ho chiuso nel cassetto e ho appeso la chiave al gancio, come faccio da cinquant'anni. Tutti in famiglia e in negozio sanno dov'è la chiave.</p><p>Poi ho dato una mano a Marta al banco. Alle 18:40 ero stanca: sono uscita dal negozio e sono salita a casa dal portone. Mi sono messa sul divano con le pantofole e non mi sono più mossa.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-marta",
      "tipo": "verbale",
      "titolo": "Le parole di Marta",
      "html": "<p>«Il sabato sera c'è sempre gente. Alle sei e mezza è passata la signora Rinaldi, figuratevi. Ha comprato sei paste e mi ha chiesto: \"La signora Ines usa ancora quel vecchio quaderno?\" Le ho risposto di sì e basta.</p><p>Alle sette sono entrata un attimo in laboratorio a prendere le teglie pulite, e sono tornata subito al banco. Non ho guardato il cassetto.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-cassetto",
      "tipo": "foto",
      "titolo": "Il laboratorio alle 20:30",
      "html": "<p>Il cassetto è intatto, senza graffi, chiuso a chiave. La chiave è al suo gancio, accanto alla porta delle scale.</p><p>Sul pavimento davanti al cassetto c'è una grande macchia di <strong>zucchero a velo</strong> rovesciato, con diverse impronte di scarpe.</p>",
-     "img": "casi/ricetta/img/f1-cassetto.jpg"
+     "img": "casi/ricetta/img/f1-cassetto.jpg",
+     "pianta": null
     }
    ]
   },
@@ -106,49 +111,56 @@
      "tipo": "registro",
      "titolo": "Telecamera del negozio",
      "html": "<table><thead><tr><th>Ora</th><th>Cosa si vede</th></tr></thead><tbody><tr><td>18:00–18:40</td><td>Ines e Marta al banco</td></tr><tr><td>18:08</td><td>Luca esce dal laboratorio con le consegne e lascia il negozio dalla porta principale</td></tr><tr><td>18:28–18:36</td><td>Gianna Rinaldi al banco. Compra sei paste e parla con Marta. <strong>Non si avvicina al laboratorio</strong></td></tr><tr><td>18:40</td><td>Ines esce in strada</td></tr><tr><td>19:00:10</td><td>Marta entra in laboratorio</td></tr><tr><td>19:01:05</td><td>Marta torna al banco con una pila di teglie</td></tr><tr><td>19:55</td><td>Paolo entra dalla strada e va in laboratorio</td></tr></tbody></table><p>Nessun altro passa dalla porta tra negozio e laboratorio.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-impronte",
      "tipo": "referto",
      "titolo": "Le impronte nello zucchero a velo",
      "html": "<ol><li><strong>Stivaletti da lavoro numero 43</strong>, proprio dove il sacco si è rovesciato, e poi verso la porta del negozio: sono di chi ha rovesciato lo zucchero, e non tornano mai al cassetto.</li><li><strong>Zoccoli da negozio numero 39</strong>, solo vicino allo scaffale delle teglie, accanto alla porta del negozio. Non arrivano al cassetto.</li><li><strong>Scarpe da ginnastica numero 37, con la suola a stelline</strong>, sopra lo zucchero. Vanno dalla <strong>porta delle scale di casa</strong> fino al cassetto, e poi tornano alla porta delle scale.</li><li>Scarpe numero 44, sopra tutte le altre: sono di Paolo, alle 20:00.</li></ol>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-luca",
      "tipo": "verbale",
      "titolo": "Le parole di Luca",
      "html": "<p>«Sì, prima lavoravo dai Rinaldi. Me ne sono andato perché la signora Gianna urlava tutto il giorno. Qui sto bene.</p><p>Alle 18:05 ho rovesciato un sacco di zucchero a velo vicino al cassetto, ero di fretta per le consegne. Ho pensato di pulire al ritorno. Sono partito alle 18:08 e sono tornato verso le 19:35.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-furgone",
      "tipo": "registro",
      "titolo": "Posizioni del furgone delle consegne",
      "html": "<table><thead><tr><th>Ora</th><th>Posizione</th></tr></thead><tbody><tr><td>18:10</td><td>Parte dalla pasticceria</td></tr><tr><td>18:22</td><td>Via Po 14: consegna</td></tr><tr><td>18:47</td><td>Corso Francia 210: consegna</td></tr><tr><td>19:15</td><td>Piazza Bengasi: consegna</td></tr><tr><td>19:35</td><td>Torna alla pasticceria</td></tr></tbody></table><p>Il furgone non si ferma mai vicino alla pasticceria tra le 18:10 e le 19:35.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-gianna",
      "tipo": "verbale",
      "titolo": "Le parole di Gianna Rinaldi",
      "html": "<p>«Sono entrata a comprare sei paste: voglio sapere cosa porta la concorrenza al concorso. Ho chiesto del quaderno per curiosità. Rubare una ricetta? Non ne ho bisogno: quest'anno vinco io.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-sofia",
      "tipo": "verbale",
      "titolo": "Le parole di Sofia",
      "html": "<p>«Il sabato ho allenamento di nuoto dalle 17 alle 19:30. Sono tornata alle otto meno un quarto e sono salita direttamente a casa dal portone. Quando ho saputo del quaderno mi è preso un colpo. Povera nonna.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-email",
      "tipo": "documento",
      "titolo": "Email aperta sul computer di Paolo",
      "html": "<p><strong>Da:</strong> Dolciaria Alpina S.p.A. <strong>A:</strong> Paolo Bonfante <strong>Data:</strong> venerdì 7 novembre</p><p>Gentile signor Bonfante, confermiamo il nostro interesse ad acquistare la ricetta della «Gianduia di nonna Ines» per la produzione industriale, al prezzo concordato di <strong>80.000 euro</strong>. Ci vediamo lunedì per la firma. Porti con sé il quaderno originale.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -162,35 +174,40 @@
      "tipo": "documento",
      "titolo": "Le scarpe di casa e del negozio",
      "html": "<table><thead><tr><th>Persona</th><th>Scarpe di oggi</th><th>Numero</th></tr></thead><tbody><tr><td>Ines</td><td>Pantofole di feltro</td><td>36</td></tr><tr><td>Paolo</td><td>Mocassini</td><td>44</td></tr><tr><td>Sofia</td><td><strong>Scarpe da ginnastica bianche con la suola a stelline</strong></td><td>37</td></tr><tr><td>Luca</td><td>Stivaletti da lavoro</td><td>43</td></tr><tr><td>Marta</td><td>Zoccoli da negozio</td><td>39</td></tr><tr><td>Gianna</td><td>Stivaletti con il tacco</td><td>38</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-nuoto",
      "tipo": "registro",
      "titolo": "Registro della piscina comunale",
      "html": "<p class=\"intest\"><strong>Allenamento juniores — sabato 8 novembre, 17:00–19:30</strong></p><table><thead><tr><th>Atleta</th><th>Entrata</th><th>Uscita</th><th>Note</th></tr></thead><tbody><tr><td>Bonfante Sofia</td><td>16:55</td><td><strong>18:20</strong></td><td>Uscita anticipata: «mal di testa»</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-banca",
      "tipo": "documento",
      "titolo": "Conferma della banca",
      "html": "<p>Banca del Piemonte, filiale di piazza Vittorio. Appuntamento del signor Paolo Bonfante con il consulente: <strong>dalle 18:00 alle 19:40</strong>.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-messaggio",
      "tipo": "messaggio",
      "titolo": "Messaggi di Sofia alla sua amica Bea",
      "html": "<p class=\"intest\"><strong>Sofia → Bea — sabato, 13:40</strong></p><p>Ho visto una mail sul computer di papà. Vuole VENDERE la ricetta della nonna a una fabbrica!!! E la nonna non lo sa 😡</p><p class=\"intest\"><strong>Bea → Sofia — 13:42</strong></p><p>Noo ma davvero? E cosa fai?</p><p class=\"intest\"><strong>Sofia → Bea — 13:45</strong></p><p>Non glielo permetto. Lunedì quel quaderno non lo trova.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-post",
      "tipo": "foto",
      "titolo": "Post pubblicato da Sofia alle 19:12",
      "html": "<p>Una foto scattata dalla finestra di casa Bonfante: l'insegna illuminata della pasticceria vista dall'alto. Didascalia: <em>«Certe cose non hanno prezzo 🍰❤️ #nonna #famiglia»</em></p>",
-     "img": "casi/ricetta/img/f3-post.jpg"
+     "img": "casi/ricetta/img/f3-post.jpg",
+     "pianta": null
     }
    ]
   }

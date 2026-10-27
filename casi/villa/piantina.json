@@ -1,0 +1,144 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Secondo piano",
+   "larghezza": 60,
+   "altezza": 8,
+   "stanze": [
+    [
+     30,
+     0,
+     30,
+     8,
+     "Camera di Elena"
+    ]
+   ]
+  },
+  {
+   "nome": "Primo piano",
+   "larghezza": 60,
+   "altezza": 16,
+   "stanze": [
+    [
+     44,
+     0,
+     16,
+     16,
+     "Pianerottolo e scale"
+    ],
+    [
+     0,
+     0,
+     44,
+     6,
+     "Corridoio ovest"
+    ],
+    [
+     28,
+     6,
+     16,
+     10,
+     "Camera ospiti",
+     "Moretti"
+    ],
+    [
+     16,
+     6,
+     12,
+     10,
+     "Bagno"
+    ],
+    [
+     0,
+     6,
+     16,
+     10,
+     "Studio del conte"
+    ]
+   ],
+   "segni": [
+    [
+     47,
+     3,
+     "sensore",
+     "sensore"
+    ]
+   ]
+  },
+  {
+   "nome": "Piano terra",
+   "larghezza": 60,
+   "altezza": 22,
+   "stanze": [
+    [
+     0,
+     0,
+     15,
+     10,
+     "Salotto"
+    ],
+    [
+     15,
+     0,
+     15,
+     10,
+     "Sala da pranzo"
+    ],
+    [
+     30,
+     0,
+     14,
+     10,
+     "Cucina"
+    ],
+    [
+     44,
+     0,
+     16,
+     10,
+     "Scale"
+    ],
+    [
+     0,
+     10,
+     22,
+     12,
+     "Biblioteca",
+     "vetrina blindata"
+    ],
+    [
+     22,
+     10,
+     16,
+     12,
+     "Dépendance",
+     "dell'assistente"
+    ],
+    [
+     38,
+     10,
+     22,
+     6,
+     "Camera della governante"
+    ],
+    [
+     38,
+     16,
+     22,
+     6,
+     "Essiccatoio",
+     "in fondo all'orto"
+    ]
+   ],
+   "segni": [
+    [
+     33,
+     8,
+     "chiave",
+     "chiave"
+    ]
+   ]
+  }
+ ]
+}

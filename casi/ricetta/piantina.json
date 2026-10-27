@@ -1,0 +1,74 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Piano terra",
+   "larghezza": 60,
+   "altezza": 16,
+   "stanze": [
+    [
+     0,
+     0,
+     26,
+     16,
+     "Negozio",
+     "banco e vetrina, scaffale delle teglie"
+    ],
+    [
+     26,
+     0,
+     34,
+     16,
+     "Laboratorio",
+     "forni e tavoli"
+    ]
+   ],
+   "segni": [
+    [
+     26,
+     8,
+     "porta"
+    ],
+    [
+     3,
+     3,
+     "camera",
+     "telecamera"
+    ],
+    [
+     50,
+     4,
+     "stella",
+     "cassetto"
+    ],
+    [
+     50,
+     9,
+     "chiave",
+     "chiave"
+    ],
+    [
+     56,
+     15,
+     "porta",
+     "scale di casa"
+    ]
+   ]
+  },
+  {
+   "nome": "Primo piano",
+   "larghezza": 60,
+   "altezza": 8,
+   "stanze": [
+    [
+     0,
+     0,
+     60,
+     8,
+     "Casa Bonfante",
+     "portone sulla strada e scale interne"
+    ]
+   ]
+  }
+ ]
+}

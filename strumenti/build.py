@@ -67,6 +67,10 @@ def img(cid, nome):
     return f"casi/{cid}/img/{nome}.jpg" if (CASI / cid / "img" / f"{nome}.jpg").exists() else None
 
 
+def pianta(cid, nome):
+    return f"casi/{cid}/img/{nome}.svg" if (CASI / cid / "img" / f"{nome}.svg").exists() else None
+
+
 def leggi_caso(cid):
     testo = (CASI / cid / "caso.md").read_text(encoding="utf-8")
     _, fm, corpo = testo.split("---", 2)
@@ -88,7 +92,7 @@ def leggi_caso(cid):
             for t, testo_prova in prove:
                 tm = re.match(r"\[(\w+)\] (\S+) \| (.+)", t)
                 fase["prove"].append({"id": tm[2], "tipo": tm[1], "titolo": tm[3].strip(),
-                                      "html": md_html(testo_prova), "img": img(cid, tm[2])})
+                                      "html": md_html(testo_prova), "img": img(cid, tm[2]), "pianta": pianta(cid, tm[2])})
             caso["fasi"].append(fase)
     return caso
 

@@ -50,14 +50,16 @@
      "tipo": "foto",
      "titolo": "Il davanzale",
      "html": "<p>Il piatto è vuoto, con qualche briciola. La finestra è aperta. Sul davanzale non ci sono impronte di zampe nella farina sparsa. Sul pavimento, sotto la finestra, ci sono <strong>briciole che vanno verso il corridoio</strong>.</p>",
-     "img": "casi/prova/img/p1-davanzale.jpg"
+     "img": "casi/prova/img/p1-davanzale.jpg",
+     "pianta": null
     },
     {
      "id": "p1-nonna",
      "tipo": "verbale",
      "titolo": "Le parole della nonna",
      "html": "<p>«Alle 15:00 la torta era lì, l'ho guardata io. Alle 16:00 era sparita. Il gatto alle tre e mezza dormiva sul divano, l'ho visto io. Luca era in camera sua a giocare, sentivo gli spari.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -71,14 +73,16 @@
      "tipo": "registro",
      "titolo": "La console di Luca",
      "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>14:58</td><td>Partita iniziata</td></tr><tr><td>15:00–16:05</td><td>Partita online senza pause (squadra con l'amico Marco)</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "p2-zio",
      "tipo": "messaggio",
      "titolo": "Messaggio di Zio Tano alla moglie",
      "html": "<p class=\"intest\"><strong>A: Marisa — ore 15:20</strong></p><p>Sono da mamma. Tranquilla, la dieta procede benissimo.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -92,14 +96,16 @@
      "tipo": "documento",
      "titolo": "Il cappotto dello zio",
      "html": "<p>Nella tasca destra del cappotto di Zio Tano: un tovagliolo di carta pieno di briciole di torta di mele e una forchetta della nonna. Il cappotto era appeso nel corridoio.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "p3-biglietto",
      "tipo": "lettera",
      "titolo": "Biglietto nella tasca sinistra",
      "html": "<p>Ricordati: domani controllo peso dal dottore. Niente dolci!!!</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   }

@@ -64,42 +64,48 @@
      "tipo": "verbale",
      "titolo": "Il racconto di Dario",
      "html": "<p>«Alle 8:00 sono entrato in camera pulita per preparare il chip per la demo. La cassaforte era chiusa, senza segni. L'ho aperta con Irene in videochiamata, perché il codice ce l'ha lei: il campione d'oro non c'era. Gli altri tre erano al loro posto.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-piantina",
      "tipo": "piantina",
      "titolo": "Piantina della Lumen",
      "html": "<ul><li><strong>Cancello</strong> dell'area industriale, con una telecamera.</li><li><strong>Ingresso</strong> dell'edificio: si apre con il <strong>badge personale</strong>, che registra entrate e uscite.</li><li><strong>Open space</strong> degli uffici.</li><li><strong>Spogliatoio</strong> della camera pulita: le tute sterili sono appese per taglia e hanno ciascuna un <strong>chip RFID</strong> che registra quando vengono prese e rimesse a posto.</li><li><strong>Camera pulita</strong>, che si apre con il badge. All'interno, la <strong>cassaforte</strong> con il codice.</li></ul>",
-     "img": "casi/chip/img/f1-piantina.jpg"
+     "img": "casi/chip/img/f1-piantina.jpg",
+     "pianta": "casi/chip/img/f1-piantina.svg"
     },
     {
      "id": "f1-cassaforte",
      "tipo": "documento",
      "titolo": "La cassaforte della camera pulita",
      "html": "<ul><li>Cassaforte elettronica con tastierino. Contiene i quattro esemplari di Orione, ognuno in un sacchetto antistatico con il logo Lumen e il numero di serie.</li><li>Il codice lo conoscono <strong>solo Irene e Stefano</strong>.</li><li>Il registro della cassaforte mostra un'apertura <strong>con il codice corretto</strong> giovedì alle <strong>23:44</strong> e la chiusura alle 23:46. La successiva è quella di Dario, venerdì alle 8:02.</li></ul>",
-     "img": "casi/chip/img/f1-cassaforte.jpg"
+     "img": "casi/chip/img/f1-cassaforte.jpg",
+     "pianta": null
     },
     {
      "id": "f1-irene",
      "tipo": "verbale",
      "titolo": "Le parole di Irene",
      "html": "<p>«Giovedì alle 18:30 sono partita per Milano: cena con due investitori, e sono tornata stamattina con il volo delle 7:05. Ho le carte d'imbarco.</p><p>Chi può volere Orione? Mezzo mondo. Ma per entrare in camera pulita e aprire la cassaforte bisogna conoscere il posto. Stefano e io siamo in disaccordo su tutto, ma è il mio socio.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-stefano",
      "tipo": "verbale",
      "titolo": "Le parole di Stefano",
      "html": "<p>«Giovedì sono uscito verso le otto. Sono andato a casa, ad Acireale, e alle undici dormivo.</p><p>Il codice lo conosciamo Irene e io, è vero. Ma vi dico una cosa: settimane fa, durante una prova, ho scritto il codice su un post-it e l'ho attaccato sotto la tastiera del computer della camera pulita. Me ne sono dimenticato. Chiunque sia entrato lì dentro poteva vederlo.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-dario",
      "tipo": "verbale",
      "titolo": "Altre parole di Dario",
      "html": "<p>«Il post-it sotto la tastiera? Sì, l'avevo visto anch'io, credo l'abbiano visto tutti quelli che lavorano in camera pulita: Irene, Stefano, Yuki e io.</p><p>Giovedì sono uscito alle 19:30. Avevo una gara online.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -113,49 +119,56 @@
      "tipo": "registro",
      "titolo": "Registro dei badge (giovedì 11 – venerdì 12 dicembre)",
      "html": "<table><thead><tr><th>Ora</th><th>Badge</th><th>Porta</th></tr></thead><tbody><tr><td>18:28</td><td>Calì I.</td><td>Ingresso: uscita</td></tr><tr><td>19:31</td><td>Pappalardo D.</td><td>Ingresso: uscita</td></tr><tr><td>20:02</td><td>Musumeci S.</td><td>Ingresso: uscita</td></tr><tr><td><strong>23:34</strong></td><td><strong>Tanaka Y.</strong></td><td><strong>Ingresso: entrata</strong></td></tr><tr><td><strong>23:38</strong></td><td><strong>Tanaka Y.</strong></td><td><strong>Camera pulita: entrata</strong></td></tr><tr><td><strong>23:59</strong></td><td><strong>Tanaka Y.</strong></td><td><strong>Camera pulita: uscita</strong></td></tr><tr><td><strong>00:03</strong></td><td><strong>Tanaka Y.</strong></td><td><strong>Ingresso: uscita</strong></td></tr><tr><td>08:00</td><td>Pappalardo D.</td><td>Ingresso: entrata</td></tr></tbody></table><p><em>Per uscire non serve il badge: la porta si apre dall'interno con un pulsante, e l'uscita viene registrata solo se si passa il badge.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-tute",
      "tipo": "registro",
      "titolo": "Registro RFID delle tute sterili (giovedì notte)",
      "html": "<table><thead><tr><th>Ora</th><th>Tuta</th><th>Evento</th></tr></thead><tbody><tr><td>23:40</td><td><strong>Taglia XL, n. 02</strong></td><td>Presa dall'appendiabiti</td></tr><tr><td>23:58</td><td><strong>Taglia XL, n. 02</strong></td><td>Rimessa a posto</td></tr></tbody></table><p>Nessun'altra tuta è stata toccata dalle 20:00 alle 8:00.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-yuki",
      "tipo": "verbale",
      "titolo": "Le parole di Yuki Tanaka",
      "html": "<p>«Giovedì sono uscita alle 19:00. <strong>Ho lasciato il badge sulla scrivania</strong>, nell'open space, attaccato al cordino: lo faccio spesso, a Osaka in ufficio ci lasciamo tutto. Me ne sono accorta solo stamattina.</p><p>Ero in albergo tutta la notte. Alle 23:50 ho fatto la riunione con Osaka, dove erano le 7:50 del mattino.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-cancello",
      "tipo": "registro",
      "titolo": "Telecamera del cancello",
      "html": "<p>Le immagini si interrompono alle <strong>23:31</strong>: qualcuno ha coperto l'obiettivo con del nastro adesivo nero, che verrà tolto solo alle 7:00 dal custode diurno. Sul nastro non ci sono impronte.</p><p>Nell'ultima immagine, alle 23:30:55, entra nell'inquadratura di lato un braccio con un guanto scuro: chi ha messo il nastro si è avvicinato <strong>a piedi</strong>, restando fuori dall'inquadratura. Fino a quel momento nessun veicolo era entrato dopo le 20:05.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-salvo",
      "tipo": "verbale",
      "titolo": "Le parole della guardia",
      "html": "<p>«Dalle 23:30 a mezzanotte e dieci faccio il giro esterno: magazzini, parcheggio est, recinzione. È tutto registrato dai punti di controllo. Poco dopo le 23:30, dal parcheggio est, ho visto i fari di una macchina dall'altra parte, verso la Lumen. Ho pensato a qualcuno che lavorava fino a tardi: capita spesso.»</p><p><em>Nota: i punti di controllo confermano il giro di Salvo dalle 23:30 alle 00:10, sempre sul lato opposto dell'area.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-investitori",
      "tipo": "documento",
      "titolo": "Lettera di intenti degli investitori (estratto)",
      "html": "<p><strong>Se la dimostrazione del 12 dicembre riesce:</strong> aumento di capitale con una valutazione di <strong>120 milioni di euro</strong>.</p><p><strong>Se la dimostrazione salta:</strong> resta valida fino al 31 dicembre l'offerta di acquisto di Hale Ventures, pari a <strong>18 milioni di euro</strong> per l'intera società.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-dario-msg",
      "tipo": "messaggio",
      "titolo": "Messaggi dal telefono di Dario",
      "html": "<p class=\"intest\"><strong>Dario → fratello — 9 dicembre</strong></p><p>Ho perso un sacco con le criptovalute. Devo trovare 30mila euro entro gennaio, non so come fare.</p><p class=\"intest\"><strong>Fratello → Dario</strong></p><p>Non fare stupidaggini.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -169,49 +182,56 @@
      "tipo": "documento",
      "titolo": "Taglie delle tute sterili assegnate",
      "html": "<table><thead><tr><th>Persona</th><th>Altezza</th><th>Taglia della tuta</th></tr></thead><tbody><tr><td>Irene Calì</td><td>1,62 m</td><td>S</td></tr><tr><td>Yuki Tanaka</td><td>1,58 m</td><td>S</td></tr><tr><td>Dario Pappalardo</td><td>1,74 m</td><td>M</td></tr><tr><td>Stefano Musumeci</td><td><strong>1,93 m</strong></td><td><strong>XL</strong></td></tr></tbody></table><p><em>Le tute XL sono due e le usa solo Stefano. La guardia e i visitatori non sono abilitati alla camera pulita. Victor Hale è alto 1,71 m.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-hotel",
      "tipo": "registro",
      "titolo": "Albergo di Yuki Tanaka",
      "html": "<ul><li>Chiave elettronica della camera 412: entrata alle <strong>23:20</strong>, uscita alle <strong>7:30</strong>.</li><li>Videochiamata aziendale con Osaka dalla rete dell'albergo: <strong>dalle 23:50 alle 00:40</strong>, con la telecamera accesa. I colleghi giapponesi la confermano.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-twitch",
      "tipo": "registro",
      "titolo": "La diretta di Dario",
      "html": "<p>Diretta pubblica su una piattaforma di streaming, <strong>dalle 21:00 alle 01:10</strong>, con la webcam sempre inquadrata sul suo viso, dalla sua camera a Misterbianco. Il torneo finisce all'una. Settecento spettatori.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-auto",
      "tipo": "registro",
      "titolo": "App di ricarica dell'auto elettrica di Stefano",
      "html": "<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>20:40</td><td>Auto collegata alla colonnina di casa, Acireale</td></tr><tr><td><strong>23:05</strong></td><td><strong>Auto scollegata</strong></td></tr><tr><td><strong>00:35</strong></td><td><strong>Auto ricollegata</strong> alla colonnina di casa</td></tr></tbody></table><p>Il tragitto tra Acireale e l'Etna Valley è di circa 25 minuti.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-hale",
      "tipo": "verbale",
      "titolo": "Le parole di Victor Hale",
      "html": "<p>«Giovedì sera sono rimasto al bar dell'albergo, a Catania, fino all'una: il barista se lo ricorda bene, ho lasciato una mancia generosa.</p><p>Sì, la mia offerta da 18 milioni esiste. Se la demo fallisce, compro. Sono affari, non un reato. E non ho mai messo piede in una camera pulita in vita mia.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-accordo",
      "tipo": "documento",
      "titolo": "Documento nel computer di Stefano",
      "html": "<p class=\"intest\"><strong>Accordo riservato tra Hale Ventures Ltd e Stefano Musumeci, 25 novembre</strong></p><p>In caso di acquisizione della Lumen Semiconduttori da parte di Hale Ventures <strong>per un valore inferiore a 20 milioni di euro</strong>, al Dott. Musumeci saranno riconosciuti: - il <strong>5%</strong> della nuova società; - la carica di direttore tecnico mondiale, con sede a Londra.</p><p>L'accordo resta riservato e non sarà comunicato alla Dott.ssa Calì.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-portaoggetti",
      "tipo": "documento",
      "titolo": "Perquisizione dell'auto di Stefano",
      "html": "<p>Nel vano portaoggetti c'è un <strong>sacchetto antistatico vuoto</strong> con il logo Lumen e il numero di serie <strong>ORI-001</strong>: il campione d'oro.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   }

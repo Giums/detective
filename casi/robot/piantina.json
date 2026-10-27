@@ -1,0 +1,63 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Primo piano",
+   "larghezza": 60,
+   "altezza": 18,
+   "stanze": [
+    [
+     0,
+     0,
+     60,
+     6,
+     "Corridoio"
+    ],
+    [
+     30,
+     6,
+     30,
+     12,
+     "Laboratorio 2",
+     "tavolo del robot e armadietto"
+    ]
+   ],
+   "segni": [
+    [
+     45,
+     6,
+     "porta"
+    ],
+    [
+     54,
+     2,
+     "camera",
+     "telecamera"
+    ]
+   ]
+  },
+  {
+   "nome": "Piano terra",
+   "larghezza": 60,
+   "altezza": 14,
+   "stanze": [
+    [
+     0,
+     0,
+     18,
+     14,
+     "Portineria",
+     "registro e chiavi"
+    ],
+    [
+     18,
+     0,
+     42,
+     14,
+     "Palestra",
+     "la gara"
+    ]
+   ]
+  }
+ ]
+}

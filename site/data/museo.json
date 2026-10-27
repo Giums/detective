@@ -57,42 +57,48 @@
      "tipo": "verbale",
      "titolo": "Denuncia di furto",
      "html": "<p class=\"intest\"><strong>Carabinieri — Nucleo Tutela Patrimonio Culturale, Firenze</strong></p><p>Sabato 11 ottobre, ore 9:30</p><p>La direttrice Elena Galeani denuncia la sostituzione del dipinto «La bambina col pettirosso» (Orsola Maffei, 1640, olio su tela, 48 × 60 cm) con una copia. La sostituzione è stata notata alle 8:45 dalla tirocinante Giulia Neri. Alle 9:15 la dottoressa Carla Fontana, esperta di pittura del Seicento, ha confermato che l'opera appesa nella Sala Rossa non è l'originale.</p><p>Nessun segno di scasso alle porte o alle finestre del museo.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-scheda",
      "tipo": "documento",
      "titolo": "Scheda di catalogo dell'opera",
      "html": "<p class=\"intest\"><strong>Museo Galeani — Scheda n. 112</strong></p><ul><li><strong>Titolo:</strong> La bambina col pettirosso</li><li><strong>Autrice:</strong> Orsola Maffei (Firenze, 1611–1672)</li><li><strong>Data:</strong> 1640</li><li><strong>Tecnica:</strong> olio su tela</li><li><strong>Misure:</strong> 48 × 60 cm, senza cornice</li><li><strong>Stato di conservazione:</strong> buono. Sull'ala del pettirosso c'è una <strong>sottile crepa diagonale</strong> nella pittura, lunga circa 2 cm: è antica e stabile, e va conservata così com'è.</li><li><strong>Restauro:</strong> dal 22 settembre al 9 ottobre, nel laboratorio del museo, a cura di Tommaso Velli.</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-piantina",
      "tipo": "piantina",
      "titolo": "Piantina del museo",
      "html": "<p class=\"intest\"><strong>Piano terra</strong></p><ul><li><strong>Ingresso</strong> e biglietteria, con la postazione del custode.</li><li><strong>Sala Grande</strong>: qui si è tenuta la festa di venerdì sera.</li><li><strong>Sala Rossa</strong>: piccola, con sei quadri; sulla parete di fondo «La bambina col pettirosso». Si entra solo dalla Sala Grande.</li></ul><p class=\"intest\"><strong>Piano interrato</strong></p><ul><li><strong>Laboratorio di restauro</strong>: porta con lettore di badge. Ha un'uscita di servizio sul cortile, usata per carichi e spedizioni.</li><li><strong>Magazzino</strong>.</li></ul><p><strong>Sistema di allarme</strong>: copre tutte le sale. Durante gli eventi la Sala Grande e la Sala Rossa restano disattivate e sono sorvegliate dalle telecamere.</p>",
-     "img": "casi/museo/img/f1-piantina.jpg"
+     "img": "casi/museo/img/f1-piantina.jpg",
+     "pianta": "casi/museo/img/f1-piantina.svg"
     },
     {
      "id": "f1-elena",
      "tipo": "verbale",
      "titolo": "Verbale di Elena Galeani",
      "html": "<p>«Venerdì sera c'era la Serata degli Amici del Museo, dalle 20 alle 22:30, una quarantina di ospiti. Ludovico Sarti era tra gli invitati. Ha passato parecchio tempo nella Sala Rossa: quel quadro lo vuole da sempre.</p><p>Il pettirosso era tornato al suo posto giovedì mattina, dopo il restauro. Era bellissimo.</p><p>Se mi chiedete chi poteva sapere come era fatto il quadro nei minimi dettagli: tutti noi. Tommaso l'ha avuto sotto le mani per tre settimane, Giulia lo fotografa di continuo, Bruno lo vede ogni notte.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-bruno",
      "tipo": "verbale",
      "titolo": "Verbale di Bruno Ferrante",
      "html": "<p>«Venerdì ho disattivato l'allarme delle due sale alle 19:30, come si fa sempre per le feste, e l'ho riattivato alle 23:00, quando è uscito l'ultimo ospite. Poi ho fatto le ronde.</p><p>Lo devo dire: tra le 2 e le 3 mi sono appisolato in biglietteria. Il registro delle ronde ha un buco. Ma l'allarme era acceso: se qualcuno fosse entrato in una sala, sarebbe suonato.</p><p>Giovedì mattina alle 10 ho aiutato Tommaso a riappendere il quadro. È arrivato dal laboratorio in una cassa chiusa, sigillata da lui. L'abbiamo aperta insieme nella Sala Rossa, l'abbiamo messo nella cornice e io ho messo il <strong>sigillo del museo</strong> sul retro, come da regolamento.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f1-ospiti",
      "tipo": "documento",
      "titolo": "Elenco degli ospiti della serata (estratto)",
      "html": "<p>Serata degli Amici del Museo — venerdì 10 ottobre, 20:00–22:30</p><ul><li>Elena Galeani, direttrice (organizzatrice)</li><li>Ludovico Sarti, antiquario</li><li>Tommaso Velli, restauratore: <em>ha presentato il restauro del pettirosso con un breve discorso alle 21:00</em></li><li>Giulia Neri, tirocinante: <em>servizio fotografico della serata</em></li><li>Bruno Ferrante, custode: <em>all'ingresso</em></li><li>altri 35 invitati, soci dell'associazione</li></ul>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -106,42 +112,48 @@
      "tipo": "referto",
      "titolo": "Perizia sulla copia",
      "html": "<p class=\"intest\"><strong>Dott.ssa Carla Fontana — perizia tecnica</strong></p><ol><li>La copia è <strong>dipinta a mano, a olio</strong>, su una <strong>tela antica</strong> del Seicento, probabilmente recuperata da un quadro di poco valore. Non è una stampa né una fotografia.</li><li>È opera di una mano <strong>molto esperta</strong>, con tecniche e materiali da restauratore professionista. Un lavoro così richiede <strong>almeno due settimane</strong>.</li><li>La pittura è secca da <strong>non meno di 10 giorni</strong>.</li><li><strong>Sull'ala del pettirosso manca la crepa diagonale</strong> descritta nella scheda dell'opera. Il falsario non l'ha riprodotta.</li></ol>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-sigillo",
      "tipo": "verbale",
      "titolo": "Verbale di ispezione della cornice",
      "html": "<p>Il retro della cornice è stato esaminato alla presenza della direttrice.</p><p>Il <strong>sigillo di ceralacca</strong> del museo, applicato giovedì 9 ottobre alle 10:15 da Bruno Ferrante, è <strong>intatto</strong>. Il quadro non può essere stato tolto dalla cornice senza rompere il sigillo.</p><p>Le viti della cornice sono coperte di polvere, senza segni di attrezzi.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-video",
      "tipo": "registro",
      "titolo": "Telecamere della Sala Rossa (venerdì 10 ottobre)",
      "html": "<table><thead><tr><th>Ora</th><th>Cosa si vede</th></tr></thead><tbody><tr><td>20:05–20:40</td><td>Gruppi di ospiti entrano ed escono</td></tr><tr><td>21:00–21:20</td><td>Sala vuota: gli ospiti sono nella Sala Grande per il discorso del restauratore</td></tr><tr><td>21:08</td><td>Entra Ludovico Sarti, da solo</td></tr><tr><td>21:08–21:13</td><td>Sarti osserva il pettirosso da vicino, poi con una lente d'ingrandimento. <strong>Non tocca il quadro</strong></td></tr><tr><td>21:13</td><td>Sarti esce</td></tr><tr><td>21:40–22:25</td><td>Gruppi di ospiti entrano ed escono</td></tr><tr><td>22:30</td><td>La sala si svuota. Nessun altro movimento fino al mattino</td></tr></tbody></table>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-sarti",
      "tipo": "verbale",
      "titolo": "Verbale di Ludovico Sarti",
      "html": "<p>«Sì, ero da solo nella Sala Rossa, e sì, guardavo il quadro con la lente. Lo faccio con tutti i quadri che mi interessano: è il mio mestiere.</p><p>Vi dico una cosa che forse vi interessa. Venerdì sera avevo l'impressione che il pettirosso fosse \"troppo pulito\". Ho pensato che fosse merito del restauro. Ora capisco.</p><p>La direttrice mi aveva quasi promesso di vendermelo. Perché avrei dovuto rubare un quadro che stavo per comprare?»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-tommaso",
      "tipo": "verbale",
      "titolo": "Verbale di Tommaso Velli",
      "html": "<p>«Ho lavorato sul pettirosso dal 22 settembre al 9 ottobre, nel laboratorio del museo: pulitura, consolidamento, vernice finale. Un lavoro tranquillo, nessuna sorpresa.</p><p>Giovedì mattina l'ho imballato nella cassa, l'ho sigillata e l'abbiamo portata su con Bruno.</p><p>La festa? Sono stato quasi sempre nella Sala Grande, ho fatto il mio discorso alle nove. Secondo me dovreste guardare chi ha passato la serata a fissare quel quadro con la lente.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f2-lettera",
      "tipo": "lettera",
      "titolo": "Lettera trovata nell'ufficio della direttrice",
      "html": "<p>Gentile signor Sarti,</p><p>come sa, il museo attraversa un momento molto difficile. Il consiglio di amministrazione valuterà la sua offerta di 400.000 euro per «La bambina col pettirosso» nella riunione del 20 ottobre. Le chiedo la massima riservatezza: se la notizia uscisse, i soci non me lo perdonerebbero.</p><p>Con stima, Elena Galeani</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   },
@@ -155,42 +167,48 @@
      "tipo": "foto",
      "titolo": "Le foto di Giulia: confronto",
      "html": "<p>Tre foto ad alta definizione dello stesso dettaglio: l'ala del pettirosso.</p><ol><li><strong>Lunedì 6 ottobre, ore 15:20, laboratorio di restauro.</strong> Il quadro è sul cavalletto principale. <strong>La crepa diagonale sull'ala è ben visibile.</strong> Sullo sfondo della foto, su un secondo cavalletto in fondo al laboratorio, c'è <strong>una tela delle stesse dimensioni coperta da un telo bianco</strong>.</li><li><strong>Giovedì 9 ottobre, ore 11:00, Sala Rossa</strong>, appena riappeso. <strong>La crepa non c'è.</strong></li><li><strong>Sabato 11 ottobre, ore 8:40, Sala Rossa.</strong> Uguale a giovedì: <strong>nessuna crepa.</strong></li></ol>",
-     "img": "casi/museo/img/f3-foto.jpg"
+     "img": "casi/museo/img/f3-foto.jpg",
+     "pianta": null
     },
     {
      "id": "f3-giulia",
      "tipo": "verbale",
      "titolo": "Verbale di Giulia Neri",
      "html": "<p>«Fotografo ogni opera prima e dopo ogni spostamento: è la regola del catalogo. Sabato ho confrontato le foto per il sito e ho visto che la crepa era sparita. Ho pensato a un errore del restauro, ma la crepa andava conservata, c'è scritto nella scheda.</p><p>Lunedì in laboratorio ho chiesto a Tommaso cosa fosse la tela coperta in fondo. Mi ha risposto: \"Un lavoro privato, non toccare.\" Non ci ho più pensato.</p><p>Venerdì alla festa ho fotografato tutto il tempo, le foto hanno l'orario. Nella Sala Rossa non sono mai rimasta da sola.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-badge",
      "tipo": "registro",
      "titolo": "Registro dei badge del laboratorio",
      "html": "<p>Entrate e uscite dal 6 al 9 ottobre.</p><table><thead><tr><th>Giorno</th><th>Badge</th><th>Entrata</th><th>Uscita</th></tr></thead><tbody><tr><td>Lun 6</td><td>Velli T.</td><td>8:30</td><td>18:10</td></tr><tr><td>Lun 6</td><td>Neri G.</td><td>15:10</td><td>15:40</td></tr><tr><td>Mar 7</td><td>Velli T.</td><td>8:20</td><td>19:00</td></tr><tr><td>Mer 8</td><td>Velli T.</td><td>8:30</td><td>17:45</td></tr><tr><td>Mer 8</td><td>Galeani E.</td><td>11:00</td><td>11:10</td></tr><tr><td>Mer 8</td><td>Velli T.</td><td><strong>21:05</strong></td><td><strong>23:30</strong></td></tr><tr><td>Gio 9</td><td>Velli T.</td><td>8:00</td><td>9:50</td></tr></tbody></table><p><em>Nota: nessun altro badge ha aperto il laboratorio in questi giorni. Il custode non ha il badge del laboratorio.</em></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-spedizione",
      "tipo": "documento",
      "titolo": "Documento di trasporto",
      "html": "<p class=\"intest\"><strong>Corriere Rapido Toscana — lettera di vettura</strong></p><p>Ritiro: mercoledì 8 ottobre, ore 23:15 Indirizzo di ritiro: Museo Galeani, uscita di servizio del laboratorio Mittente: <strong>Tommaso Velli</strong> Destinatario: Galleria Lindt &amp; Moser, Lugano (Svizzera) Contenuto dichiarato: «attrezzatura da restauro — fragile» Dimensioni della cassa: <strong>55 × 67 × 12 cm</strong></p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-relazione",
      "tipo": "documento",
      "titolo": "Relazione ufficiale di restauro",
      "html": "<p class=\"intest\"><strong>Relazione finale — firmata Tommaso Velli, giovedì 9 ottobre</strong></p><p>Interventi: pulitura della superficie, consolidamento della tela, vernice protettiva finale. Indagini diagnostiche: eseguite (fotografia a infrarossi).</p><p class=\"intest\"><strong>Esito delle indagini: nessuna scoperta rilevante.</strong></p><p>La crepa antica sull'ala del pettirosso è stata conservata come da scheda.</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     },
     {
      "id": "f3-infrarosso",
      "tipo": "documento",
      "titolo": "File trovato nel computer del laboratorio",
      "html": "<p>Cartella «privato», file creato martedì 7 ottobre alle 16:42.</p><p>Si tratta di una foto a infrarossi del pettirosso. Sotto la pittura, nell'angolo in basso, si legge un'iscrizione nascosta dalla vernice: <strong>la firma di un grandissimo maestro del Seicento</strong>, molto più famoso di Orsola Maffei.</p><p>Accanto al file c'è una nota di testo: «Se è davvero suo, non vale 400.000 euro. Vale dieci volte tanto. Lugano è d'accordo.»</p>",
-     "img": null
+     "img": null,
+     "pianta": null
     }
    ]
   }

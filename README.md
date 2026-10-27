@@ -23,4 +23,10 @@ python3 strumenti/stanze.py --host 127.0.0.1 --porta 8765 --sito site
 
 Poi apri http://127.0.0.1:8765.
 
+## Crediti
+
+- Suoni di fogli, busta, timbro e puntina: [Kenney](https://kenney.nl), RPG Audio, licenza CC0.
+- Illustrazioni generate in locale con FLUX.1-schnell (licenza Apache 2.0).
+- Piantine disegnate da `strumenti/piantina.py` a partire da `casi/<id>/piantina.json`.
+
 Tutti i personaggi e i fatti sono inventati.

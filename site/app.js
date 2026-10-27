@@ -24,15 +24,6 @@
       if (ctx.state === 'suspended' && ctx.resume) ctx.resume();
       return ctx;
     }
-    function rumore(durata, freq, q, volume, ritardo) {
-      var a = audio(); if (!a) return;
-      var n = Math.floor(a.sampleRate * durata), buf = a.createBuffer(1, n, a.sampleRate), d = buf.getChannelData(0);
-      for (var i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 2);
-      var s = a.createBufferSource(), f = a.createBiquadFilter(), g = a.createGain();
-      s.buffer = buf; f.type = 'bandpass'; f.frequency.value = freq; f.Q.value = q; g.gain.value = volume;
-      s.connect(f); f.connect(g); g.connect(a.destination);
-      s.start(a.currentTime + (ritardo || 0));
-    }
     function tono(freq, durata, tipo, volume, ritardo, verso) {
       var a = audio(); if (!a) return;
       var o = a.createOscillator(), g = a.createGain(), t = a.currentTime + (ritardo || 0);
@@ -41,13 +32,24 @@
       g.gain.setValueAtTime(volume, t); g.gain.exponentialRampToValueAtTime(0.0001, t + durata);
       o.connect(g); g.connect(a.destination); o.start(t); o.stop(t + durata + 0.05);
     }
+    // fogli, busta, timbro e puntina sono registrazioni vere (Kenney, CC0); gli altri sono sintetizzati
+    var campioni = {};
+    function campione(nome, volume) {
+      try {
+        if (!campioni[nome]) { campioni[nome] = new Audio('suoni/' + nome + '.mp3'); campioni[nome].preload = 'auto'; }
+        var a = campioni[nome].cloneNode();
+        a.volume = volume;
+        var p = a.play();
+        if (p && p['catch']) p['catch'](function () { /* audio bloccato dal browser */ });
+      } catch (e) { /* senza audio si gioca lo stesso */ }
+    }
     var effetti = {
-      // pochi suoni, bassi e morbidi: accompagnano senza disturbare
-      carta: function () { rumore(0.22, 1100, 0.6, 0.14); },
-      timbro: function () { tono(95, 0.14, 'sine', 0.3, 0, 60); rumore(0.05, 500, 1, 0.12); },
-      busta: function () { rumore(0.3, 1300, 0.5, 0.12); rumore(0.2, 1900, 0.7, 0.08, 0.25); },
+      carta: function () { campione(Math.random() < 0.5 ? 'carta1' : 'carta2', 0.8); },
+      chiudi: function () { campione('chiudi', 0.5); },
+      timbro: function () { campione('timbro', 0.7); },
+      busta: function () { campione('busta', 0.9); },
       tasto: function () { },
-      puntina: function () { tono(880, 0.06, 'sine', 0.06); },
+      puntina: function () { campione('puntina', 0.4); },
       filo: function () { tono(330, 0.3, 'sine', 0.1, 0, 290); },
       rivelazione: function () {
         var note = [261.6, 329.6, 392, 523.3];
@@ -196,7 +198,7 @@
 
   function chiudiOverlay() {
     if (overlay.hidden) return false;
-    suoni.suona('carta');
+    suoni.suona('chiudi');
     overlay.hidden = true;
     overlay.innerHTML = '';
     document.body.className = document.body.className.replace(/\s*bloccato/g, '');
@@ -488,7 +490,7 @@
             var letta = s.letti[x.p.id];
             carte += '<button type="button" class="prova prova-' + esc(x.p.tipo) + ' r' + (i % 5) +
               (letta ? '' : ' nuova') + '" data-prova="' + esc(x.p.id) + '">' +
-              (x.p.img ? '<img src="' + esc(x.p.img) + '" alt="">' : '<span class="icona"></span>') +
+              (x.p.img || x.p.pianta ? '<img src="' + esc(x.p.img || x.p.pianta) + '" alt="">' : '<span class="icona"></span>') +
               '<span class="tipo">' + esc(ETICHETTE[x.p.tipo] || x.p.tipo) + '</span>' +
               '<span class="titolo">' + esc(x.p.titolo) + '</span></button>';
           });
@@ -558,6 +560,7 @@
           '<p class="doc-tipo">' + esc(ETICHETTE[x.p.tipo] || x.p.tipo) + ' · reperto ' + esc(pid) + '</p>' +
           '<h2>' + esc(x.p.titolo) + '</h2>' +
           (x.p.img ? '<img class="doc-img" src="' + esc(x.p.img) + '" alt="">' : '') +
+          (x.p.pianta ? '<img class="doc-pianta" src="' + esc(x.p.pianta) + '" alt="Piantina">' : '') +
           '<div class="corpo">' + x.p.html + '</div>' +
           '<span class="timbro timbro-doc">Riservato</span>';
         overlay.onchiusura = function () {
@@ -675,7 +678,7 @@
       } else {
         h += '<button type="button" class="puntata foglio prova-' + esc(v.e.tipo) + ' r' + (i % 5) + '" data-k="' +
           esc(v.k) + '"' + stile + '><i class="puntina"></i>' +
-          (v.e.img ? '<img src="' + esc(v.e.img) + '" alt="">' : '') +
+          (v.e.img || v.e.pianta ? '<img src="' + esc(v.e.img || v.e.pianta) + '" alt="">' : '') +
           '<span class="tipo">' + esc(ETICHETTE[v.e.tipo] || v.e.tipo) + '</span><span class="titolo">' +
           esc(v.e.titolo) + '</span></button>';
       }

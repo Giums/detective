@@ -1,0 +1,74 @@
+{
+ "prova": "f1-piantina",
+ "piani": [
+  {
+   "nome": "Lumen, area industriale",
+   "larghezza": 60,
+   "altezza": 34,
+   "stanze": [
+    [
+     0,
+     0,
+     60,
+     6,
+     "Cancello dell'area industriale"
+    ],
+    [
+     0,
+     9,
+     18,
+     10,
+     "Ingresso",
+     "badge personale"
+    ],
+    [
+     18,
+     9,
+     42,
+     10,
+     "Open space degli uffici"
+    ],
+    [
+     0,
+     19,
+     26,
+     15,
+     "Spogliatoio",
+     "tute sterili per taglia, chip RFID"
+    ],
+    [
+     26,
+     19,
+     34,
+     15,
+     "Camera pulita",
+     "si apre con il badge"
+    ]
+   ],
+   "segni": [
+    [
+     4,
+     3,
+     "camera",
+     "telecamera"
+    ],
+    [
+     9,
+     9,
+     "porta"
+    ],
+    [
+     26,
+     26,
+     "porta"
+    ],
+    [
+     50,
+     29,
+     "stella",
+     "cassaforte"
+    ]
+   ]
+  }
+ ]
+}
